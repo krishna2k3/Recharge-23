@@ -21,7 +21,7 @@ code {
 }
 
 #landing-video{
-  filter: brightness(18%);
+  filter: brightness(17%);
   position: absolute;
   z-index: -1;
   min-width: 100%;

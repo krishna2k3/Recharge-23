@@ -2,8 +2,8 @@ import bg from "../../assets/landing-video.mp4";
 const Landing = () => {
   return (
     <div id="landing" className="">
-      <video src={bg} id="landing-video" autoPlay loop muted />
-      <div className="flex flex-col items-center justify-between stretch-to-screen py-7 text-white">
+      <video src={bg} id="landing-video" autoPlay loop muted className="bg-black" />
+      <div className="flex flex-col items-center justify-between stretch-to-screen py-7 text-white ">
         <div className="flex flex-col justify-center">
           <img
             src={require("../../assets/rec-logo.png")}
