@@ -1,7 +1,8 @@
 const About = ()=>{
     return (
         
-        <div id="about" className="flex flex-col lg:flex-row stretch-to-screen bg-[#1A1330] text-white item-center">
+        
+        <div id="about" className="flex flex-col lg:flex-row stretch-to-screen bg-[#1A1330] text-white items-center">
             <div id="left" className="basis-1/2">
                 <p className="text-7xl mt-16 ml-16">About</p>    
                 <hr class="ml-16 h-px w-20 my-8 bg-gray-200 border-2 dark:bg-gray-700"></hr>
