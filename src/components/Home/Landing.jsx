@@ -1,4 +1,5 @@
 import bg from "../../assets/landing-video.mp4";
+import Countdown from "../Countdown/Countdown";
 const Landing = () => {
   return (
     <div id="landing" className="">
@@ -11,17 +12,18 @@ const Landing = () => {
             alt=""
           />
         </div>
-        <div className="flex flex-col gap-y-5 items-center text-center">
+        <div className="flex flex-col items-center text-center gap-y-4">
           <img
             src={require("../../assets/recharge-logo.png")}
             className="h-40 md:h-64 w-auto"
             alt=""
           />
-          <h2 className="font-semibold text-2xl">
+          <h2 className="font-semibold  text-2xl">
             RECHARGE YOUR SPIRIT AND REIGNITE YOUR PASSION
           </h2>
-          <h2 className="font-semibold text-2xl">23rd - 25th MARCH, 2023</h2>
-          <button className="border px-4 py-2 rounded-md font-medium my-5 hover:bg-white hover:text-black hover:duration-500">
+          <h2 className="font-semibold text-2xl ">23rd - 25th MARCH, 2023</h2>
+          <Countdown className=""/>
+          <button className="border px-4 py-2 rounded-md font-medium my-4 hover:bg-white hover:text-black hover:duration-500">
             REGISTRATIONS SOON
           </button>
         </div>

@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import './Countdown.css';
+import React, { useState, useEffect } from "react";
+import "./Countdown.css";
 
 function Countdown() {
   const [countdown, setCountdown] = useState({
@@ -10,7 +10,7 @@ function Countdown() {
   });
 
   useEffect(() => {
-    const targetDate = new Date(2023, 2, 23,0 ,0, 0); 
+    const targetDate = new Date(2023, 2, 23, 0, 0, 0);
     const interval = setInterval(() => {
       const now = new Date();
       const diff = Math.max(targetDate - now, 0); // calculate the time difference between now and the target date
@@ -25,23 +25,31 @@ function Countdown() {
   }, []);
 
   return (
-    <div className="countdown-container bg-black">
+    <div className="countdown-container ">
       <div className="countdown-timer">
         <div className="countdown-item">
           <div className="countdown-value">{countdown.days}</div>
-          <div className="countdown-label">Days</div>
+          <div className="countdown-label">
+            {countdown.days === 1 ? "Day" : "Days"}
+          </div>
         </div>
         <div className="countdown-item">
           <div className="countdown-value">{countdown.hours}</div>
-          <div className="countdown-label">Hours</div>
+          <div className="countdown-label">
+            {countdown.hours === 1 ? "Hour" : "Hours"}
+          </div>
         </div>
         <div className="countdown-item">
           <div className="countdown-value">{countdown.minutes}</div>
-          <div className="countdown-label">Minutes</div>
+          <div className="countdown-label">
+            {countdown.minutes === 1 ? "Minute" : "Minutes"}
+          </div>
         </div>
         <div className="countdown-item">
           <div className="countdown-value">{countdown.seconds}</div>
-          <div className="countdown-label">Seconds</div>
+          <div className="countdown-label">
+            {countdown.seconds === 1 ? "Second" : "Seconds"}
+          </div>
         </div>
       </div>
     </div>
