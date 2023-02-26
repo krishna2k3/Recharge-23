@@ -12,7 +12,7 @@ const Landing = () => {
             alt=""
           />
         </div>
-        <div className="flex flex-col items-center text-center gap-y-4">
+        <div className="flex flex-col items-center text-center gap-y-4 px-[0.5rem]">
           <img
             src={require("../../assets/recharge-logo.png")}
             className="h-40 md:h-64 w-auto"
