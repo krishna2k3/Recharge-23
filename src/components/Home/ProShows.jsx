@@ -1,6 +1,6 @@
 const ProShows = ()=>{
     return (
-        <div>ProShows</div>
+        <div id="proshows">ProShows</div>
     )
 }
 

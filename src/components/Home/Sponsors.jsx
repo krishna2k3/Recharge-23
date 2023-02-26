@@ -1,6 +1,6 @@
 const Sponsors = ()=>{
     return (
-        <div>Sponsors</div>
+        <div id="sponsors">Sponsors</div>
     )
 }
 

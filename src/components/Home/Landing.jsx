@@ -1,6 +1,6 @@
 const Landing = ()=>{
     return (
-        <div>Landing</div>
+        <div id="landing">Landing</div>
     )
 }
 
