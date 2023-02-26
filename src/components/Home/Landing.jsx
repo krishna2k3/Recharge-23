@@ -23,8 +23,8 @@ const Landing = () => {
       </div>
       <div className="flex flex-row justify-center items-center gap-x-2">
         <p>GET UPDATES ON</p>
-        <svg
-                            className="w-5 h-5 hover:text-pink-500 hover:duration-500 "
+        <svg onClick={()=>{window.location.href("https://www.instagram.com/recharge_fest/")}}
+                            className="w-5 h- hover:text-pink-500 hover:duration-500 "
                             fill="currentColor"
                             viewBox="0 0 24 24"
                             aria-hidden="true"
