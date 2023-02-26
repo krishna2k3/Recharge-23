@@ -4,7 +4,7 @@ const Landing = () => {
   return (
     <div id="landing" className="">
       <video src={bg} id="landing-video" autoPlay loop muted className="bg-black" />
-      <div className="flex flex-col items-center justify-between stretch-to-screen py-7 text-white ">
+      <div className="flex flex-col items-center justify-between stretch-to-screen py-7 text-white">
         <div className="flex flex-col justify-center">
           <img
             src={require("../../assets/rec-logo.png")}
@@ -21,7 +21,7 @@ const Landing = () => {
           <h2 className="font-semibold  text-2xl">
             RECHARGE YOUR SPIRIT AND REIGNITE YOUR PASSION!
           </h2>
-          <h2 className="font-semibold text-2xl ">23rd - 25th MARCH, 2023</h2>
+          <h2 className="font-semibold text-2xl ">23 | 24 | 25 MARCH</h2>
           <Countdown className=""/>
           <button className="border px-4 py-2 rounded-md font-medium my-4 hover:bg-white hover:text-black hover:duration-500">
             REGISTRATION OPENS SOON
