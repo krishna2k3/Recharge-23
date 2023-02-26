@@ -1,8 +1,8 @@
-import About from "../components/Home/About";
-import Landing from "../components/Home/Landing";
-import ProShows from "../components/Home/ProShows";
-import Sponsors from "../components/Home/Sponsors";
 import Loading from "./Loading";
+import Landing from "../components/Home/Landing";
+// import About from "../components/Home/About";
+// import ProShows from "../components/Home/ProShows";
+// import Sponsors from "../components/Home/Sponsors";
 import { useEffect } from "react";
 import { motion } from "framer-motion";
 const Home = ({ isLoading, setLoading }) => {
@@ -24,9 +24,9 @@ const Home = ({ isLoading, setLoading }) => {
           exit={{ opacity: 0 }}
         >
           <Landing />
-          <About />
+          {/* <About />
           <ProShows />
-          <Sponsors />
+          <Sponsors /> */}
         </motion.div>
       )}
     </div>
