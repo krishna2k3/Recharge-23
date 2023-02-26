@@ -19,3 +19,12 @@ code {
 .stretch-to-screen {
   min-height: 100svh;
 }
+
+#landing-video{
+  filter: brightness(18%);
+  position: absolute;
+  z-index: -1;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+}
