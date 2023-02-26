@@ -1,6 +1,6 @@
 const ProShows = ()=>{
     return (
-        <div id="proshows">ProShows</div>
+        <div id="proshows" className="stretch-to-screen flex justify-center items-center">ProShows</div>
     )
 }
 

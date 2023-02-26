@@ -1,6 +1,6 @@
 const Landing = ()=>{
     return (
-        <div id="landing">Landing</div>
+        <div id="landing" className="stretch-to-screen flex justify-center items-center">Landing</div>
     )
 }
 
