@@ -32,14 +32,14 @@ const Footer = () => {
             >
                 <div className="footer-item-links">
                     <p className="text-white font-semibold  justify-center text-2xl  tracking-widest">Meet the Team</p>
-                    <div className='h-1 w-24 bg-blue-400 mb-5'></div>
+                    <hr class="border-0 h-1 w-20 mb-5 bg-[#ffd54f]"></hr>
                     <p onClick={() => navigate("/promotions")} className="cursor-pointer text-white text-lg">Promotions Team</p>
                 </div>
                 <div className="footer-item-events">
                     <p className="text-white font-semibold  justify-center text-2xl  tracking-widest">
                         Events
                     </p>
-                    <div className="h-1 w-14 bg-blue-400 mb-5"></div>
+                    <hr class="border-0 h-1 w-14 mb-5 bg-[#ffd54f]"></hr>
                     <p className="text-white text-lg">
                         <a href="/#events-technical">Technical Events</a>
                     </p>
@@ -51,7 +51,7 @@ const Footer = () => {
                     <p className="text-white font-semibold  justify-center text-2xl  tracking-widest">
                         Contacts
                     </p>
-                    <div className="h-1 w-14 bg-blue-400 mb-5"></div>
+                    <hr class="border-0 h-1 w-16 mb-5 bg-[#ffd54f]"></hr>
                     <p className="text-white flex flex-row gap-x-2 items-center my-3">
                         <svg className="w-5 h-5" viewBox="0 0 20 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                             <g id="Icons" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">

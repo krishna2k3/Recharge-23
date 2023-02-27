@@ -1,7 +1,7 @@
 const AboutPage = ()=>{
     return (
             <div>
-            <div id="about" className="flex flex-col lg:flex-row stretch-to-screen bg-[#1A1330] text-white items-center">
+            <div id="about" className="flex flex-col lg:flex-row stretch-to-screen bg-[#06111f] text-white items-center">
             <div id="left" className="basis-1/2">
                 <p className="ml-10 mt-16 text-7xl lg:mt-16 lg:ml-24">About</p>    
                 <hr class="ml-10 lg:ml-24 border-0 h-1 w-20 mt-2 bg-[#ffd54f]"></hr>
@@ -9,8 +9,11 @@ const AboutPage = ()=>{
                 <p className="mx-10 my-10 lg:mx-24 ">
                     A paragraph is a self-contained unit of discourse in writing dealing with a particular point or idea. Though not required by the orthographic conventions of any language with a writing system, paragraphs are a conventional means of organizing extended segments of prose. Wikipedia
                 </p>
-                <button type="button" class="ml-10 lg:ml-24 lg:mt-12 text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">                    Show More
+                <button className="border border-[#ffd54f] ml-10 lg:ml-24 text-white px-4 py-2 rounded-md font-medium my-4 hover:bg-[#ffd54f] hover:text-black hover:duration-1000">
+                    Show More
                 </button>
+                {/* <button type="button" class="ml-10 lg:ml-24 lg:mt-12 text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">                    Show More
+                </button> */}
             </div>
 
             <div id="right" className="basis-1/2 ">
