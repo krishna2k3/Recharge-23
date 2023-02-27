@@ -18,17 +18,17 @@ const Landing = () => {
             className="h-40 md:h-64 w-auto"
             alt=""
           />
-          <h2 className="font-semibold  text-2xl uppercase">
+          <h2 className="font-semibold  text-2xl capitalize">
             Recharge Your Spirit and Reignite Your Passion!
           </h2>
-          <h2 className="font-semibold text-2xl uppercase">23 | 24 | 25 March</h2>
+          <h2 className="font-semibold text-2xl capitalize">23 | 24 | 25 March</h2>
           <Countdown className=""/>
           <button className="border px-4 py-2 rounded-md font-medium my-4 hover:bg-white hover:text-black hover:duration-500">
             REGISTRATION OPENS SOON
           </button>
         </div>
         <div className="flex flex-row justify-center items-center gap-x-2">
-          <p>GET UPDATES ON</p>
+          <p>Get Updates On</p>
           <div
             onClick={() => {
               window.open("https://www.instagram.com/recharge_fest/");
