@@ -47,7 +47,7 @@ code {
   max-width: 150px;
   width: 100%;
   height: 60px;
-  border: 4px solid rgb(147 ,51, 234 );
+  border: 4px solid rgb(255, 255, 255);
   border-radius: 5px;
   position: relative;
   cursor: pointer;
@@ -58,7 +58,7 @@ code {
   position: absolute;
   width: 8px;
   height: 16px;
-  background: rgb(147 ,51 ,234 );
+  background: rgb(255, 255, 255);
   right: -9px;
   top: 50%;
   margin-top: -8px;
@@ -72,39 +72,57 @@ code {
   bottom: 5px;
   left: 5px;
   /* right: 10px; */
-  background: rgb(147 ,51, 234 );
+  background: rgb(255, 255, 255);
   transition: all .3s;
-  -webkit-animation: charging 2s  infinite;
-  -moz-animation: charging 2s  infinite;
-  animation: charging 2s  infinite;
-  animation: charging 2s  infinite;
+  -webkit-animation: charging 1.9s linear  infinite;
+  -moz-animation: charging 1.9s  linear infinite;
+  animation: charging 1.9s linear  infinite;
+  animation: charging 1.9s linear  infinite;
 }
 
 .charging-container:hover::after {
   animation-play-state: paused;
 }
 @-webkit-keyframes charging {
-  from {
+  0% {
     width: 5%;
+    background-color: rgb(206, 38, 38);
   } 
-  to {
+  50% {
+    width: 50%;
+    background-color: rgb(231, 141, 4);
+  } 
+  100% {
     width: 92%;
+        background-color: rgb(11, 197, 5);
   }
 }
 
 @-moz-keyframes charging {
-  from {
+  0% {
     width: 5%;
+    background-color: rgb(206, 38, 38);
   } 
-  to {
+  50% {
+    width: 50%;
+    background-color: rgb(231, 141, 4);
+  } 
+  100% {
     width: 92%;
+        background-color: rgb(11, 197, 5);
   }
 }
 @keyframes charging {
-  from {
+  0% {
     width: 5%;
+    background-color: rgb(206, 38, 38);
   } 
-  to {
+  50% {
+    width: 50%;
+    background-color: rgb(231, 141, 4);
+  } 
+  100% {
     width: 92%;
+        background-color: rgb(11, 197, 5);
   }
 }
