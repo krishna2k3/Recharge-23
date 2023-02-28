@@ -1,5 +1,6 @@
 import Loading from "./Loading";
 import Landing from "../components/Home/Landing";
+import Gallery from "../components/Home/Gallery";
 import AboutRecharge from "../components/Home/AboutRecharge";
 import ProShows from "../components/Home/ProShows";
 import Sponsors from "../components/Home/Sponsors";
@@ -28,6 +29,7 @@ const Home = ({ isLoading, setLoading }) => {
           <Landing />
           <AboutRecharge />
           <AboutREC />
+          <Gallery />
           {/* <ProShows />
           <Sponsors /> */}
         </motion.div>
