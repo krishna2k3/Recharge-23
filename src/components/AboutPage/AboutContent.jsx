@@ -1,6 +1,7 @@
 const AboutContent = ()=>{
     return (
-        <div className="stretch-to-screen bg-[#1A1330] items-center">
+        <div className="stretch-to-screen bg-[#06111f] items-center"> 
+        {/* <div>for sample bg-[#1A1330]</div> */}
             <div className="mt-10 flex flex-col gap-y-5 items-center text-center ">
                 <img
                     src={require("../../assets/recharge-logo.png")}
