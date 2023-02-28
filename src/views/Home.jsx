@@ -1,10 +1,11 @@
 import Loading from "./Loading";
 import Landing from "../components/Home/Landing";
-import About from "../components/Home/About";
+import AboutRecharge from "../components/Home/AboutRecharge";
 import ProShows from "../components/Home/ProShows";
 import Sponsors from "../components/Home/Sponsors";
 import { useEffect } from "react";
 import { motion } from "framer-motion";
+import AboutREC from "../components/Home/AboutREC";
 const Home = ({ isLoading, setLoading }) => {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -24,9 +25,10 @@ const Home = ({ isLoading, setLoading }) => {
           exit={{ opacity: 0 }}
         >
           <Landing />
-          <About />
-          <ProShows />
-          <Sponsors />
+          <AboutRecharge />
+          <AboutREC/>
+          {/* <ProShows />
+          <Sponsors /> */}
         </motion.div>
       )}
     </div>
