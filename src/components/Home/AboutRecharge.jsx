@@ -5,7 +5,7 @@ const AboutRecharge = () => {
       className="flex flex-col lg:flex-row items-center lg:items-center bg-[#1A1330] gap-y-5 stretch-to-screen text-white p-10 lg:gap-x-8"
     >
       
-      <div id="left" className="basis-1/2">
+      <div id="left" className="basis-1/2 order-last lg:order-first">
         
       <p className="text-7xl font-extrabold shadow-inner">
           About Recharge

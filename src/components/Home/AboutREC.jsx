@@ -4,7 +4,7 @@ const AboutREC = () => {
       id="about-rec"
       className="flex flex-col lg:flex-row items-center lg:items-center bg-[#1A1330] gap-y-5 stretch-to-screen text-white p-10 lg:gap-x-8"
     >
-      <div id="left" className="basis-1/2">
+      <div id="left" className="basis-1/2 order-first lg:order-first">
         <img
           className="shadow-2xl rounded-md my-8"
           id="about-img"
