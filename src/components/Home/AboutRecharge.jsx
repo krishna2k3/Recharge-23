@@ -2,7 +2,7 @@ const AboutRecharge = () => {
   return (
     <div
       id="about-recharge"
-      className="flex flex-col lg:flex-row items-center lg:items-center bg-[#1A1330] gap-y-5 stretch-to-screen text-white p-10 lg:gap-x-8"
+      className="flex flex-col justify-center lg:flex-row items-center lg:items-center bg-[#1A1330] gap-y-5 stretch-to-screen text-white p-10 lg:gap-x-8"
     >
       
       <div id="left" className="basis-1/2 order-last lg:order-first">
