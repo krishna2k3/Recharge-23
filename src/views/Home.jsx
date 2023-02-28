@@ -23,10 +23,11 @@ const Home = ({ isLoading, setLoading }) => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1, transition: { duration: 1.5 } }}
           exit={{ opacity: 0 }}
+          className="snap-container"
         >
           <Landing />
           <AboutRecharge />
-          <AboutREC/>
+          <AboutREC />
           {/* <ProShows />
           <Sponsors /> */}
         </motion.div>
