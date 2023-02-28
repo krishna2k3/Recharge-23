@@ -57,7 +57,7 @@ const Gallery = () => {
   return (
     <div
       id="about"
-      className="stretch-to-screen bg-[#06111f] text-white items-center px-40 py-10"
+      className="stretch-to-screen bg-[#06111f] text-white items-center px-10 lg:px-40 py-10"
     >
       <p className="text-7xl font-extrabold shadow-inner">Gallery</p>
       <hr className=" border-2 w-20 my-4 ml-2 border-red-500"></hr>
