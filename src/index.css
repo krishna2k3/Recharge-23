@@ -12,6 +12,7 @@ html::-webkit-scrollbar {
 }
 html {
   scroll-behavior: smooth;
+  overflow: hidden;
   -ms-overflow-style: none;  /* IE and Edge */
 }
 
