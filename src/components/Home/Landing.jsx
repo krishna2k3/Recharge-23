@@ -3,14 +3,16 @@ import Countdown from "../Countdown/Countdown";
 const Landing = () => {
   return (
     <div id="landing" className="">
+      
+
       <video src={bg} id="landing-video" autoPlay loop muted className="bg-black h-[100svh]" />
       <div className="flex flex-col items-center justify-between stretch-to-screen py-7 text-white">
         <div className="flex flex-col justify-center">
-          <img
+          {/* <img
             src={require("../../assets/rec-logo.png")}
             className="h-15 w-40"
             alt=""
-          />
+          /> */}
         </div>
         <div className="flex flex-col items-center text-center gap-y-4 px-[0.5rem]">
           <img

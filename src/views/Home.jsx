@@ -7,6 +7,8 @@ import Sponsors from "../components/Home/Sponsors";
 import { useEffect } from "react";
 import { motion } from "framer-motion";
 import AboutREC from "../components/Home/AboutREC";
+import NavBar from "../components/Home/NavBar";
+
 const Home = ({ isLoading, setLoading }) => {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -26,6 +28,7 @@ const Home = ({ isLoading, setLoading }) => {
           exit={{ opacity: 0 }}
           className="snap-container"
         >
+          <NavBar />
           <Landing />
           <AboutRecharge />
           <AboutREC />
