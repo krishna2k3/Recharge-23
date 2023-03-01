@@ -28,7 +28,6 @@ const Home = ({ isLoading, setLoading }) => {
           exit={{ opacity: 0 }}
           className="snap-container"
         >
-          <NavBar />
           <Landing />
           <AboutRecharge />
           <AboutREC />

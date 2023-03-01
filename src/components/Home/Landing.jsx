@@ -1,11 +1,13 @@
 import bg from "../../assets/landing-video.mp4";
 import Countdown from "../Countdown/Countdown";
+import NavBar from "./NavBar";
 const Landing = () => {
   return (
     <div id="landing" className="">
       
 
       <video src={bg} id="landing-video" autoPlay loop muted className="bg-black h-[100svh]" />
+      <NavBar/>
       <div className="flex flex-col items-center justify-between stretch-to-screen py-7 text-white">
         <div className="flex flex-col justify-center">
           {/* <img
