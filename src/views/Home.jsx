@@ -10,17 +10,6 @@ import AboutREC from "../components/Home/AboutREC";
 import NavBar from "../components/Home/NavBar";
 
 const Home = ({ isLoading, setLoading }) => {
-  const refs = ["#landing", "#about-recharge", "#about-rec", "#gallery"]
-  let i=0;
-  let scrolling = false;
-
-  window.addEventListener("wheel", (event) => {
-    if ( !scrolling && event.deltaY < 0 ) {
-      scrollToComponent('forward');
-    } else if ( !scrolling && event.deltaY > 0 ) {
-      scrollToComponent('backward');
-    }
-  });
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -28,16 +17,6 @@ const Home = ({ isLoading, setLoading }) => {
   setTimeout(() => {
     setLoading(false);
   }, 1900);
-
-  const scrollToComponent = (direction) => {
-    scrolling = true;
-    if (direction === 'backward' && i < 3 ) {
-      document.location.hash = refs[++i];
-    } else if ( direction === 'forward' && i > 0 ) {
-      document.location.hash = refs[--i];
-    }
-    scrolling = false;
-  };
 
   return (
     
