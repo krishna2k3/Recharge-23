@@ -1,13 +1,8 @@
 const AboutContent = ()=>{
     return (
-        <div className="stretch-to-screen items-center bg-[#1A1330]">
-            <div className=" flex flex-col gap-y-5 items-center text-center">
-                <img
-                    src={require("../../assets/recharge-logo.png")}
-                    className="h-40 md:h-64 w-auto"
-                    alt=""
-                />
-            </div>
+        <div className="stretch-to-screen bg-[#06111f] items-center"> 
+        {/* <div>for sample bg-[#1A1330]</div> */}
+            
             <p className="mx-10 my-10 lg:my-16 lg:mx-52 text-lg text-white justify-between">
                 Rajalakshmi Institutions is one of the premier Educational Institutions in the state. The institution offers various streams of study from Architecture, Engineering, Management to Nursing. From securing university level ranks to making our mark in National and International events, the students of this Institution have brilliant academic credentials. At Rajalakshmi Institutions, we strongly believe that every student should be given ample opportunities to chase their dreams. Our motto has always been "To provide technically competent professionals with character and humane values to the society."
                 <br></br><br></br>At Rajalakshmi Institutions, the students are encouraged to excel not only in their academics but also in their co-curricular and extracurricular activities. The institutions believes that learning can happen outside the classroom through engagement with creative arts. The students are also encouraged to positively influence the society they live in through community engagement. This is done through the various societies for music (UNISON), literature and debate (Atrium and Debating Union), social services (NSS), Rotaract and several other student enterprises/forums that the institutions host. All this make the students passing out of this institutions a great value addition to any organisation they are a part of.

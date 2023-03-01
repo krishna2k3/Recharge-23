@@ -1,10 +1,14 @@
 import Loading from "./Loading";
 import Landing from "../components/Home/Landing";
-// import About from "../components/Home/About";
-// import ProShows from "../components/Home/ProShows";
-// import Sponsors from "../components/Home/Sponsors";
+import Gallery from "../components/Home/Gallery";
+import AboutRecharge from "../components/Home/AboutRecharge";
+import ProShows from "../components/Home/ProShows";
+import Sponsors from "../components/Home/Sponsors";
 import { useEffect } from "react";
 import { motion } from "framer-motion";
+import AboutREC from "../components/Home/AboutREC";
+import NavBar from "../components/Home/NavBar";
+
 const Home = ({ isLoading, setLoading }) => {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -22,10 +26,13 @@ const Home = ({ isLoading, setLoading }) => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1, transition: { duration: 1.5 } }}
           exit={{ opacity: 0 }}
+          className="snap-container"
         >
           <Landing />
-          {/* <About />
-          <ProShows />
+          <AboutRecharge />
+          <AboutREC />
+          <Gallery />
+          {/* <ProShows />
           <Sponsors /> */}
         </motion.div>
       )}
