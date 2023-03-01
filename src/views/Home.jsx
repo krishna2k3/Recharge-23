@@ -4,12 +4,24 @@ import Gallery from "../components/Home/Gallery";
 import AboutRecharge from "../components/Home/AboutRecharge";
 import ProShows from "../components/Home/ProShows";
 import Sponsors from "../components/Home/Sponsors";
-import { useEffect,useState } from "react";
+import { useEffect } from "react";
 import { motion } from "framer-motion";
 import AboutREC from "../components/Home/AboutREC";
 import NavBar from "../components/Home/NavBar";
 
 const Home = ({ isLoading, setLoading }) => {
+  const refs = ["#landing", "#about-recharge", "#about-rec", "#gallery"]
+  let i=0;
+  let scrolling = false;
+
+  window.addEventListener("wheel", (event) => {
+    if ( !scrolling && event.deltaY < 0 ) {
+      scrollToComponent('forward');
+    } else if ( !scrolling && event.deltaY > 0 ) {
+      scrollToComponent('backward');
+    }
+  });
+
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -17,16 +29,15 @@ const Home = ({ isLoading, setLoading }) => {
     setLoading(false);
   }, 1900);
 
-  const [activeComponent, setActiveComponent] = useState(1);
-
   const scrollToComponent = (direction) => {
-    if (direction === 'forward') {
-      setActiveComponent(activeComponent + 1);
-    } else if (direction === 'backward') {
-      setActiveComponent(activeComponent - 1);
+    scrolling = true;
+    if (direction === 'backward' && i < 3 ) {
+      document.location.hash = refs[++i];
+    } else if ( direction === 'forward' && i > 0 ) {
+      document.location.hash = refs[--i];
     }
+    scrolling = false;
   };
-
 
   return (
     
@@ -39,16 +50,11 @@ const Home = ({ isLoading, setLoading }) => {
           animate={{ opacity: 1, transition: { duration: 1.5 } }}
           exit={{ opacity: 0 }}
           className="snap-container"
-          onWheel={(event) => {
-            const direction = event.deltaY > 0 ? 'forward' : 'backward';
-            scrollToComponent(direction);
-          }}
         >
-          {activeComponent === 1 && <Landing />}
-          {activeComponent === 2 && <AboutRecharge />}
-          {activeComponent === 3 && <AboutREC />}
-          {activeComponent === 4 && <Gallery />}
-                   
+          <Landing />
+          <AboutRecharge />
+          <AboutREC />
+          <Gallery />
           {/* <ProShows />
           <Sponsors /> */}
         </motion.div>
