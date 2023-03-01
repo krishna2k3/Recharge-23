@@ -3,13 +3,13 @@ import EventCard from "../components/EventCard";
 import { motion, AnimatePresence } from "framer-motion";
 
 const Events = () => {
-    const events = [{ title: "Dance", category: "dance" },
+    const events = [{ title: "Dance", category: "dance", imgUrl:"https://cdn.dribbble.com/users/789882/screenshots/17267379/media/b450b2f1bde14856e9de0dc13f39e095.png?compress=1&resize=1000x750&vertical=top" },
     // {title: "Game 1", category: "game"}, 
-    { title: "Sing", category: "sing" },
+    { title: "Sing", category: "sing",imgUrl:"https://cdn.dribbble.com/users/572344/screenshots/18178485/media/8d74245cebe09ccc4580b7be5d5dd4de.png?compress=1&resize=1000x750&vertical=top" },
     // {title: "Dance 2", category: "dance"},
     //  {title: "Sing 2", category: "sing"}, {title: "Game 2", category: "game"}, 
     //  {title: "Sing 3", category: "sing"}, {title: "Game 4", category: "game"}, 
-    { title: "Game", category: "game" },
+    { title: "Game", category: "game", imgUrl:"https://cdn.dribbble.com/userupload/4399141/file/original-e0e217acf88e32b73591e4fc73fd4447.png?compress=1&resize=1200x899" },
         //  {title: "Dance 3", category: "dance"}, 
         //  {title: "Dance 4", category: "dance"}, {title: "Sing 4", category: "sing"}, 
     ]
@@ -41,19 +41,19 @@ const Events = () => {
             </div> */}
         {/* </div> */}
 
-        <div id="content" className="flex flex-col m-20">
+        <div id="content" className="flex flex-col mt-20">
             <div id="filter-btns" className="flex flex-row flex-wrap m-5 justify-center">
 
-                <button class="bg-transparent hover:bg-teal-600  text-teal-600 font-semibold hover:text-white py-1 px-4 border border-teal-600  hover:border-transparent rounded mr-5" onClick={() => filterEvents("all")}>
+                <button class="bg-transparent hover:bg-teal-600  text-teal-600 font-semibold hover:text-white py-1 px-4 border border-teal-600  hover:border-transparent rounded mr-2 mb-2" onClick={() => filterEvents("all")}>
                     ALL
                 </button>
-                <button class="bg-transparent hover:bg-teal-600  text-teal-600 font-semibold hover:text-white py-1 px-4 border border-teal-600  hover:border-transparent rounded mr-5" onClick={() => filterEvents("dance")}>
+                <button class="bg-transparent hover:bg-teal-600  text-teal-600 font-semibold hover:text-white py-1 px-4 border border-teal-600  hover:border-transparent rounded mr-2 mb-2" onClick={() => filterEvents("dance")}>
                 Dancing
                 </button>
-                <button class="bg-transparent hover:bg-teal-600  text-teal-600 font-semibold hover:text-white py-1 px-4 border border-teal-600  hover:border-transparent rounded mr-5" onClick={() => filterEvents("sing")}>
+                <button class="bg-transparent hover:bg-teal-600  text-teal-600 font-semibold hover:text-white py-1 px-4 border border-teal-600  hover:border-transparent rounded mr-2 mb-2" onClick={() => filterEvents("sing")}>
                 Singing
                 </button>
-                <button class="bg-transparent hover:bg-teal-600  text-teal-600 font-semibold hover:text-white py-1 px-4 border border-teal-600  hover:border-transparent rounded mr-5" onClick={() => filterEvents("game")}>
+                <button class="bg-transparent hover:bg-teal-600  text-teal-600 font-semibold hover:text-white py-1 px-4 border border-teal-600  hover:border-transparent rounded mr-2 mb-2" onClick={() => filterEvents("game")}>
                 Gaming
                 </button>
                 {/* <button onClick={() => filterEvents("all")} className="bg-teal-600 text-white rounded-2xl p-3 h-10 text-justify text-lg mr-5">All</button>
@@ -65,7 +65,7 @@ const Events = () => {
             <motion.div layout id="event-cards" className="flex flex-row flex-wrap justify-center">
                 <AnimatePresence>
                     {filtered.map((e) => {
-                        return <EventCard key={e.title} title={e.title}></EventCard>
+                        return <EventCard key={e.title} title={e.title} imgUrl={e.imgUrl}></EventCard>
                     })}
                 </AnimatePresence>
             </motion.div>
