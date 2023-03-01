@@ -5,7 +5,7 @@ const EventCard = ({title}) => {
             animate={{opacity: 1, scale: 1}}
             initial={{opacity: 0, scale: 0}}
             exit={{opacity: 0, scale: 0}}
-            className="h-96 w-60 rounded-md bg-slate-300 m-10 hover:!scale-105 duration-500">
+            className="h-60 w-60 rounded-md bg-slate-300 m-10 hover:!scale-105 duration-500">
             <p className="text-3xl p-4 text-center">{title}</p>
         </motion.div>
 };
