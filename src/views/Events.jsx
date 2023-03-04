@@ -3,15 +3,25 @@ import EventCard from "../components/Events/EventCard";
 import { motion, AnimatePresence } from "framer-motion";
 
 const Events = () => {
-    const events = [{ title: "Dance", category: "dance", imgUrl:"https://cdn.dribbble.com/users/789882/screenshots/17267379/media/b450b2f1bde14856e9de0dc13f39e095.png?compress=1&resize=1000x750&vertical=top" },
-    // {title: "Game 1", category: "game"}, 
-    { title: "Sing", category: "sing",imgUrl:"https://cdn.dribbble.com/users/572344/screenshots/18178485/media/8d74245cebe09ccc4580b7be5d5dd4de.png?compress=1&resize=1000x750&vertical=top" },
-    // {title: "Dance 2", category: "dance"},
-    //  {title: "Sing 2", category: "sing"}, {title: "Game 2", category: "game"}, 
-    //  {title: "Sing 3", category: "sing"}, {title: "Game 4", category: "game"}, 
-    { title: "Game", category: "game", imgUrl:"https://cdn.dribbble.com/userupload/4399141/file/original-e0e217acf88e32b73591e4fc73fd4447.png?compress=1&resize=1200x899" },
-        //  {title: "Dance 3", category: "dance"}, 
-        //  {title: "Dance 4", category: "dance"}, {title: "Sing 4", category: "sing"}, 
+    const events = [
+    { title: "Dance", category: "dance", imgUrl:"https://cdn.dribbble.com/users/789882/screenshots/17267379/media/b450b2f1bde14856e9de0dc13f39e095.png?compress=1&resize=1000x750&vertical=top" },
+    { title: "Music", category: "sing",imgUrl:"https://cdn.dribbble.com/users/572344/screenshots/18178485/media/8d74245cebe09ccc4580b7be5d5dd4de.png?compress=1&resize=1000x750&vertical=top" },
+    { title: "Online Games", category: "game", imgUrl:"https://cdn.dribbble.com/userupload/4399141/file/original-e0e217acf88e32b73591e4fc73fd4447.png?compress=1&resize=1200x899" },
+       
+    { title: "Darama", category: "dance", imgUrl:"https://cdn.dribbble.com/users/789882/screenshots/17267379/media/b450b2f1bde14856e9de0dc13f39e095.png?compress=1&resize=1000x750&vertical=top" },
+    { title: "Fashion", category: "sing",imgUrl:"https://cdn.dribbble.com/users/572344/screenshots/18178485/media/8d74245cebe09ccc4580b7be5d5dd4de.png?compress=1&resize=1000x750&vertical=top" },
+    { title: "Entertainment", category: "game", imgUrl:"https://cdn.dribbble.com/userupload/4399141/file/original-e0e217acf88e32b73591e4fc73fd4447.png?compress=1&resize=1200x899" },
+       
+    { title: "Photography", category: "dance", imgUrl:"https://cdn.dribbble.com/users/789882/screenshots/17267379/media/b450b2f1bde14856e9de0dc13f39e095.png?compress=1&resize=1000x750&vertical=top" },
+    { title: "Film", category: "sing",imgUrl:"https://cdn.dribbble.com/users/572344/screenshots/18178485/media/8d74245cebe09ccc4580b7be5d5dd4de.png?compress=1&resize=1000x750&vertical=top" },
+    { title: "Arts", category: "game", imgUrl:"https://cdn.dribbble.com/userupload/4399141/file/original-e0e217acf88e32b73591e4fc73fd4447.png?compress=1&resize=1200x899" },
+     
+    { title: "Sports", category: "dance", imgUrl:"https://cdn.dribbble.com/users/789882/screenshots/17267379/media/b450b2f1bde14856e9de0dc13f39e095.png?compress=1&resize=1000x750&vertical=top" },
+    { title: "Literature", category: "sing",imgUrl:"https://cdn.dribbble.com/users/572344/screenshots/18178485/media/8d74245cebe09ccc4580b7be5d5dd4de.png?compress=1&resize=1000x750&vertical=top" },
+    { title: "Quiz", category: "game", imgUrl:"https://cdn.dribbble.com/userupload/4399141/file/original-e0e217acf88e32b73591e4fc73fd4447.png?compress=1&resize=1200x899" },
+       
+    { title: "on stage", category: "dance", imgUrl:"https://cdn.dribbble.com/users/789882/screenshots/17267379/media/b450b2f1bde14856e9de0dc13f39e095.png?compress=1&resize=1000x750&vertical=top" },
+    
     ]
 
     const [filtered, setFiltered] = useState(events);
@@ -42,25 +52,10 @@ const Events = () => {
         {/* </div> */}
 
         <div id="content" className="flex flex-col mt-20">
-            <div id="filter-btns" className="flex flex-row flex-wrap m-5 justify-center">
-
-                <button class="bg-transparent hover:bg-teal-600  text-teal-600 font-semibold hover:text-white py-1 px-4 border border-teal-600  hover:border-transparent rounded mr-2 mb-2" onClick={() => filterEvents("all")}>
-                    ALL
-                </button>
-                <button class="bg-transparent hover:bg-teal-600  text-teal-600 font-semibold hover:text-white py-1 px-4 border border-teal-600  hover:border-transparent rounded mr-2 mb-2" onClick={() => filterEvents("dance")}>
-                Dancing
-                </button>
-                <button class="bg-transparent hover:bg-teal-600  text-teal-600 font-semibold hover:text-white py-1 px-4 border border-teal-600  hover:border-transparent rounded mr-2 mb-2" onClick={() => filterEvents("sing")}>
-                Singing
-                </button>
-                <button class="bg-transparent hover:bg-teal-600  text-teal-600 font-semibold hover:text-white py-1 px-4 border border-teal-600  hover:border-transparent rounded mr-2 mb-2" onClick={() => filterEvents("game")}>
-                Gaming
-                </button>
-                {/* <button onClick={() => filterEvents("all")} className="bg-teal-600 text-white rounded-2xl p-3 h-10 text-justify text-lg mr-5">All</button>
-                <button onClick={() => filterEvents("dance")} className="bg-teal-600 text-white rounded-2xl  p-3 h-10 text-lg mr-5">Dancing</button>
-                <button onClick={() => filterEvents("sing")} className="bg-teal-600 text-white rounded-2xl h-10 p-3 text-lg mr-5">Singing</button>
-                <button onClick={() => filterEvents("game")} className="bg-teal-600 text-white rounded-2xl h-10 p-3 text-lg">Gaming</button> */}
-            </div>
+        <p className="ml-10 mt-16 text-7xl lg:mt-16 lg:ml-24 text-white ">Events</p>    
+                    <hr class="ml-10 lg:ml-24 border-0 h-1 w-20 mt-2 bg-[#b718f1] drop-shadow-lg"></hr>
+                    <hr class="ml-24 lg:ml-36 w-20 h-1 border-0 mt-4 bg-[#b718f1]"></hr>
+       
 
             <motion.div layout id="event-cards" className="flex flex-row flex-wrap justify-center">
                 <AnimatePresence>
