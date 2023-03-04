@@ -15,10 +15,12 @@ const EventCard = ({ title, imgUrl }) => {
         animate={{ opacity: 1, scale: 1 }}
         initial={{ opacity: 0, scale: 0 }}
         exit={{ opacity: 0, scale: 0 }}
-        className="h-60 w-60 rounded-md bg-slate-300 m-10 hover:!scale-105 duration-500" style={
+        className="h-60 w-60 rounded-md bg-slate-300 m-10 hover:!scale-105 duration-500 bg-blend-darken	hover:bg-blend-normal	" style={
             myStyle
         }>
-        <p className="text-3xl p-4 text-center font-bold	">{title}</p>
+        <p className="text-3xl p-2 text-center font-bold">{title}</p>
+        <hr class="ml-10 lg:ml-20 border-0 h-1 w-20 mt-0 bg-[#b718f1] drop-shadow-lg"></hr>
+
     </motion.div>
 };
 
