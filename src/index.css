@@ -134,5 +134,11 @@ code {
 
 .neon-img-bg{
   background-color: #FB2576;
-  filter: blur(200px);
+  filter: blur(80px) brightness(120%);
+}
+
+@media only screen and (min-width: 768px) {
+  .neon-img-bg {
+    filter: blur(200px) brightness(120%);
+  }
 }
