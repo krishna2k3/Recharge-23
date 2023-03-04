@@ -21,10 +21,10 @@ const AboutREC = () => {
       className="flex flex-col justify-center lg:flex-row items-center lg:items-center bg-black gap-y-5 stretch-to-screen text-white p-10 lg:gap-x-8"
     >
       <div id="left" className="basis-1/2 order-first lg:order-first flex justify-center items-center">
-      <div className=" z-0 h-40 lg:h-96  w-96 absolute neon-img-bg animate-pulse-slow"></div>
+      <div className=" z-0 md:h-40 h-12 w-96 absolute neon-img-bg animate-pulse-slow"></div>
 
         <img
-          className="shadow-2xl rounded-md my-8 z-10"
+          className="shadow-2xl rounded-md my-8 z-10 neon-border"
           id="about-img"
           src="https://images.unsplash.com/photo-1500622944204-b135684e99fd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bmF0dXJhbHxlbnwwfHwwfHw%3D&w=1000&q=80"
           alt=""
@@ -66,7 +66,7 @@ const AboutREC = () => {
           variants={item}
           type="button"
           onClick={() => window.open("/aboutpage", "_self")}
-          className=" mt-6 px-4 py-2 rounded-md font-medium text-[#FB2576] hover:text-white hover:bg-[#FB2576] hover:duration-500 px neon-btn"
+          className=" mt-6 px-4 py-2 rounded-md font-medium hover:duration-500 px neon-btn"
         >
           Show More
         </motion.button>
