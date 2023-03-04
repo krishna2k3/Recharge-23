@@ -1,8 +1,21 @@
+import Footer from "../components/Common/Footer";
+import '../components/Common/neonfont.css';
 const EventDescription = () =>{
     return(
-        <div className="flex flex-col justify-center lg:flex-row items-center lg:items-center bg-black gap-y-5 stretch-to-screen text-white p-10 lg:gap-x-8">
-            <p className="text-white">text</p>
+        <div>
+      
+            <div className="flex flex-col lg:flex-col bg-black stretch-to-screen text-white">
+            <div class="main text-5xl lg:text-7xl flex justify-center">
+                {/* <span class="webdev">FutsalCup mukkiyam bigilae</span> */}
+                    
+                <span class="socod">TEXT ldhalhfklhalkfhalh EFFECT</span>
+            </div>
+            
+                  <p className="text-white">text</p>
+            </div>
+            <Footer/>
         </div>
+        
     )
 }
 
