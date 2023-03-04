@@ -13,6 +13,7 @@ function Countdown() {
   });
 
   useEffect(() => {
+    const targetDate = new Date(2023, 2, 23, 0, 0, 0);
     const interval = setInterval(() => {
       const now = new Date();
       const diff = Math.max(targetDate - now, 0); // calculate the time difference between now and the target date
