@@ -18,13 +18,13 @@ const AboutREC = () => {
   return (
     <div
       id="about-rec"
-      className="flex flex-col justify-center lg:flex-row items-center lg:items-center bg-[#1A1330] gap-y-5 stretch-to-screen text-white p-10 lg:gap-x-8"
+      className="flex flex-col justify-center lg:flex-row items-center lg:items-center bg-black gap-y-5 stretch-to-screen text-white p-10 lg:gap-x-8"
     >
-      <div id="left" className="basis-1/2 order-first lg:order-first">
-        <motion.img
-          initial={{ scale: 0.8, x: -30, y: -30 }}
-          whileInView={{ scale: 1, x: 0, y: 0, transition: { duration: 1.5 } }}
-          className="shadow-2xl rounded-md my-8"
+      <div id="left" className="basis-1/2 order-first lg:order-first flex justify-center items-center">
+      <div className=" z-0 md:h-40 h-12 w-96 absolute neon-img-bg animate-pulse-slow"></div>
+
+        <img
+          className="shadow-2xl rounded-md my-8 z-10 neon-border"
           id="about-img"
           src="https://images.unsplash.com/photo-1500622944204-b135684e99fd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bmF0dXJhbHxlbnwwfHwwfHw%3D&w=1000&q=80"
           alt=""
@@ -46,11 +46,11 @@ const AboutREC = () => {
         </motion.p>
         <motion.hr
           variants={item}
-          className=" border-2 w-20 my-4 ml-2 border-red-500"
+          className=" border-2 w-20 my-4 ml-2 border-[#FB2576]"
         ></motion.hr>
         <motion.hr
           variants={item}
-          className="w-20 my-4 border-2 ml-8 border-red-500 "
+          className="w-20 my-4 border-2 ml-8 border-[#FB2576] "
         ></motion.hr>
         <motion.p
           variants={item}
@@ -63,10 +63,10 @@ const AboutREC = () => {
           professionals in their fields.
         </motion.p>
         <motion.button
+          variants={item}
           type="button"
           onClick={() => window.open("/aboutpage", "_self")}
-          variants={item}
-          className=" mt-6 px-4 py-2 rounded-md font-medium text-white bg-red-500 hover:bg-red-600 hover:duration-500 px "
+          className=" mt-6 px-4 py-2 rounded-md font-medium hover:duration-500 px neon-btn"
         >
           Show More
         </motion.button>
