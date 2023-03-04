@@ -63,7 +63,7 @@ const AboutRecharge = () => {
       </motion.div>
 
       <div id="right" className="basis-1/2 flex justify-center items-center">
-        <div className=" z-0 h-40 lg:h-96 w-96 absolute neon-img-bg"></div>
+        <div className=" z-0 h-40 lg:h-96 w-96 absolute neon-img-bg animate-pulse-slow"></div>
         <img
           className="shadow-2xl rounded-md my-8 z-10 neon-border"
           id="about-img"

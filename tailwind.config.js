@@ -14,7 +14,11 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      animation: {
+        'pulse-slow': 'pulse 5s cubic-bezier(0.4, 0.2, 0.6, 1) infinite',
+      }
+    }
   },
   plugins: [rotateY],
 }
