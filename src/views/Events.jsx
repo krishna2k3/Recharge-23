@@ -1,5 +1,5 @@
 import { useState } from "react";
-import EventCard from "../components/EventCard";
+import EventCard from "../components/Events/EventCard";
 import { motion, AnimatePresence } from "framer-motion";
 
 const Events = () => {

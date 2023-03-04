@@ -66,7 +66,7 @@ const AboutREC = () => {
           variants={item}
           type="button"
           onClick={() => window.open("/aboutpage", "_self")}
-          className=" mt-6 px-4 py-2 rounded-md font-medium text-[#FB2576] hover:text-white hover:bg-[#FB2576] hover:duration-500 px neon-btn"
+          className=" mt-6 px-4 py-2 rounded-md font-medium hover:duration-500 px neon-btn"
         >
           Show More
         </motion.button>

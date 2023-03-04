@@ -118,19 +118,29 @@ code {
   }
 }
 
-.neon-btn{
+.neon-btn {
   text-shadow: 
-  0 0 1.85em hsl(0 0% 100%/0.8) ,0 0 1.85em #FB2576;
-  box-shadow: 0 0 0.5em 0 #FB2576,inset 0 0 0.5em 0 #FB2576;
+  0 0 0.85em hsl(0 0% 100%/0.2) ,0 0 0.85em #FB2576;
+  box-shadow: 0 0 0.5em 0 #FB2576,inset 0 0 0.185em 0 #FB2576;
   border: #FB2576 0.125em solid;
+  color: #FB2576;
+  text-transform: uppercase;
+  transition: 0.5s;
+  transition-property: box-shadow;
 }
+
+.neon-btn {
+  box-shadow: 0 0 25px #FB2576;
+}
+
 .neon-btn:hover {
+  background: #FB2576;
+  color: #fff;
   box-shadow: 0 0 5px #FB2576,
               0 0 25px #FB2576,
               0 0 50px #FB2576,
               0 0 100px #FB2576;
 }
-
 
 .neon-img-bg{
   background-color: #FB2576;
