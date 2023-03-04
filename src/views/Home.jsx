@@ -28,9 +28,9 @@ const Home = ({ isLoading, setLoading }) => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1, transition: { duration: 1.5 } }}
           exit={{ opacity: 0 }}
-          className="snap-container"
+          className="snap-container flex-col"
         >
-          <Landing />
+          <Landing  />
           <AboutRecharge />
           <AboutREC />
           <Gallery />
