@@ -20,7 +20,7 @@ const Events = () => {
     { title: "Literature", category: "sing",imgUrl:"https://cdn.dribbble.com/users/572344/screenshots/18178485/media/8d74245cebe09ccc4580b7be5d5dd4de.png?compress=1&resize=1000x750&vertical=top" },
     { title: "Quiz", category: "game", imgUrl:"https://cdn.dribbble.com/userupload/4399141/file/original-e0e217acf88e32b73591e4fc73fd4447.png?compress=1&resize=1200x899" },
        
-    { title: "on stage", category: "dance", imgUrl:"https://cdn.dribbble.com/users/789882/screenshots/17267379/media/b450b2f1bde14856e9de0dc13f39e095.png?compress=1&resize=1000x750&vertical=top" },
+    { title: "On Stage", category: "dance", imgUrl:"https://cdn.dribbble.com/users/789882/screenshots/17267379/media/b450b2f1bde14856e9de0dc13f39e095.png?compress=1&resize=1000x750&vertical=top" },
     
     ]
 
