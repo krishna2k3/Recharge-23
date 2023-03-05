@@ -2,7 +2,7 @@ import Loading from "./Loading";
 import Landing from "../components/Home/Landing";
 import Gallery from "../components/Home/Gallery";
 import AboutRecharge from "../components/Home/AboutRecharge";
-import ProShows from "../components/Home/ProShows";
+import ProShows from "../components/Home/Proshows/ProShows";
 import Sponsors from "../components/Home/Sponsors";
 import { useEffect } from "react";
 import { motion } from "framer-motion";
@@ -34,8 +34,8 @@ const Home = ({ isLoading, setLoading }) => {
           <AboutRecharge />
           <AboutREC />
           <Gallery />
-          {/* <ProShows />
-          <Sponsors /> */}
+          <ProShows />
+          {/* <Sponsors /> */}
         </motion.div>
       )}
     </div>
