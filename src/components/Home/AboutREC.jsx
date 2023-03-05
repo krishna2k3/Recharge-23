@@ -1,4 +1,6 @@
 import { motion } from "framer-motion";
+import '../Common/neonfont.css';
+
 const AboutREC = () => {
   const container = {
     hidden: { opacity: 1 },
@@ -36,22 +38,13 @@ const AboutREC = () => {
         initial="hidden"
         whileInView="show"
         id="right"
-        className="basis-1/2"
+        className="basis-1/2 flex flex-col gap-y-5"
       >
-        <motion.p
-          variants={item}
-          className="text-7xl font-extrabold shadow-inner"
-        >
-          About REC
-        </motion.p>
-        <motion.hr
-          variants={item}
-          className=" border-2 w-20 my-4 ml-2 border-[#FB2576]"
-        ></motion.hr>
-        <motion.hr
-          variants={item}
-          className="w-20 my-4 border-2 ml-8 border-[#FB2576] "
-        ></motion.hr>
+        <div class="main text-5xl">
+                <span class="webdev text-left">About REC</span>
+          </div>
+        
+        
         <motion.p
           variants={item}
           className=" text-lg  shadow-inner leading-loose"
@@ -66,7 +59,7 @@ const AboutREC = () => {
           variants={item}
           type="button"
           onClick={() => window.open("/aboutpage", "_self")}
-          className=" mt-6 px-4 py-2 rounded-md font-medium hover:duration-500 px neon-btn"
+          className="px-4 py-2 text-white hover:text-white hover:bg-[#ff003c] duration-200 rounded-md font-medium hover:duration-500 px neon-btn max-w-max"
         >
           Show More
         </motion.button>
