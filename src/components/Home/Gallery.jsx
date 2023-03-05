@@ -1,3 +1,5 @@
+import '../Common/neonfont.css';
+
 // import Img1 from './Images/23.jpg';
 // import Img2 from './Images/2.jpg';
 // import Img3 from './Images/3.jpg';
@@ -57,11 +59,12 @@ const Gallery = () => {
   return (
     <div
       id="gallery"
-      className="stretch-to-screen bg-black text-white items-center px-10 lg:px-40 py-10"
+      className="stretch-to-screen bg-black text-white items-center px-10 lg:px-40 py-20"
     >
-      <p className="text-7xl font-extrabold shadow-inner">Gallery</p>
-      <hr className=" border-2 w-20 my-4 ml-2 border-red-500"></hr>
-      <hr className="w-20 my-4 border-2 ml-8 border-red-500 "></hr>
+      <div class="main text-7xl mb-10">
+                <span class="webdev text-left">GALLERY</span>
+          </div>
+      
       <div class="flex flex-col lg:flex-row pb-6 my-6">
         <div class="flex flex-col mb-0">
           <img
