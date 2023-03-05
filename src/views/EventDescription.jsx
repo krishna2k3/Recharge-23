@@ -9,7 +9,7 @@ const EventDescription = () => {
             alt="img"
           />
 
-          <div id="mini-head " className="flex flex-col gap-y-5 items-center md:items-start">
+          <div id="mini-head " className="flex flex-col gap-y-5 items-center md:items-start my-6">
             <div className="main text-4xl  lg:text-5xl  lg:flex lg:justify-center">
               <span class="webdev">FutsalCup mukkiyam bigilae</span>
             </div>
