@@ -1,4 +1,3 @@
-
 // import Img1 from './Images/23.jpg';
 // import Img2 from './Images/2.jpg';
 // import Img3 from './Images/3.jpg';
@@ -58,12 +57,12 @@ const Gallery = () => {
   return (
     <div
       id="gallery"
-      className="stretch-to-screen  text-white items-center px-10 lg:px-40 py-20"
+      className="flex flex-col text-white items-center px-5 py-10 "
     >
-      <div class="main text-7xl mb-10">
-                <span class="webdev text-left">GALLERY</span>
-          </div>
-      
+      <div class="main text-7xl mb-5">
+        <span class="webdev text-left">GALLERY</span>
+      </div>
+
       <div class="flex flex-col lg:flex-row pb-6 my-6">
         <div class="flex flex-col mb-0">
           <img
