@@ -20,11 +20,14 @@
 }
 html::-webkit-scrollbar {
   display: none;
+  
 }
 html {
   scroll-behavior: smooth;
   -ms-overflow-style: none; /* IE and Edge */
   overflow-x: hidden;
+  background-color: #000000;
+  
 }
 
 body {
@@ -38,8 +41,8 @@ body {
     sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #000;
   overflow-x: hidden;
+  
 }
 
 code {
