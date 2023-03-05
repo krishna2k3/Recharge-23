@@ -29,9 +29,9 @@ const Home = ({ isLoading, setLoading }) => {
           className="snap-container"
         >
           <Landing />
-          <AboutRecharge />
+          {/* <AboutRecharge />
           <AboutREC />
-          <Gallery />
+          <Gallery /> */}
           {/* <ProShows />
           <Sponsors /> */}
         </motion.div>
