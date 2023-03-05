@@ -2,14 +2,14 @@ const EventDescription = () => {
   return (
     <div>
       <div className="flex flex-col  text-white py-5 ">
-        <div className="flex flex-col lg:flex-row mx-16 my-10 lg:gap-x-8">
+        <div className="flex flex-col lg:flex-row mx-16 my-10 lg:gap-x-8 text-center md:text-left">
           <img
             className="rounded-xl"
             src="https://i0.wp.com/digital-photography-school.com/wp-content/uploads/2013/07/ar-11.jpg?ssl=1"
             alt="img"
           />
 
-          <div id="mini-head " className="flex flex-col gap-y-5">
+          <div id="mini-head " className="flex flex-col gap-y-5 items-center md:items-start">
             <div className="main text-4xl  lg:text-5xl  lg:flex lg:justify-center">
               <span class="webdev">FutsalCup mukkiyam bigilae</span>
             </div>
@@ -54,15 +54,7 @@ const EventDescription = () => {
                 <p className=" text-xl leading-9">Free </p>
               </div>
             </div>
-            <div className="flex flex-row ">
-              <div className="main mt-1">
-                <span className="socod text-xl ">Contacts:</span>
-              </div>
-              <div className="ml-2">
-                <p className=" text-xl leading-9">Tobey:- 123456789 </p>
-                <p className=" text-xl leading-9">Andrew:- 123456789 </p>
-              </div>
-            </div>
+            
             <button
               type="button"
               onClick={() => window.open("/aboutpage", "_self")}
