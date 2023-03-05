@@ -20,7 +20,7 @@ const AboutREC = () => {
   return (
     <div
       id="about-rec"
-      className="flex flex-col justify-center lg:flex-row items-center lg:items-center bg-black gap-y-5 stretch-to-screen text-white p-10 lg:gap-x-8"
+      className="flex flex-col justify-center lg:flex-row items-center lg:items-center  gap-y-5 stretch-to-screen text-white p-10 lg:gap-x-8"
     >
       <div id="left" className="basis-1/2 order-first lg:order-first flex justify-center items-center">
       <div className=" z-0 md:h-40 h-12 w-96 absolute neon-img-bg animate-pulse-slow"></div>
