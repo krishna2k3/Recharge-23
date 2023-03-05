@@ -1,5 +1,7 @@
 import { motion } from "framer-motion";
+import { useNavigate } from "react-router";
 import "./style.css";
+
 // import dance from './Home/Images/'
 const EventCard = ({ title, imgUrl }) => {
   const myStyle = {
@@ -8,8 +10,15 @@ const EventCard = ({ title, imgUrl }) => {
     backgroundPosition: "center" /* Center the image */,
     backgroundSize: "cover",
   };
+
+  const navigate = useNavigate()
+
+  function togo(){
+    navigate('/events/eventslist', {state:{title:title}})
+  }
+
   return (
-    <div className="m-4">
+    <div className="m-4" onClick={togo}>
       <motion.div
         layout
         animate={{ opacity: 1, scale: 1 }}

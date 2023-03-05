@@ -1,14 +1,16 @@
 const EventList = () =>{
     const eventList = {
         dance:[
-            {title: "Katakalli"}
+            {Maintitle: "dance"}
         ],
         onlinegames:[
-            {title:"xxy"}
+            {Maintitle:"music"}
         ]
     }
     return(
-        <div></div>
+        <div>
+           <h1>Stay Tuned</h1>
+        </div>
     )
 }
 export default EventList

@@ -14,7 +14,7 @@ const App = ()=> {
       <Routes>
         <Route path="/" element={<Home isLoading={isLoading} setLoading={setLoading}/>}/>
         <Route path="/events" element={<Events/>}/>
-        <Route path="/eventslist" element={<EventList/>}/>
+        <Route path="/events/eventslist" element={<EventList/>}/>
         <Route path="/eventdescription" element={<EventDescription/>}/>
         <Route path="/aboutpage" element={<AboutPage />} />
         
