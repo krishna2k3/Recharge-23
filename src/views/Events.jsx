@@ -3,89 +3,103 @@ import EventCard from "../components/Events/EventCard";
 import { motion, AnimatePresence } from "framer-motion";
 import "../components/Common/neonfont.css";
 
+// imgs
+
+// photogrphy img
+import photo from '../components/Events/eventimgs/photo4.jpeg';
+// dance
+import dance from '../components/Events/eventimgs/dance.jpg'
+// music
+import music from '../components/Events/eventimgs/music.jpg'
+// fashion
+import fashion from '../components/Events/eventimgs/fashion.jpg'
+// darama
+import darama from '../components/Events/eventimgs/darama.webp'
+// flim
+import film from '../components/Events/eventimgs/film.png' 
+// entertain
+import entertainment from '../components/Events/eventimgs/entertainment.avif'
+// art
+import art from '../components/Events/eventimgs/art.avif'
+// sports
+import sports from '../components/Events/eventimgs/sports.jpeg'
+// literature
+import literature from '../components/Events/eventimgs/literature.avif'
+// quiz
+import quiz from '../components/Events/eventimgs/quiz.webp'
+// onstage
+import onstage from '../components/Events/eventimgs/onstage.jpg'
 const Events = () => {
   const events = [
     {
       title: "Dance",
       category: "dance",
-      imgUrl:
-        "https://cdn.dribbble.com/users/789882/screenshots/17267379/media/b450b2f1bde14856e9de0dc13f39e095.png?compress=1&resize=1000x750&vertical=top",
+      imgUrl:dance,
     },
     {
       title: "Music",
       category: "sing",
-      imgUrl:
-        "https://cdn.dribbble.com/users/572344/screenshots/18178485/media/8d74245cebe09ccc4580b7be5d5dd4de.png?compress=1&resize=1000x750&vertical=top",
+      imgUrl:"https://cdn.dribbble.com/userupload/4004155/file/original-db64074fe99caf8618b3e395d94a20d2.png?compress=1&resize=1024x768",
     },
     {
       title: "Online Games",
       category: "game",
       imgUrl:
-        "https://cdn.dribbble.com/userupload/4399141/file/original-e0e217acf88e32b73591e4fc73fd4447.png?compress=1&resize=1200x899",
+        "https://cdn.dribbble.com/userupload/3348061/file/original-5fd000ed98af552463352a4e82773576.png?compress=1&resize=752x",
     },
 
     {
       title: "Darama",
       category: "darama",
-      imgUrl:
-        "https://cdn.dribbble.com/users/458522/screenshots/15007930/media/4415b0e2c5f4f07f057fd2cc969ac655.jpg?compress=1&resize=1000x750&vertical=top",
+      imgUrl:darama,
     },
     {
       title: "Fashion",
       category: "Fashion",
-      imgUrl:
-        "https://cdn.dribbble.com/userupload/2922074/file/original-ac96fdca5173952de0a4d50a0d06e431.jpg?compress=1&resize=1024x768",
+      imgUrl:fashion,
     },
     {
       title: "Entertainment",
       category: "game",
-      imgUrl:
-        "https://cdn.dribbble.com/userupload/4399141/file/original-e0e217acf88e32b73591e4fc73fd4447.png?compress=1&resize=1200x899",
+      imgUrl:entertainment,
     },
 
     {
       title: "Photography",
       category: "dance",
-      imgUrl:
-        "https://cdn.dribbble.com/users/789882/screenshots/17267379/media/b450b2f1bde14856e9de0dc13f39e095.png?compress=1&resize=1000x750&vertical=top",
+      imgUrl:photo,
     },
     {
       title: "Film",
       category: "sing",
-      imgUrl:
-        "https://cdn.dribbble.com/users/572344/screenshots/18178485/media/8d74245cebe09ccc4580b7be5d5dd4de.png?compress=1&resize=1000x750&vertical=top",
+      imgUrl:film,
     },
     {
       title: "Arts",
       category: "game",
-      imgUrl:
-        "https://cdn.dribbble.com/userupload/4399141/file/original-e0e217acf88e32b73591e4fc73fd4447.png?compress=1&resize=1200x899",
+      imgUrl:art,
     },
 
     {
       title: "Sports",
-      category: "dance",
-      imgUrl:
-        "https://cdn.dribbble.com/users/789882/screenshots/17267379/media/b450b2f1bde14856e9de0dc13f39e095.png?compress=1&resize=1000x750&vertical=top",
+      category: "sports",
+      imgUrl:sports,
     },
     {
       title: "Literature",
-      category: "sing",
-      imgUrl:
-        "https://cdn.dribbble.com/users/572344/screenshots/18178485/media/8d74245cebe09ccc4580b7be5d5dd4de.png?compress=1&resize=1000x750&vertical=top",
+      category: "literature",
+      imgUrl:literature,
     },
     {
       title: "Quiz",
       category: "game",
-      imgUrl:
-        "https://cdn.dribbble.com/userupload/4399141/file/original-e0e217acf88e32b73591e4fc73fd4447.png?compress=1&resize=1200x899",
+      imgUrl:quiz,
     },
 
     {
       title: "On Stage",
       category: "dance",
-      imgUrl:
-        "https://cdn.dribbble.com/users/789882/screenshots/17267379/media/b450b2f1bde14856e9de0dc13f39e095.png?compress=1&resize=1000x750&vertical=top",
+      imgUrl:onstage,
     },
   ];
 

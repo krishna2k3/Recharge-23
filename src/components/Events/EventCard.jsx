@@ -24,7 +24,7 @@ const EventCard = ({ title, imgUrl }) => {
         animate={{ opacity: 1, scale: 1 }}
         initial={{ opacity: 0, scale: 0 }}
         exit={{ opacity: 0, scale: 0 }}
-        className="h-80 w-80 rounded-md bg-slate-300 hover:!scale-105 duration-500 bg-blend-darken	hover:bg-blend-normal box  lg:text-6xl lg:flex text-white hover:text-black justify-items-start	"
+        className="h-80 w-80 rounded-md bg-slate-300 hover:!scale-105 duration-500 bg-blend-darken	hover:bg-blend-normal box  lg:text-6xl lg:flex text-white  justify-items-start	"
         style={myStyle}
       >
         <p
