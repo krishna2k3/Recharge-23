@@ -96,7 +96,6 @@ const EventDescription = () =>{
                     </div>
                 </div>
             </div>
-            <Footer/>
         </div>
         
     )
