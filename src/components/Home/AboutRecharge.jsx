@@ -50,7 +50,9 @@ const AboutRecharge = () => {
           onClick={() => window.open("/aboutpage", "_self")}
           className="px-4 py-2 text-white hover:text-white hover:bg-[#ff003c] duration-200 rounded-md font-medium hover:duration-500 px neon-btn max-w-max"
         >
-          Show More
+           <div class="main text-md">
+                <span class="webdev text-left">Show more</span>
+          </div>
         </motion.button>
       </motion.div>
 
