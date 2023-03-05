@@ -2,11 +2,14 @@ import React, { useState, useEffect } from "react";
 import "./Countdown.css";
 
 function Countdown() {
+  const targetDate = new Date(2023, 2, 23, 0, 0, 0);
+  const now = new Date();
+
   const [countdown, setCountdown] = useState({
-    days: 0,
-    hours: 0,
-    minutes: 0,
-    seconds: 0,
+    days: Math.floor(Math.max(targetDate - now, 0) / (1000 * 60 * 60 * 24)),
+    hours: Math.floor((Math.max(targetDate - now, 0) / (1000 * 60 * 60)) % 24),
+    minutes: Math.floor((Math.max(targetDate - now, 0) / (1000 * 60)) % 60),
+    seconds: Math.floor((Math.max(targetDate - now, 0) / 1000) % 60),
   });
 
   useEffect(() => {

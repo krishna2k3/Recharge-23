@@ -1,0 +1,15 @@
+.parent-container {
+    position: relative;
+    margin: 30px;
+  }
+  .box {
+    top: 0;
+    left: 0;
+    opacity: 0.7;
+    background: #01091387;
+  }
+  .overlay {
+    z-index: 9;
+    margin: 30px;
+    background: #009938;
+  }

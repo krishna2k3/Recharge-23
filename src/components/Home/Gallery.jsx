@@ -56,12 +56,13 @@
 const Gallery = () => {
   return (
     <div
-      id="about"
-      className="stretch-to-screen bg-[#06111f] text-white items-center px-10 lg:px-40 py-10"
+      id="gallery"
+      className="flex flex-col text-white items-center px-5 py-10 "
     >
-      <p className="text-7xl font-extrabold shadow-inner">Gallery</p>
-      <hr className=" border-2 w-20 my-4 ml-2 border-red-500"></hr>
-      <hr className="w-20 my-4 border-2 ml-8 border-red-500 "></hr>
+      <div class="main text-7xl mb-5">
+        <span class="webdev text-left">GALLERY</span>
+      </div>
+
       <div class="flex flex-col lg:flex-row pb-6 my-6">
         <div class="flex flex-col mb-0">
           <img

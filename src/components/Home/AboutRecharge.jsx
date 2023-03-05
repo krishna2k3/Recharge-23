@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+
 const AboutRecharge = () => {
   const container = {
     hidden: { opacity: 1 },
@@ -19,29 +20,19 @@ const AboutRecharge = () => {
   return (
     <div
       id="about-recharge"
-      className="flex flex-col justify-center lg:flex-row items-center lg:items-center bg-[#1A1330] gap-y-5 stretch-to-screen text-white p-10 lg:gap-x-8"
+      className="flex flex-col justify-center lg:flex-row items-center lg:items-center  gap-y-5 stretch-to-screen text-white p-10 lg:gap-x-8 "
     >
       <motion.div
         variants={container}
         initial="hidden"
         whileInView="show"
         id="left"
-        className="basis-1/2 order-last lg:order-first"
+        className="basis-1/2 order-last lg:order-first flex flex-col gap-y-5"
       >
-        <motion.p
-          variants={item}
-          className="text-7xl font-extrabold shadow-inner"
-        >
-          About Recharge
-        </motion.p>
-        <motion.hr
-          variants={item}
-          className=" border-2 w-20 my-4 ml-2 border-red-500"
-        ></motion.hr>
-        <motion.hr
-          variants={item}
-          className="w-20 my-4 border-2 ml-8 border-red-500 "
-        ></motion.hr>
+        <div class="main text-5xl">
+                <span class="webdev text-left">About RECHARGE</span>
+          </div>
+        
         <motion.p
           variants={item}
           className=" text-lg  shadow-inner leading-loose"
@@ -56,17 +47,18 @@ const AboutRecharge = () => {
           variants={item}
           type="button"
           onClick={() => window.open("/aboutpage", "_self")}
-          className=" mt-6 px-4 py-2 rounded-md font-medium text-white bg-red-500 hover:bg-red-600 hover:duration-500 px "
+          className="px-4 py-2 text-white hover:text-white hover:bg-[#ff003c] duration-200 rounded-md font-medium hover:duration-500 px neon-btn max-w-max"
         >
-          Show More
+           <div class="main text-md">
+                <span class="webdev text-left">Show more</span>
+          </div>
         </motion.button>
       </motion.div>
 
-      <div id="right" className="basis-1/2 ">
-        <motion.img
-          initial={{scale:0.8,x:+30,y:+30}}
-          whileInView={{scale:1,x:0,y:0,transition:{duration:1.5}}}
-          className="shadow-2xl rounded-md my-8"
+      <div id="right" className="basis-1/2 flex justify-center items-center">
+        <div className=" z-0 md:h-40 h-12 w-96 absolute neon-img-bg animate-pulse-slow"></div>
+        <img
+          className="shadow-2xl rounded-md my-8 z-10 neon-border"
           id="about-img"
           src="https://images.unsplash.com/photo-1500622944204-b135684e99fd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bmF0dXJhbHxlbnwwfHwwfHw%3D&w=1000&q=80"
           alt=""

@@ -1,0 +1,40 @@
+.proshow-cards {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  box-sizing: border-box;
+}
+.proshow-card {
+  margin: 2% 1%;
+  flex-grow: 1;
+  flex-basis: 0;
+  transition: 0.5s;
+  
+}
+.proshow-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.5s;
+  filter: brightness(50%);
+}
+.proshow-card:hover .content{
+  display: none;
+}
+.proshow-card:hover {
+  flex-basis: 50%;
+}
+.proshow-card img:hover {
+  filter: brightness(100%);
+
+}
+
+@media only screen and (max-width: 1000px) {
+  .proshow-cards {
+    flex-direction: column;
+  }
+  .proshow-card:hover {
+    flex-basis: 5%;
+  }
+}
+
