@@ -25,7 +25,7 @@
   flex-basis: 50%;
 }
 .proshow-card img:hover {
-  filter: brightness(80%);
+  filter: brightness(100%);
 
 }
 
