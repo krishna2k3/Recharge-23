@@ -99,3 +99,15 @@ body {
     opacity: 1;
   }
 }
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .main .webdev {
+  color: #ffd9e2;
+  text-shadow: 0 0 0 transparent, 0 0 10px #ff003c,
+  0 0 20px rgba(255, 0, 60, 0.5), 0 0 40px #ff003c, 0 0 100px #ff003c,
+    0 0 200px #000000, 0 0 300px #0f0709, 0 0 500px #030202, 0 0 1000px #000000;
+  
+  animation: blink 4s infinite alternate;
+}
+}

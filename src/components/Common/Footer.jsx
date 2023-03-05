@@ -7,7 +7,7 @@ const Footer = () => {
     return (
         <div
             id="footer"
-            className="flex flex-col lg:flex-row w-full p-7 bg-zinc-900 md:justify-start"
+            className="rounded-2xl scale-90 flex flex-col lg:flex-row w-full p-7 bg-zinc-900 md:justify-start"
         >
             <div className="flex flex-col mb-6 gap-3 text-white items-center text-center lg:items-start lg:text-left">
                 <img 
