@@ -1,7 +1,5 @@
-import { useState } from "react";
 import EventCard from "../components/Events/EventCard";
 import { motion, AnimatePresence } from "framer-motion";
-import "../components/Common/neonfont.css";
 
 // imgs
 
@@ -13,8 +11,8 @@ import dance from '../components/Events/eventimgs/dance.jpg'
 import music from '../components/Events/eventimgs/music.jpg'
 // fashion
 import fashion from '../components/Events/eventimgs/fashion.jpg'
-// darama
-import darama from '../components/Events/eventimgs/darama.webp'
+// drama
+import drama from '../components/Events/eventimgs/drama.webp'
 // flim
 import film from '../components/Events/eventimgs/film.png' 
 // entertain
@@ -39,7 +37,7 @@ const Events = () => {
     {
       title: "Music",
       category: "sing",
-      imgUrl:"https://cdn.dribbble.com/userupload/4004155/file/original-db64074fe99caf8618b3e395d94a20d2.png?compress=1&resize=1024x768",
+      imgUrl:music,
     },
     {
       title: "Online Games",
@@ -49,9 +47,9 @@ const Events = () => {
     },
 
     {
-      title: "Darama",
-      category: "darama",
-      imgUrl:darama,
+      title: "Drama",
+      category: "drama",
+      imgUrl:drama,
     },
     {
       title: "Fashion",

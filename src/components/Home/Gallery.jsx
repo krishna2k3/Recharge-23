@@ -1,4 +1,3 @@
-import '../Common/neonfont.css';
 
 // import Img1 from './Images/23.jpg';
 // import Img2 from './Images/2.jpg';

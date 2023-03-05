@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import '../Common/neonfont.css';
 
 const AboutREC = () => {
   const container = {

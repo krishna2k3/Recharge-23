@@ -1,5 +1,3 @@
-import Footer from "../components/Common/Footer";
-import '../components/Common/neonfont.css';
 const EventDescription = () =>{
     return(
         <div>
