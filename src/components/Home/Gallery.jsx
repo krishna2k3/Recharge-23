@@ -57,9 +57,9 @@ const Gallery = () => {
   return (
     <div
       id="gallery"
-      className="flex flex-col text-white items-center px-5 py-10 "
+      className="flex flex-col text-white items-center px-5 py-10 stretch-to-screen"
     >
-      <div class="main text-7xl mb-5">
+      <div class="main text-6xl mb-5">
         <span class="webdev text-left">GALLERY</span>
       </div>
 
