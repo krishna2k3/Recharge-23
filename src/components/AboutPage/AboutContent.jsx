@@ -1,6 +1,6 @@
 const AboutContent = ()=>{
     return (
-        <div className="stretch-to-screen flex items-center"> 
+        <div className="stretch-to-screen bg-black flex items-center"> 
         {/* <div>for sample bg-[#1A1330]</div> bg-[#06111f]*/}
             
             <p className="mx-10 my-10 lg:my-16 lg:mx-52 text-lg text-white justify-between">
