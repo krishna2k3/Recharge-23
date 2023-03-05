@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 .proshow-card {
-  margin: 0 1%;
+  margin: 2% 1%;
   flex-grow: 1;
   flex-basis: 0;
   transition: 0.5s;

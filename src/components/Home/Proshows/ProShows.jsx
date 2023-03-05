@@ -3,7 +3,7 @@ import './Proshow.css';
 
 const ProShows = () => {
     return (
-        <div id="proshows" className="stretch-to-screen bg-black text-white items-center px-10 lg:px-40 py-20">
+        <div id="proshows" className="stretch-to-screen  text-white items-center px-10 lg:px-40 py-20">
             <div class="main text-6xl md:7xl mb-10">
                 <span class="webdev text-left">PROSHOWS</span>
             </div>
