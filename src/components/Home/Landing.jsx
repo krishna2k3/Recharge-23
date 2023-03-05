@@ -3,7 +3,7 @@ import Countdown from "../Countdown/Countdown";
 import NavBar from "./NavBar";
 const Landing = () => {
   return (
-    <div id="landing" className="">
+    <div id="landing" className="h-[100svh]">
       
 
       <video src={bg} id="landing-video" autoPlay loop muted className="bg-black h-[100svh]" />
