@@ -18,6 +18,8 @@
   font-weight: normal;
   font-style: normal;
 }
+
+
 html::-webkit-scrollbar {
   display: none;
 }
@@ -40,6 +42,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: #000;
   overflow-x: hidden;
+
+  background: linear-gradient(90deg, #161122 21px, transparent 1%) center, linear-gradient(#161122 21px, transparent 1%) center, #a799cc;
+  background-size: 22px 22px;
 }
 
 code {
