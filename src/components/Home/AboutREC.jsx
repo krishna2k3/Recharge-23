@@ -1,20 +1,6 @@
-import { motion } from "framer-motion";
 
 const AboutREC = () => {
-  const container = {
-    hidden: { opacity: 1 },
-    show: {
-      opacity: 1,
-      transition: {
-        staggerChildren: 0.2,
-        duration: 1,
-      },
-    },
-  };
-  const item = {
-    hidden: { opacity: 1, x: +800 },
-    show: { opacity: 1, x: 0, transition: { type: "linear", duration: 0.8 } },
-  };
+  
 
   return (
     <div
@@ -32,10 +18,8 @@ const AboutREC = () => {
         />
       </div>
 
-      <motion.div
-        variants={container}
-        initial="hidden"
-        whileInView="show"
+      <div
+        
         id="right"
         className="basis-1/2 flex flex-col gap-y-5"
       >
@@ -44,8 +28,7 @@ const AboutREC = () => {
           </div>
         
         
-        <motion.p
-          variants={item}
+        <p
           className=" text-lg  shadow-inner leading-loose"
         >
           Rajalakshmi Engineering College, an autonomous institution affiliated
@@ -53,9 +36,8 @@ const AboutREC = () => {
           churning out high-quality professionals ever since. REC has aided
           thousands of students in landing their dream careers and becoming
           professionals in their fields.
-        </motion.p>
-        <motion.button
-          variants={item}
+        </p>
+        <button
           type="button"
           onClick={() => window.open("/aboutpage", "_self")}
           className="px-4 py-2 text-white hover:text-white hover:bg-[#ff003c] duration-200 rounded-md font-medium hover:duration-500 px neon-btn max-w-max"
@@ -63,8 +45,8 @@ const AboutREC = () => {
           <div class="main text-md">
                 <span class="webdev text-left">Show More</span>
           </div>
-        </motion.button>
-      </motion.div>
+        </button>
+      </div>
     </div>
   );
 };
