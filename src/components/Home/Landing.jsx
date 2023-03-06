@@ -1,12 +1,8 @@
-import bg from "../../assets/landing-video.mp4";
-import Countdown from "../Countdown/Countdown";
 const Landing = () => {
   return (
     <div id="landing" className="h-[100svh]">
-      
-
-      <video src={bg} id="landing-video" autoPlay loop muted className="bg-black h-[100svh]" />
-      <div className="flex flex-col items-center justify-between stretch-to-screen py-7 text-white">
+      <img src={require('../../assets/landing-bg.webp')} className="object-cover -z-10 absolute min-w-full min-h-full brightness-[35%] shadow-lg animate-pulse-slow" alt='bg'/>
+      <div className="flex flex-col items-center justify-between stretch-to-screen py-7 text-white mx-3">
         <div className="flex flex-col justify-center">
           <img
             src={require("../../assets/rec-logo.png")}
@@ -14,7 +10,7 @@ const Landing = () => {
             alt=""
           />
         </div>
-        <div className="flex flex-col items-center text-center gap-y-4 px-[0.5rem]">
+        <div className="flex flex-col items-center gap-y-8 px-[0.5rem] text-center">
           <img
             src={require("../../assets/recharge-logo.png")}
             className="h-40 md:h-64 w-auto"
@@ -24,10 +20,14 @@ const Landing = () => {
             Recharge Your Spirit and Reignite Your Passion!
           </h2>
           <h2 className="font-semibold text-2xl capitalize">23 | 24 | 25 March</h2>
-          <Countdown className=""/>
-          <button className="border px-4 py-2 rounded-md font-medium my-4 hover:bg-white hover:text-black hover:duration-500">
-            REGISTRATION OPENS SOON
-          </button>
+          <button
+          type="button"
+          className="px-4 py-2 text-white hover:text-white  duration-200 rounded-md font-medium hover:duration-500 px neon-btn max-w-max "
+        >
+          <div class="main text-md">
+            <span class="webdev text-left">REGISTRATION OPENS SOON</span>
+          </div>
+        </button>
         </div>
         <div className="flex flex-row justify-center items-center gap-x-2">
           <p>Get Updates On</p>
