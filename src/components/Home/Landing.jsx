@@ -1,10 +1,38 @@
+import { useEffect, useState,useRef } from "react";
 import bg from "../../assets/landing-video.mp4";
 import Countdown from "../Countdown/Countdown";
+import BIRDS from 'vanta/dist/vanta.waves.min'
+import * as THREE from "three";
 const Landing = () => {
+  const [vantaEffect, setVantaEffect] = useState(0);
+  const vantaRef = useRef(null);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+    if (!vantaEffect) {
+      setVantaEffect(
+        BIRDS({
+          el: vantaRef.current,
+          THREE: THREE,
+          color:'black',
+          mouseControls: true,
+          touchControls: true,
+          gyroControls: false,
+          minHeight: 600.0,
+          minWidth: 600.0,
+          scale: 1.0,
+          scaleMobile: 1.0
+        })
+      );
+    }
+    return () => {
+      if (vantaEffect) vantaEffect.destroy();
+    };
+  }, [vantaEffect]);
+  
   return (
-    <div id="landing" className="">
-      
 
+    <div id="landing" ref={vantaRef} className="">
+      
       <video src={bg} id="landing-video" autoPlay loop muted className="bg-black h-[100svh]" />
       <div className="flex flex-col items-center justify-between stretch-to-screen py-7 text-white">
         <div className="flex flex-col justify-center">

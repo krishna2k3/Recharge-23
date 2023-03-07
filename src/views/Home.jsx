@@ -3,7 +3,7 @@ import Landing from "../components/Home/Landing";
 import Gallery from "../components/Home/Gallery";
 import AboutRecharge from "../components/Home/AboutRecharge";
 import ProShows from "../components/Home/Proshows/ProShows";
-import { useEffect } from "react";
+import { useEffect, useState, useRef } from "react";
 import { motion } from "framer-motion";
 import AboutREC from "../components/Home/AboutREC";
 
@@ -11,6 +11,8 @@ const Home = ({ isLoading, setLoading }) => {
 
   useEffect(() => {
     window.scrollTo(0, 0);
+    
+    
   }, []);
   setTimeout(() => {
     setLoading(false);
@@ -23,6 +25,7 @@ const Home = ({ isLoading, setLoading }) => {
         <Loading />
       ) : (
         <motion.div
+      
           initial={{ opacity: 0 }}
           animate={{ opacity: 1, transition: { duration: 1.5 } }}
           exit={{ opacity: 0 }}

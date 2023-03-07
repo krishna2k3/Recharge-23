@@ -2,13 +2,14 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./views/Home";
 import Events from "./views/Events";
 import AboutPage from "./views/AboutPage";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import EventDescription from "./views/EventDescription";
 import EventList from "./views/EventList";
 // import Footer from "./components/Common/Footer";
 
 const App = () => {
   const [isLoading, setLoading] = useState(true);
+
   return (
     <BrowserRouter>
       <Routes>
