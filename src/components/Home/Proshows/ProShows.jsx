@@ -14,7 +14,7 @@ const ProShows = () => {
           <img
             className="-z-10 absolute proshows-bg rounded-xl"
             alt="background-jonita"
-            src={require("../../../assets/pro-shows-bg.jpg")}
+            src={require("../../../assets/bg-2.webp")}
           />
           <img
             src={require("../../../assets/jonita.png")}
