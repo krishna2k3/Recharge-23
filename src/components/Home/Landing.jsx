@@ -1,7 +1,36 @@
+import BIRDS from 'vanta/dist/vanta.waves.min'
+import * as THREE from "three";
+import { useEffect, useState,useRef } from "react";
+
 const Landing = () => {
+
+  const [vantaEffect, setVantaEffect] = useState(0);
+  const vantaRef = useRef(null);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+    if (!vantaEffect) {
+      setVantaEffect(
+        BIRDS({
+          el: vantaRef.current,
+          THREE: THREE,
+          color:'black',
+          mouseControls: true,
+          touchControls: true,
+          gyroControls: false,
+          minHeight: 600.0,
+          minWidth: 600.0,
+          scale: 1.0,
+          scaleMobile: 1.0
+        })
+      );
+    }
+    return () => {
+      if (vantaEffect) vantaEffect.destroy();
+    };
+  }, [vantaEffect]);
+
   return (
-    <div id="landing" className="h-[100svh]">
-      <img src={require('../../assets/landing-bg.webp')} className="object-cover -z-10 absolute min-w-full min-h-full brightness-[35%] shadow-lg animate-pulse-slow" alt='bg'/>
+    <div id="landing" ref={vantaRef}  className="h-[100svh]">
       <div className="flex flex-col items-center justify-between stretch-to-screen py-7 text-white mx-3">
         <div className="flex flex-col justify-center">
           <img
