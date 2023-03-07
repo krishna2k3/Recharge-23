@@ -58,51 +58,56 @@ const Gallery = () => {
     <div
       id="gallery"
       className="flex flex-col text-white items-center px-5 py-10 "
-    >
+      >
       <div class="main text-7xl mb-5">
         <span class="webdev text-left">GALLERY</span>
       </div>
 
       <div class="flex flex-col lg:flex-row pb-6 my-6">
-        <div class="flex flex-col mb-0">
-          <img
-            src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
-            className="w-100 shadow-lg rounded mb-4 hover:opacity-75 duration-700"
-            alt="Boat on Calm Water"
+        <div class="flex flex-col mb-0 basis-1/3">
+        <img
+            src={require("../../assets/gallery-imgs/andrea1.png")}
+            className="w-100 shadow-lg rounded-xl mb-4 hover:opacity-75 duration-700"
+            alt="Andrea Jeremiah"
           />
+          
+          
           <img
-            src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain1.webp"
-            className="w-100 shadow-lg  rounded mb-4 hover:opacity-75 duration-700"
-            alt="Wintry Mountain Landscape"
-          />
-        </div>
-
-        <div className="flex flex-col lg:mx-3 mb-0">
-          <img
-            src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp"
-            className="w-100 shadow-lg rounded mb-4 hover:opacity-75 duration-700"
-            alt="Mountains in the Clouds"
-          />
-
-          <img
-            src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
-            className="w-100 shadow-lg rounded mb-4 hover:opacity-75 duration-700"
-            alt="Boat on Calm Water"
+            src={require("../../assets/gallery-imgs/santhosh.jpg")}
+            className="w-100 shadow-lg rounded-xl mb-4 hover:opacity-75 duration-700 object-cover"
+            alt="Santhosh Narayanan"
           />
         </div>
 
-        <div className="flex flex-col mb-0">
+        <div className="flex flex-col lg:mx-3 mb-0 basis-1/3">
           <img
-            src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp"
-            className="w-100 shadow-lg rounded mb-4 hover:opacity-75 duration-700"
-            alt="Waves at Sea"
+            src={require("../../assets/gallery-imgs/karthi.jpg")}
+            className="w-100 shadow-lg rounded-xl mb-4 hover:opacity-75 duration-700 object-cover"
+            alt="Karthi"
+          /> 
+
+<img
+            src={require("../../assets/gallery-imgs/dj.png")}
+            className="w-100 shadow-lg  rounded-xl mb-4 hover:opacity-75 duration-700"
+            alt="DJ Goutham"
+          />
+          
+
+        </div>
+
+        <div className="flex flex-col mb-0 basis-1/3">
+        <img
+            src={require("../../assets/gallery-imgs/jagan.png")}
+            className="w-100 shadow-lg rounded-xl mb-4 hover:opacity-75 duration-700"
+            alt="Jagan"
           />
 
           <img
-            src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp"
-            className="w-100 shadow-lg rounded mb-4 hover:opacity-75 duration-700"
-            alt="Yosemite National Park"
+            src={require("../../assets/gallery-imgs/andrea3.png")}
+            className="w-100 shadow-lg rounded-xl mb-4 hover:opacity-75 duration-700"
+            alt="Andrea Jeremiah"
           />
+          
         </div>
       </div>
     </div>
