@@ -17,7 +17,6 @@ const Gallery = () => {
             alt="Andrea Jeremiah"
           />
           
-          
           <img
             src={require("../../assets/gallery-imgs/santhosh.jpg")}
             className="w-100 shadow-lg rounded-xl mb-4 hover:opacity-75 duration-700 object-cover"
@@ -32,24 +31,22 @@ const Gallery = () => {
             alt="Karthi"
           /> 
 
-<img
+          <img
             src={require("../../assets/gallery-imgs/dj.png")}
             className="w-100 shadow-lg  rounded-xl mb-4 hover:opacity-75 duration-700"
             alt="DJ Goutham"
           />
-          
-
         </div>
 
         <div className="flex flex-col mb-0 basis-1/3">
-        <img
+          <img
             src={require("../../assets/gallery-imgs/jagan.png")}
             className="w-100 shadow-lg rounded-xl mb-4 hover:opacity-75 duration-700"
             alt="Jagan"
           />
 
           <img
-            src={require("../../assets/gallery-imgs/andrea3.png")}
+            src={require("../../assets/gallery-imgs/bravo.jpg")}
             className="w-100 shadow-lg rounded-xl mb-4 hover:opacity-75 duration-700"
             alt="Andrea Jeremiah"
           /> 
