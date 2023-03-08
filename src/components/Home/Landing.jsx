@@ -42,7 +42,7 @@ const Landing = () => {
         <div className="flex flex-col items-center gap-y-8 px-[0.5rem] text-center">
           <img
             src={require("../../assets/logo1.png")}
-            className="h-40 md:h-64 w-auto"
+            className="h-40 lg:scale-125 md:h-64 w-auto"
             alt=""
           />
           <h2 className="font-semibold  text-2xl capitalize">

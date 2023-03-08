@@ -16,6 +16,7 @@ const About = ()=>{
           minHeight: 200.00,
           minWidth: 200.00,
           scale: 1.00,
+          THREE: THREE,
           scaleMobile: 1.00,
           color: 0x848484,
           color2: 0x0,
@@ -34,7 +35,7 @@ const About = ()=>{
     return (
             <div id="about" 
             ref={vantaRefrec}
-            className="flex flex-col lg:flex-col stretch-to-screen bg-black text-white items-center ">
+            className="flex flex-col lg:flex-col stretch-to-screen text-white items-center ">
                 <div class="mt-16 text-7xl lg:mt-16 main text-center">
                     <span class="webdev">About REC</span>
 
