@@ -35,7 +35,7 @@ const Footer = () => {
                     <hr class="border-0 h-1 w-20 mb-5 bg-[#ffd54f]"></hr>
                     <p onClick={() => navigate("/promotions")} className="cursor-pointer text-white text-lg">Promotions Team</p>
                 </div>  */}
-                <div className="mt-3 footer-item-events ml-72 ">
+                <div className="mt-3 footer-item-events lg:ml-72 ">
                     <p className="text-white font-semibold  justify-center text-2xl  tracking-widest">
                         For Sponsorship
                     </p>
