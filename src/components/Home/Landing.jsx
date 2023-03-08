@@ -51,6 +51,7 @@ const Landing = () => {
           <h2 className="font-semibold text-2xl capitalize">23 | 24 | 25 March</h2>
           <button
           type="button"
+          onClick={() => window.open("http://rechargefest.org/mainevent")}
           className="px-4 py-2 text-white hover:text-white  duration-200 rounded-md font-medium hover:duration-500 px neon-btn max-w-max "
         >
           <div class="main text-md">

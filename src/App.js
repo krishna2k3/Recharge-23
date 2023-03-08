@@ -1,7 +1,8 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./views/Home";
 import Events from "./views/Events";
-import AboutPage from "./views/AboutPage";
+import About from "./components/AboutPage/About";
+import Aboutrechargepage from "./components/AboutPage/Aboutrechargepage";
 import { useState } from "react";
 import EventDescription from "./views/EventDescription";
 import EventList from "./views/EventList";
@@ -19,7 +20,8 @@ const App = () => {
         <Route path="/events" element={<Events />} />
         <Route path="/events/eventslist" element={<EventList />} />
         <Route path="/eventdescription" element={<EventDescription />} />
-        <Route path="/aboutpage" element={<AboutPage />} />
+        <Route path="/aboutpage" element={<About/>} />
+        <Route path="/aboutrechargepage" element={<Aboutrechargepage/>} />
       </Routes>
       {isLoading === true ? <div></div> : <Footer />}
     </BrowserRouter>
