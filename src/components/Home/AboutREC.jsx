@@ -1,10 +1,41 @@
+import VANTAJS from 'vanta/dist/vanta.dots.min'
+import * as THREE from "three";
+
+import { useEffect, useState,useRef } from "react";
 
 const AboutREC = () => {
-  
+
+  const [vantaEffect, setVantaEffect] = useState(0);
+  const vantaRefrec = useRef(null);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+    if (!vantaEffect) {
+      setVantaEffect(
+        VANTAJS({
+          el: vantaRefrec.current,
+          mouseControls: true,
+          touchControls: true,
+          gyroControls: false,
+          minHeight: 200.00,
+          minWidth: 200.00,
+          scale: 1.00,
+          scaleMobile: 1.00,
+          color: 0x848484,
+          color2: 0x0,
+          backgroundColor: 0x0,
+          size: 2.60,
+          showLines: false
+        })
+      );
+    }
+    return () => {
+      if (vantaEffect) vantaEffect.destroy();
+    };
+  }, [vantaEffect]);
 
   return (
     <div
-      id="about-rec"
+      id="about-rec" ref={vantaRefrec}
       className="flex flex-col justify-center lg:flex-row items-center lg:items-center  gap-y-5 stretch-to-screen text-white p-10 lg:gap-x-8 "
     >
       <div id="left" className="basis-1/2 order-first lg:order-first flex justify-center items-center">
