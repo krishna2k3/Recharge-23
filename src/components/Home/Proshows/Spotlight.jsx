@@ -37,7 +37,7 @@ const Spotlight = () => {
             src={require("../../../assets/bg-2.webp")}
           />
           <img
-            src={require("../../../assets/jagan-spotlight.png")}
+            src={require("../../../assets/jagan2.jpg")}
             alt="Jonita"
             className="z-0 rounded-xl"
           />

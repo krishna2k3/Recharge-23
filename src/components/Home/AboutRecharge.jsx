@@ -1,7 +1,9 @@
 import video from "../../assets/video/about-video.mp4";
 import { useNavigate } from "react-router-dom";
+
 const AboutRecharge = () => {
   const navigate = useNavigate();
+
   return (
     <div
       id="about-recharge"

@@ -1,13 +1,8 @@
 import { useNavigate } from "react-router-dom";
-import { useEffect } from "react";
+
 
 const AboutREC = () => {
   const navigate = useNavigate();
-
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
-
   return (
     <div
       id="about-rec"

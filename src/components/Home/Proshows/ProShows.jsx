@@ -26,6 +26,10 @@ const ProShows = () => {
               JONITA GANDHI
             </h1>
             <h1 className="  text-md text-center font-bold tracking-widest content">
+              PLAYBACK SINGER
+            </h1>
+
+            <h1 className="  text-md text-center font-bold tracking-widest content">
               DAY 1
             </h1>
           </div>
