@@ -112,7 +112,7 @@ const Footer = () => {
             </a>
           </p>
           <p className="text-white flex flex-row gap-x-2 items-center my-3">
-            <svg
+            {/* <svg
               className="w-5 h-5 text-white"
               viewBox="0 0 18 18"
               version="1.1"
@@ -153,9 +153,9 @@ const Footer = () => {
                   </g>
                 </g>
               </g>
-            </svg>
-            <a href="tel:9381004087">+91 93810 04087</a>
-            <p> - Suriya Prakash</p>
+            </svg> */}
+            {/* <a href="tel:9381004087">+91 93810 04087</a>
+            <p> - Suriya Prakash</p> */}
           </p>
         </div>
         <div className="footer-item-contacts mt-3 justify-end">
@@ -211,7 +211,7 @@ const Footer = () => {
             </a>
           </p>
           <p className="text-white flex flex-row gap-x-2 items-center my-3">
-            <svg
+            {/* <svg
               className="w-5 h-5 text-white"
               viewBox="0 0 18 18"
               version="1.1"
@@ -252,9 +252,9 @@ const Footer = () => {
                   </g>
                 </g>
               </g>
-            </svg>
-            <a href="tel:9381004087">+91 93810 04087</a>
-            <p> - Suriya Prakash</p>
+            </svg> */}
+            {/* <a href="tel:9381004087">+91 93810 04087</a>
+            <p> - Suriya Prakash</p> */}
           </p>
           <p className="flex flex-row gap-x-2 items-center my-3">
             <svg
