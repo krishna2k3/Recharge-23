@@ -9,7 +9,7 @@ const Footer = () => {
             id="footer"
             className="flex flex-col lg:flex-row w-full rounded-2xl  p-7 bg-zinc-900 md:justify-start"
         >
-            <div className="flex flex-col lg:ml-20 mb-6 gap-3 text-white items-center text-center lg:items-start lg:text-left">
+            <div className="flex flex-col lg:ml-16 mb-6 gap-3 text-white items-center text-center lg:items-start lg:text-left">
                 <img 
                     src={require("../../assets/recharge-logo.png")}
                     className="flex justify-center h-24 w-auto"
@@ -35,7 +35,7 @@ const Footer = () => {
                     <hr class="border-0 h-1 w-20 mb-5 bg-[#ffd54f]"></hr>
                     <p onClick={() => navigate("/promotions")} className="cursor-pointer text-white text-lg">Promotions Team</p>
                 </div>  */}
-                <div className="mt-3 footer-item-events lg:ml-72 ">
+                <div className="mt-3 footer-item-events lg:ml-64 ">
                     <p className="text-white font-semibold  justify-center text-2xl  tracking-widest">
                         For Sponsorship
                     </p>
@@ -102,7 +102,7 @@ const Footer = () => {
                                 </g>
                             </g>
                         </svg>
-                        <a href="tel:9566170560">+91 95661 70560</a><p> - Suriya Prakash</p>
+                        <a href="tel:9381004087">+91 93810 04087</a><p> - Suriya Prakash</p>
                     </p>
                 </div> 
                 <div className="footer-item-contacts mt-3 justify-end">
@@ -172,7 +172,7 @@ const Footer = () => {
                                 </g>
                             </g>
                         </svg>
-                        <a href="tel:9566170560">+91 95661 70560</a><p> - Suriya Prakash</p>
+                        <a href="tel:9381004087">+91 93810 04087</a><p> - Suriya Prakash</p>
                     </p>
                     <p
                         className="flex flex-row gap-x-2 items-center my-3"

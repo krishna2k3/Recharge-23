@@ -1,3 +1,5 @@
+import video from '../../assets/video/about-video.mp4'
+
 const AboutRecharge = () => {
   return (
     <div
@@ -32,12 +34,16 @@ const AboutRecharge = () => {
 
       <div id="right" className="basis-1/2 flex justify-center items-center">
         {/* <div className=" z-0 md:h-40 h-12 w-96 absolute neon-img-bg animate-pulse-slow"></div> */}
-        <img
+        {/* <img
           className="shadow-2xl rounded-md my-8 z-10 neon-border"
           id="about-img"
           src="https://images.unsplash.com/photo-1500622944204-b135684e99fd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bmF0dXJhbHxlbnwwfHwwfHw%3D&w=1000&q=80"
           alt=""
-        />
+        /> */}
+        <video
+        className='shadow-2xl scale-90 rounded-xl my-8 z-10 neon-border'        
+        loop autostart={true} autoPlay={true} muted={true} src={video} type="video/mp4" />
+
       </div>
     </div>
   );
