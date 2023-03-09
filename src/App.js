@@ -7,6 +7,7 @@ import { useState } from "react";
 import EventDescription from "./views/EventDescription";
 import EventList from "./views/EventList";
 import Footer from "./components/Common/Footer";
+import BuyTickets from "./views/BuyTickets";
 
 const App = () => {
   const [isLoading, setLoading] = useState(true);
@@ -22,6 +23,7 @@ const App = () => {
         <Route path="/eventdescription" element={<EventDescription />} />
         <Route path="/aboutpage" element={<About/>} />
         <Route path="/aboutrechargepage" element={<Aboutrechargepage/>} />
+        <Route path="/buytickets" element={<BuyTickets/>} />
       </Routes>
       {isLoading === true ? <div></div> : <Footer />}
     </BrowserRouter>
