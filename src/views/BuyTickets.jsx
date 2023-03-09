@@ -33,16 +33,17 @@ const BuyTickets = ()=>{
 
     
     return (
-            <div id="buytickets" 
-            ref={vantaRefrec}
-            className="flex flex-col lg:flex-col stretch-to-screen text-white items-center ">
-                <div class="mt-16 text-7xl lg:mt-16 main text-center">
-                    <span class="webdev">Tickets</span>
+            <div id="buytickets" className="flex flex-row">
+                <div  
+                    ref={vantaRefrec}
+                    className="flex flex-col lg:flex-col stretch-to-screen text-white items-center ">
+                        <div class="mt-16 text-7xl lg:mt-16 main text-center">
+                            <span class="webdev">Tickets</span>
 
-                </div>
-                <div className='mt-16 lg:grid lg:grid-cols-2 flex flex-col'>
-                    <div 
-                        className="border-2 border-[#BBC2CC] p-4 lg:m-12 backdrop-blur-sm m-4 rounded-md box !bg-[#BBC2CC40] hover:!bg-[#BBC2CC60] hover:!scale-105 duration-500 lg:flex text-white justify-center flex-col lg:basis-1/2">
+                        </div>
+                    <div className='mt-16 lg:grid lg:grid-cols-2 flex flex-col'>
+                        <div 
+                        className="ticketcard border-2 border-[#BBC2CC] p-4 lg:m-12 backdrop-blur-sm m-4 rounded-md box !bg-[#BBC2CC40] hover:!bg-[#BBC2CC60] hover:!scale-105 duration-500 lg:flex text-white justify-center flex-col lg:basis-1/2">
                         <p className='text-4xl m-3 text-white'>Standard</p>
                         <ul className='list-disc'>
                             <li className='m-3 ml-6'>
@@ -84,7 +85,18 @@ const BuyTickets = ()=>{
                         </ul>
                     </div>
                 </div>
+            </div>
+            <button
+            type="button"
+            onClick={() => window.open("/buytickets","_self")}
+            className="px-4 py-2 text-white hover:text-white  duration-200 rounded-md font-medium hover:duration-500 px neon-btn max-w-max "
+            >
+            <div class="main text-md">
+                <span class="webdev text-left">BUY TICKETS</span>
+            </div>
+            </button>
         </div>
+            
     )
 }
 
