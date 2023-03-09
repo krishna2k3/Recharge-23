@@ -8,7 +8,7 @@ const Footer = () => {
     >
       <div className="flex flex-col lg:ml-16 mb-6 gap-3 text-white items-center text-center lg:items-start lg:text-left">
         <img
-          src={require("../../assets/recharge-logo.png")}
+          src={require("../../assets/logo1.png")}
           className="flex justify-center h-24 w-auto"
           alt=""
         />
@@ -57,7 +57,7 @@ const Footer = () => {
 
       <div
         id="footer-items"
-        className="flex flex-col gap-y-6 md:flex-row md:justify-evenly md:w-full md:m-0"
+        className="flex flex-col gap-y-6 md:flex-row md:justify-evenly md:w-full md:m-0 md:gap-10"
       >
         <div className="mt-3 footer-item-events lg:ml-64 ">
           <p className="text-white font-semibold  justify-center text-2xl  tracking-widest">

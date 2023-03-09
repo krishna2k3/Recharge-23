@@ -271,6 +271,7 @@ code {
   background-blend-mode: hard-light;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  filter: contrast(1);
 }
 
 @media only screen and (max-width: 768px) {
