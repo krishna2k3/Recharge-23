@@ -5,6 +5,7 @@ import AboutRecharge from "../components/Home/AboutRecharge";
 import ProShows from "../components/Home/Proshows/ProShows";
 import { useEffect } from "react";
 import { motion } from "framer-motion";
+import Spotlight from "../components/Home/Proshows/Spotlight"
 import AboutREC from "../components/Home/AboutREC";
 
 const Home = ({ isLoading, setLoading }) => {
@@ -31,7 +32,9 @@ const Home = ({ isLoading, setLoading }) => {
           <Landing  />
           <AboutRecharge />
           <AboutREC />
+          <Spotlight/>
           <ProShows />
+
           <Gallery />
           {/* <Sponsors /> */}
         </motion.div>
