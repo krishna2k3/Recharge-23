@@ -1,8 +1,11 @@
 import BIRDS from 'vanta/dist/vanta.waves.min'
 import * as THREE from "three";
+import { useNavigate } from 'react-router-dom';
 import { useEffect, useState,useRef } from "react";
 
 const Landing = () => {
+  const navigate = useNavigate();
+
 
   const [vantaEffect, setVantaEffect] = useState(0);
   const vantaRef = useRef(null);
@@ -50,14 +53,16 @@ const Landing = () => {
           </h2>
           <h2 className="font-semibold text-2xl capitalize">23 | 24 | 25 March</h2>
           <button
+
           type="button"
-          onClick={() => window.open("/buytickets","_self")}
-          className="px-4 py-2 text-white hover:text-white  duration-200 rounded-md font-medium hover:duration-500 px neon-btn max-w-max "
+          onClick={() => navigate("/buytickets")}
+          className="px-4 py-2 text-white hover:text-white hover:bg-[#ff003c] duration-200 rounded-md font-medium hover:duration-500 px neon-btn max-w-max"
         >
           <div class="main text-md">
-            <span class="webdev text-left">BUY TICKETS</span>
+            <span class="webdev text-left">Show More</span>
           </div>
         </button>
+
         </div>
         <div className="flex flex-row justify-center items-center gap-x-2">
           <p>Get Updates On</p>
