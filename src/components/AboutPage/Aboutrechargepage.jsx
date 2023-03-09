@@ -2,7 +2,7 @@ const Aboutrechargepage = () => {
   return (
     <div
       id="about"
-      className="flex flex-col lg:flex-col stretch-to-screen bg-black text-white items-center "
+      className="flex flex-col lg:flex-col stretch-to-screen text-white items-center "
     >
       <div class="mt-16 text-7xl lg:mt-16 main text-center">
         <span class="webdev">About Recharge</span>

@@ -41,7 +41,7 @@ body {
     sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: black;
+  
   overflow-x: hidden;
 }
 
@@ -271,9 +271,11 @@ code {
   background-blend-mode: hard-light;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  filter: contrast(1);
+  
 
 }
+
+
 #buytickets{
   background-color: black;
   background-blend-mode: hard-light;
@@ -302,5 +304,6 @@ code {
     background-attachment: fixed;
     
   }
+  
   
 }

@@ -160,7 +160,7 @@ const Footer = () => {
         </div>
         <div className="footer-item-contacts mt-3 justify-end">
           <p className="text-white font-semibold  justify-center text-2xl  tracking-widest">
-            For Contacts
+            For Queries
           </p>
           <hr class="border-0 h-1 w-16 mb-5 bg-[#ffd54f]"></hr>
           <p className="text-white flex flex-row gap-x-2 items-center my-3">
