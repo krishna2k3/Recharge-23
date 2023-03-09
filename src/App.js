@@ -21,8 +21,8 @@ const App = () => {
         <Route path="/events" element={<Events />} />
         <Route path="/events/eventslist" element={<EventList />} />
         <Route path="/eventdescription" element={<EventDescription />} />
-        <Route path="/aboutpage" element={<About/>} />
-        <Route path="/aboutrechargepage" element={<Aboutrechargepage/>} />
+        <Route path="/about-rec" element={<About/>} />
+        <Route path="/about-recharge" element={<Aboutrechargepage/>} />
         <Route path="/buytickets" element={<BuyTickets/>} />
       </Routes>
       {isLoading === true ? <div></div> : <Footer />}

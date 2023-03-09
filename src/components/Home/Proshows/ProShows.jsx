@@ -4,7 +4,7 @@ const ProShows = () => {
   return (
     <div
       id="proshows"
-      className="flex flex-col  text-white items-center px-5 stretch-to-screen"
+      className="flex flex-col  text-white items-center px-5 stretch-to-screen mt-8"
     >
       <div className="main text-6xl md:7xl mb-5 ">
         <span className="webdev text-left">PROSHOWS</span>
