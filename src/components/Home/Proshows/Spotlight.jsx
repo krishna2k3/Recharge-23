@@ -36,17 +36,17 @@ const Spotlight = () => {
             src={require("../../../assets/bg-2.webp")}
           />
           <img
-            src={require("../../../assets/jonita.png")}
+            src={require("../../../assets/raina-transformed_new.png")}
             alt="Jonita"
             className="z-0 rounded-xl"
           />
           <div className="z-10 gap-y-1 flex flex-col absolute my-4">
             <h1 className="  text-3xl text-center font-bold tracking-widest content">
-              JONITA GANDHI
+              SURESH RAINA
             </h1>
-            <h1 className="  text-md text-center font-bold tracking-widest content">
+            {/* <h1 className="  text-md text-center font-bold tracking-widest content">
               DAY 1
-            </h1>
+            </h1> */}
           </div>
         </div>
       </div>
