@@ -30,6 +30,26 @@ const ProShows = () => {
             </h1>
           </div>
         </div>
+        <div className="proshow-card relative flex flex-col justify-end items-center rounded-xl">
+          <img
+            className="-z-10 absolute proshows-bg rounded-xl"
+            alt="background-raina"
+            src={require("../../../assets/raina-bg.png")}
+          />
+          <img
+            src={require("../../../assets/raina-bg.png")}
+            alt="Raina"
+            className="z-0 rounded-xl"
+          />
+          <div className="z-10 gap-y-1 flex flex-col absolute my-4">
+            <h1 className="  text-3xl text-center font-bold tracking-widest content">
+              SURESH RAINA
+            </h1>
+            <h1 className="  text-md text-center font-bold tracking-widest content">
+              DAY 2
+            </h1>
+          </div>
+        </div>
         <div className="proshow-card relative flex flex-col justify-end items-center rounded-3xl">
           <img
             className="-z-10 absolute proshows-bg rounded-xl"
