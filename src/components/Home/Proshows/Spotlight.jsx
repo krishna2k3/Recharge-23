@@ -18,15 +18,12 @@ const Spotlight = () => {
             alt="Jonita"
             className="z-0 rounded-xl"
           />
-          <div className="z-10 gap-y-1 flex flex-col absolute my-4">
+          <div className="z-10  flex flex-col absolute my-4">
             <h1 className="  text-3xl text-center font-bold tracking-widest content">
               SURESH RAINA
             </h1>
             <h1 className="  text-md text-center font-bold tracking-widest content">
               FORMER INDIAN CRICKETER
-            </h1>
-            <h1 className="  text-md text-center font-bold tracking-widest content">
-              DAY 2
             </h1>
           </div>
         </div>
@@ -41,15 +38,12 @@ const Spotlight = () => {
             alt="Jonita"
             className="z-0 rounded-xl"
           />
-          <div className="z-10 gap-y-1 flex flex-col absolute my-4">
+          <div className="z-10  flex flex-col absolute my-4">
             <h1 className="  text-3xl text-center font-bold tracking-widest content">
               JAGAN KRISHNAN
             </h1>
             <h1 className="  text-md text-center font-bold tracking-widest content">
               STANDUP COMEDIAN
-            </h1>
-            <h1 className="  text-md text-center font-bold tracking-widest content">
-              DAY 3
             </h1>
           </div>
         </div>
@@ -70,12 +64,9 @@ const Spotlight = () => {
             alt="Jonita"
             className="z-0"
           /> */}
-          <div className="z-10 gap-y-1 flex flex-col absolute my-4">
+          <div className="z-10  flex flex-col absolute my-4">
             <h1 className="  text-3xl text-center font-bold tracking-widest content">
               ??
-            </h1>
-            <h1 className="  text-md text-center font-bold tracking-widest content">
-              DAY 3
             </h1>
           </div>
         </div>
