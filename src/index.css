@@ -268,6 +268,7 @@ code {
 
 #about{
   background-image: url("assets/gallery-imgs/w2.jpg");
+  background-blend-mode: lighten;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -282,6 +283,11 @@ code {
       0 0 1000px #000000;
 
     animation: blink 4s infinite alternate;
+  }
+  #about{
+    background-image: url("assets/gallery-imgs/w1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
   }
   
 }
