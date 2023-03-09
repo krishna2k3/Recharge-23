@@ -33,7 +33,7 @@ const BuyTickets = ()=>{
 
     
     return (
-            <div id="about" 
+            <div id="buytickets" 
             ref={vantaRefrec}
             className="flex flex-col lg:flex-col stretch-to-screen text-white items-center ">
                 <div class="mt-16 text-7xl lg:mt-16 main text-center">
@@ -42,7 +42,7 @@ const BuyTickets = ()=>{
                 </div>
                 <div className='mt-16 lg:grid lg:grid-cols-2 flex flex-col'>
                     <div 
-                        className="border-2 border-[#BBC2CC] p-4 lg:m-12 m-4 rounded-md box !bg-[#BBC2CC40] hover:!bg-[#BBC2CC60] hover:!scale-105 duration-500 lg:flex text-white justify-center flex-col lg:basis-1/2">
+                        className="border-2 border-[#BBC2CC] p-4 lg:m-12 backdrop-blur-sm m-4 rounded-md box !bg-[#BBC2CC40] hover:!bg-[#BBC2CC60] hover:!scale-105 duration-500 lg:flex text-white justify-center flex-col lg:basis-1/2">
                         <p className='text-4xl m-3 text-white'>Standard</p>
                         <ul className='list-disc'>
                             <li className='m-3 ml-6'>
