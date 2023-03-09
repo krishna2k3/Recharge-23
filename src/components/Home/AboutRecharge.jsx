@@ -38,9 +38,9 @@ const AboutRecharge = () => {
         <video
           className="shadow-2xl rounded-xl my-8 z-10 neon-border"
           loop
-          autostart={true}
-          autoPlay={true}
-          muted={true}
+          autostart
+          autoPlay
+          muted
           src={video}
           type="video/mp4"
         />
