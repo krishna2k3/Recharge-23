@@ -7,7 +7,7 @@ const Aboutrechargepage = () => {
       <div class="mt-16 text-7xl lg:mt-16 main text-center">
         <span class="webdev">About Recharge</span>
       </div>
-      <p className="mx-10 my-10 lg:my-16 lg:mx-52 text-lg text-white justify-between max-w-4xl">
+      <p className="mx-10 my-10 lg:my-16 lg:mx-52 text-lg text-white justify-between max-w-4xl text-center lg:text-left">
         Recharge is Rajalakshmi Engineering College’s inter-collegiate annual
         cultural fest. The previous edition of Recharge and other cultural fests
         at REC have featured celebrities from the showbiz like Karthi Sivakumar,

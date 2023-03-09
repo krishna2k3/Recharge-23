@@ -7,7 +7,7 @@ const About = () => {
       <div class="mt-16 text-7xl lg:mt-16 main text-center">
         <span class="webdev">About REC</span>
       </div>
-      <p className="mx-10 my-10 lg:my-16 lg:mx-52 text-lg text-white flex justify-center max-w-4xl">
+      <p className="mx-10 my-10 lg:my-16 lg:mx-52 text-lg text-white flex justify-center max-w-4xl text-center lg:text-left">
         Established in 1997, Rajalakshmi Engineering College (REC) is an
         autonomous institution affiliated with Anna University, Chennai, that
         produces top-notch professionals.REC has a student-centric approach,
