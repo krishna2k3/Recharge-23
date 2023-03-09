@@ -268,7 +268,7 @@ code {
 
 #about{
   background-image: url("assets/gallery-imgs/w2.jpg");
-  background-blend-mode: lighten;
+  background-blend-mode: hard-light;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }

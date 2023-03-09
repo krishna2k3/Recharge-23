@@ -1,6 +1,7 @@
-import video from '../../assets/video/about-video.mp4'
-
+import video from "../../assets/video/about-video.mp4";
+import { useNavigate } from "react-router-dom";
 const AboutRecharge = () => {
+  const navigate = useNavigate();
   return (
     <div
       id="about-recharge"
@@ -23,7 +24,7 @@ const AboutRecharge = () => {
         </p>
         <button
           type="button"
-          onClick={() => window.open("/aboutrechargepage", "_self")}
+          onClick={() => navigate("/about-recharge")}
           className="px-4 py-2 text-white hover:text-white hover:bg-[#ff003c] duration-200 rounded-md font-medium hover:duration-500 px neon-btn max-w-max"
         >
           <div class="main text-md">
@@ -33,17 +34,16 @@ const AboutRecharge = () => {
       </div>
 
       <div id="right" className="basis-1/2 flex justify-center items-center">
-        {/* <div className=" z-0 md:h-40 h-12 w-96 absolute neon-img-bg animate-pulse-slow"></div> */}
-        {/* <img
-          className="shadow-2xl rounded-md my-8 z-10 neon-border"
-          id="about-img"
-          src="https://images.unsplash.com/photo-1500622944204-b135684e99fd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bmF0dXJhbHxlbnwwfHwwfHw%3D&w=1000&q=80"
-          alt=""
-        /> */}
+      <div className="z-0 md:h-40 md:w-96 h-10 w-72 absolute neon-img-bg animate-pulse-slow"></div>
         <video
-        className='shadow-2xl scale-90 rounded-xl my-8 z-10 neon-border'        
-        loop autostart={true} autoPlay={true} muted={true} src={video} type="video/mp4" />
-
+          className="shadow-2xl rounded-xl my-8 z-10 neon-border"
+          loop
+          autostart
+          autoPlay
+          muted
+          src={video}
+          type="video/mp4"
+        />
       </div>
     </div>
   );

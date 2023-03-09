@@ -5,11 +5,11 @@ const Gallery = () => {
       id="gallery"
       className="flex flex-col text-white items-center px-5 py-10 "
       >
-      <div class="main text-7xl mb-5">
+      <div class="main text-6xl md:text-7xl mb-10">
         <span class="webdev text-left">GALLERY</span>
       </div>
 
-      <div class="flex flex-col lg:flex-row pb-6 my-6">
+      <div class="flex flex-col lg:flex-row lg:px-20">
         <div class="flex flex-col mb-0 basis-1/3">
         <img
             src={require("../../assets/gallery-imgs/andrea1.png")}
