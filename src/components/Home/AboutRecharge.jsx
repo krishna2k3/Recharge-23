@@ -34,8 +34,9 @@ const AboutRecharge = () => {
       </div>
 
       <div id="right" className="basis-1/2 flex justify-center items-center">
+      <div className="z-0 md:h-40 md:w-96 h-10 w-72 absolute neon-img-bg animate-pulse-slow"></div>
         <video
-          className="shadow-2xl scale-90 rounded-xl my-8 z-10 neon-border"
+          className="shadow-2xl rounded-xl my-8 z-10 neon-border"
           loop
           autostart={true}
           autoPlay={true}

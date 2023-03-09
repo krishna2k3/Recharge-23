@@ -17,8 +17,10 @@ const AboutREC = () => {
         id="left"
         className="basis-1/2 order-first lg:order-first flex justify-center items-center"
       >
+        <div className="z-0 md:h-40 md:w-96 h-10 w-72 absolute neon-img-bg animate-pulse-slow"></div>
+
         <img
-          className="shadow-2xl scale-90 rounded-xl my-8 z-10 neon-border "
+          className="shadow-2xl  rounded-xl my-8 z-10 neon-border "
           id="about-img"
           src={require("../../assets/gallery-imgs/rec7.jpg")}
           alt=""
