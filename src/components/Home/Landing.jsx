@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import { useEffect, useState,useRef } from "react";
 
 const Landing = () => {
+  
   const navigate = useNavigate();
 
 
@@ -59,7 +60,7 @@ const Landing = () => {
           className="px-4 py-2 text-white hover:text-white hover:bg-[#ff003c] duration-200 rounded-md font-medium hover:duration-500 px neon-btn max-w-max"
         >
           <div class="main text-md">
-            <span class="webdev text-left">BOOK TICKETS</span>
+            <span class="webdev text-left">BUY TICKETS</span>
           </div>
         </button>
 
