@@ -6,16 +6,15 @@ const AboutREC = () => {
   return (
     <div
       id="about-rec"
-      className="flex flex-col justify-center lg:flex-row items-center lg:items-center  gap-y-5 stretch-to-screen text-white p-10 lg:gap-x-8 "
+      className="flex flex-col justify-center lg:flex-row items-center lg:items-center  gap-y-5 stretch-to-screen text-white p-10 lg:gap-x-20 "
     >
       <div
         id="left"
-        className="basis-1/2 order-first lg:order-first flex justify-center items-center"
+        className="basis-1/2 flex justify-center items-center video-border max-h-fit my-8"
       >
-        <div className="z-0 md:h-60 md:w-96 h-10 w-72 absolute neon-img-bg animate-pulse-slow"></div>
 
         <img
-          className="shadow-2xl  rounded-xl my-8 z-10 neon-border "
+          className="shadow-2xl  rounded-xl  z-10 neon-border "
           id="about-img"
           src={require("../../assets/gallery-imgs/rec7.jpg")}
           alt=""

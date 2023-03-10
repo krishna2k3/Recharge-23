@@ -7,7 +7,7 @@ const AboutRecharge = () => {
   return (
     <div
       id="about-recharge"
-      className="flex flex-col justify-center lg:flex-row items-center lg:items-center  gap-y-5 stretch-to-screen text-white p-10 lg:gap-x-8 "
+      className="flex flex-col justify-center lg:flex-row items-center lg:items-center  gap-y-5 stretch-to-screen text-white p-10 lg:gap-x-20 "
     >
       <div
         id="left"
@@ -35,10 +35,9 @@ const AboutRecharge = () => {
         </button>
       </div>
 
-      <div id="right" className="basis-1/2 flex justify-center items-center">
-      <div className="z-0 md:h-40 md:w-96 h-10 w-72 absolute neon-img-bg animate-pulse-slow"></div>
+      <div id="right" className="basis-1/2 flex justify-center items-center video-border max-h-fit my-8">
         <video
-          className="shadow-2xl rounded-xl my-8 z-10 neon-border"
+          className="shadow-2xl rounded-xl z-10 neon-border "
           loop
           autostart
           autoPlay
