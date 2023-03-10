@@ -20,14 +20,12 @@
 }
 html::-webkit-scrollbar {
   display: none;
-  
 }
 html {
   scroll-behavior: smooth;
   -ms-overflow-style: none; /* IE and Edge */
   overflow-x: hidden;
   background-color: #000000;
-  
 }
 
 body {
@@ -41,7 +39,7 @@ body {
     sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  
+
   overflow-x: hidden;
 }
 
@@ -191,7 +189,6 @@ code {
     0 0 500px #000000, 0 0 500px #0f0709, 0 0 50px #030202, 0 0 1000px #000000;
 }
 
-
 .main {
   font-family: "neontubes";
 }
@@ -266,23 +263,20 @@ code {
   }
 }
 
-#about{
+#about {
   background-image: url("assets/gallery-imgs/w3.png");
   background-blend-mode: hard-light;
   background-repeat: no-repeat;
   background-attachment: fixed;
-
 }
 
-
-#buytickets{
+#buytickets {
   background-color: black;
   background-blend-mode: hard-light;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  
 }
-.ticketcard{
+.ticketcard {
   backdrop-filter: blur(10px);
 }
 
@@ -297,12 +291,19 @@ code {
 
     animation: blink 4s infinite alternate;
   }
-  #about{
+  #about {
     background-image: url("assets/gallery-imgs/w1.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    
   }
-  
-  
+}
+
+.video-border {
+  border: solid 2.5px #ffd9e2;
+  border-radius: 1em;
+  z-index: 10;
+  box-shadow: 0 0 0 transparent, 0 0 10px #ff003c,
+    0 0 20px rgba(255, 0, 60, 0.5), 0 0 40px #ff003c, inset 0 0 100px #ff003c,
+    inset 0 0 200px #000000, 0 0 300px #0f0709, 0 0 500px #030202,
+    0 0 1000px #000000;
 }
