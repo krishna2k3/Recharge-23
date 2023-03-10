@@ -328,7 +328,7 @@ code {
   .video-border {
     border-radius: 1em;
     z-index: 10;
-    box-shadow: 0 0 0 transparent, 0 0 200px #0099ff;
+    box-shadow: 0 0 0 transparent, 0 0 100px #0099ff;
   }
   #about {
     background-image: url("assets/gallery-imgs/w1.jpg");
@@ -339,8 +339,7 @@ code {
 
 .video-border {
   border-radius: 1em;
-  z-index: 10;
-  box-shadow: 0 0 0 transparent, 0 0 400px #0099ff;
+  box-shadow: 0 0 0 transparent, 0 0 100px #0099ff6e;
 }
 
 @keyframes scroll {

@@ -1,9 +1,9 @@
 
 const Sponsors = () =>{
   return(
-  <div className=' flex flex-col items-center justify-center'>
+  <div className=' flex flex-col items-center justify-center text-center'>
    <div class="main text-6xl md:text-5xl mb-10">
-        <span class="webdev text-left">OUR SPONSORS</span>
+        <span class="socod text-left">SPONSORS</span>
       </div> 
       <div class="slider flex items-center justify-center ">  
   <div class="slide-track">

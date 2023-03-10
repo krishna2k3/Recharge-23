@@ -27,10 +27,10 @@ const AboutRecharge = () => {
         <button
           type="button"
           onClick={() => navigate("/about-recharge")}
-          className="px-4 py-2 text-white hover:text-white hover:bg-[#0099ff] duration-200 rounded-md font-medium hover:duration-500 px neon-btn-socod   max-w-max"
+          className="px-4 py-2 text-white hover:text-white hover:bg-[#0099ff8a] duration-200 rounded-md font-medium hover:duration-500 px neon-btn-socod max-w-max"
         >
           <div class="main text-md">
-            <span class="socod text-left">Show more</span>
+            <span class="socod text-left">Show More</span>
           </div>
         </button>
       </div>

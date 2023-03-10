@@ -6,7 +6,7 @@ const Gallery = () => {
       className="flex flex-col text-white items-center px-5 py-10 "
       >
       <div class="main text-6xl md:text-7xl mb-10">
-        <span class="webdev text-left">GALLERY</span>
+        <span class="socod text-left">GALLERY</span>
       </div>
 
       <div class="flex flex-col lg:flex-row lg:px-20">
