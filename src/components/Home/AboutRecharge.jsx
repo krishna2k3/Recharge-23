@@ -35,7 +35,7 @@ const AboutRecharge = () => {
         </button>
       </div>
 
-      <div id="right" className="basis-1/2 flex justify-center items-center video-border max-h-fit my-8">
+      <div id="right" className="basis-1/2 flex justify-center items-center video-border max-h-fit max-w-fit my-8">
         <video
           className="shadow-2xl rounded-xl z-10 neon-border "
           loop
