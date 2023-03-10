@@ -67,11 +67,11 @@ const BuyTickets = () => {
                 <span class="webdev">NOTE</span>
             </div>
             <p className="ml-5 lg:ml-0 mr-3 mb-5 leading-8">
-            1. Instituiton ID cards are mandatory for the participants.<br></br>
-            2. Government ID proofs is mandatory for all the participants including the aluminis<br></br>
-            3. It is mandatory to carry registration QR code .<br></br>
-            4. Wrist band must be worn throughout the event .<br></br>
-            5. Use of illegal substances is strictly prohibited. If found, strict action will be taken.<br></br>
+            1. Institution ID cards are mandatory for all the student participants.<br></br>
+            2. Government ID proofs is mandatory for all the participants including the alumni.<br></br>
+            3. It is mandatory to carry registration QR code.<br></br>
+            4. Wristband must be worn throughout the event.<br></br>
+            5. Use or carrying of illegal substances is strictly prohibited. If found, strict action will be taken.<br></br>
             6. The Management is not responsible for any loss of personal belongings.<br></br>
             7. Participants must possess valid passes for events of the designated day.<br></br>
 

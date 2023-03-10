@@ -30,7 +30,7 @@ const AboutREC = () => {
         <p className=" text-lg  shadow-inner leading-loose">
           Rajalakshmi Engineering College, an autonomous institution affiliated
           with Anna University, Chennai, was established in 1997 and has been
-          churning out high-quality professionals ever since. REC has aided
+          producing out high-quality professionals ever since. REC has aided
           thousands of students in landing their dream careers and becoming
           professionals in their fields.
         </p>

@@ -19,9 +19,9 @@ const AboutRecharge = () => {
 
         <p className=" text-lg  shadow-inner leading-loose">
           Rajalakshmi Institutions is proud to present its most prominent and
-          signature cultural fest RECHARGE'23 which promotes liberty, energy,
-          and enthusiasm among both participants and viewers while also
-          providing students with the opportunity to explore and rediscover
+          signature Cultural fest - RECHARGE'23, which promotes liberty, energy,
+          and enthusiasm among both participants and spectators while also
+          providing students an opportunity to explore and rediscover
           themselves.
         </p>
         <button
