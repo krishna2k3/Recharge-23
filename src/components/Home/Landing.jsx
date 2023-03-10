@@ -1,10 +1,10 @@
 import BIRDS from 'vanta/dist/vanta.waves.min'
 import * as THREE from "three";
 import { useNavigate } from 'react-router-dom';
-import { useEffect, useState,useRef } from "react";
+import { useEffect, useState, useRef } from "react";
 
 const Landing = () => {
-  
+
   const navigate = useNavigate();
 
 
@@ -17,7 +17,7 @@ const Landing = () => {
         BIRDS({
           el: vantaRef.current,
           THREE: THREE,
-          color:'black',
+          color: 'black',
           mouseControls: true,
           touchControls: true,
           gyroControls: false,
@@ -34,7 +34,7 @@ const Landing = () => {
   }, [vantaEffect]);
 
   return (
-    <div id="landing" ref={vantaRef}  className="h-[100svh]">
+    <div id="landing" ref={vantaRef} className="h-[100svh]">
       <div className="flex flex-col items-center justify-between stretch-to-screen py-7 text-white mx-3">
         <div className="flex flex-col justify-center">
           <img
@@ -55,25 +55,25 @@ const Landing = () => {
           <h2 className="font-semibold text-2xl capitalize">23 | 24 | 25 March</h2>
           <button
 
-          type="button"
-          onClick={() => navigate("/buytickets")}
-          className="px-4 py-2 text-white hover:text-white hover:bg-[#ff003c] duration-200 rounded-md font-medium hover:duration-500 px neon-btn max-w-max"
-        >
-          <div class="main text-md">
-            <span class="webdev text-left">BUY TICKETS</span>
-          </div>
-        </button>
+            type="button"
+            onClick={() => navigate("/buytickets")}
+            className="px-4 py-2 text-white hover:text-white hover:bg-[#ff003c] duration-200 rounded-md font-medium hover:duration-500 px neon-btn max-w-max"
+          >
+            <div class="main text-md">
+              <span class="webdev text-left">BUY TICKETS</span>
+            </div>
+          </button>
 
         </div>
         <div className="flex flex-row justify-center items-center">
-            <p className="text-gray-400 font-semibold text-xl wide-text">
-              SCROLL TO EXPLORE
-            </p>
-            <div className="arrows-container ml-3 items-end ">
-              <div className="arrow arrow-one w-5 h-5 "></div>
-            </div>
+          <p className="text-gray-400 font-semibold text-lg wide-text">
+            SCROLL TO EXPLORE
+          </p>
+          <div className="arrows-container ml-5 items-end mb-3">
+            <div className="arrow arrow-one w-4 h-4 "></div>
           </div>
-        <div className="flex flex-row justify-center items-center gap-x-2">
+        </div>
+        {/* <div className="flex flex-row justify-center items-center gap-x-2">
           <p>Get Updates On</p>
           <div
             onClick={() => {
@@ -93,7 +93,7 @@ const Landing = () => {
               />
             </svg>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
