@@ -324,6 +324,11 @@ code {
 
     animation: blink 4s infinite alternate;
   }
+  .video-border {
+    border-radius: 1em;
+    z-index: 10;
+    box-shadow: 0 0 0 transparent, 0 0 200px #0099ff;
+  }
   #about {
     background-image: url("assets/gallery-imgs/w1.jpg");
     background-repeat: no-repeat;
