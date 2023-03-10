@@ -10,12 +10,12 @@ const Spotlight = () => {
       <div className="proshow-card relative flex flex-col justify-end items-center rounded-xl">
           <img
             className="-z-10 absolute proshows-bg rounded-xl"
-            alt="background-jonita"
+            alt="background-raina"
             src={require("../../../assets/bg-2.webp")}
           />
           <img
             src={require("../../../assets/raina-transformed.png")}
-            alt="Jonita"
+            alt="Raina"
             className="z-0 rounded-xl"
           />
           <div className="z-10  flex flex-col absolute my-4">
