@@ -29,7 +29,15 @@
 
 }
 
-@media only screen and (max-width: 1000px) {
+/* @media only screen and (max-width: 1000px) {
+  .proshow-cards {
+    flex-direction: column;
+  }
+  .proshow-card:hover {
+    flex-basis: 5%;
+  }
+} */
+@media only screen and (max-device-width: 600px){
   .proshow-cards {
     flex-direction: column;
   }
@@ -37,4 +45,11 @@
     flex-basis: 5%;
   }
 }
-
+@media only screen and (min-device-width: 600px){
+  .proshow-cards {
+    flex-direction: row;
+  }
+  .proshow-card:hover {
+    flex-basis: 5%;
+  }
+}
