@@ -10,7 +10,7 @@ const AboutREC = () => {
     >
       <div
         id="left"
-        className="basis-1/2 flex justify-center items-center video-border max-h-fit my-8"
+        className="basis-1/2 flex justify-center items-center video-border max-w-fit max-h-fit my-8"
       >
 
         <img

@@ -13,7 +13,7 @@ const Aboutrechargepage = () => {
     >
       
       <div class="mt-16 text-7xl lg:mt-16 main text-center">
-        <span class="webdev">About Recharge</span>
+        <span class="socod">About Recharge</span>
       </div> 
       <p className="mx-10 my-10 lg:my-16 lg:mx-52 text-lg text-white justify-between max-w-4xl text-center lg:text-left">
       Rajalakshmi Institutions is proud to present its most prominent and
