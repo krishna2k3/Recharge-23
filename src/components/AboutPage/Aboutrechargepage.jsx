@@ -14,11 +14,11 @@ const Aboutrechargepage = () => {
         <span class="webdev">About Recharge</span>
       </div>
       <p className="mx-10 my-10 lg:my-16 lg:mx-52 text-lg text-white justify-between max-w-4xl text-center lg:text-left">
-      Recharge is Rajalakshmi Engineering College’s inter-collegiate annual cultural fest. The previous edition of Recharge and other cultural fests at REC featured celebrities from showbiz like Karthi Sivakumar, Santhosh Narayanan, Andrea Jeremiah, and DJ Gowtham. REC has also had the privilege of hosting eminent sports personalities like Kris Srikkanth, T. Natarajan, and Dwayne Bravo at our sport-driven events.
+      Recharge is Rajalakshmi Engineering College’s inter-collegiate annual cultural fest. The previous editions of Recharge and other cultural fests at REC featured celebrities from showbiz like Karthi Sivakumar, Santhosh Narayanan, Andrea Jeremiah, and DJ Gowtham. REC has also had the privilege of hosting eminent sports personalities like Kris Srikkanth, T. Natarajan, and Dwayne Bravo at our sport-driven events.
         <br></br>
-        <br></br>With over 75+ events ranging from music and dance to sports and other exciting ones, Recharge 2023 provides students from across the country a platform to express themselves and showcase their talents. The Proshows of Recharge 2023 will feature an exciting lineup that includes performances from music superstars and international DJs, as well as appearances from sports legends.
+        <br></br>With over 75+ events ranging from music and dance to sports and other exciting ones, Recharge ‘23 provides students from across the country a platform to express themselves and showcase their talents. The pro-shows of Recharge ‘23 will feature an exciting lineup that includes performances from music superstars and international DJs, as well as appearances from sports legends.
         <br></br>
-        <br></br>So, what are you waiting for? Buy your passes now to feel reignited, rejuvenated, and revivified at Recharge 2023. We’ll see you there!
+        <br></br>So, what are you waiting for? Buy your passes now! Come feel reignited, rejuvenated, and revivified at Recharge ‘23. We’ll see you there!
       </p>
     </div>
   );
