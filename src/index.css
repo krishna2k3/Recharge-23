@@ -304,6 +304,5 @@ code {
   z-index: 10;
   box-shadow: 0 0 0 transparent, 0 0 10px #ff003c,
     0 0 20px rgba(255, 0, 60, 0.5), 0 0 40px #ff003c, inset 0 0 100px #ff003c,
-    inset 0 0 200px #000000, 0 0 300px #0f0709, 0 0 500px #030202,
-    0 0 1000px #000000;
+    inset 0 0 200px #000000, 0 0 1000px #000000;
 }
