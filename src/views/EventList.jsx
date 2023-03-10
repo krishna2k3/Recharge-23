@@ -113,9 +113,9 @@ const EventList = () =>{
     var indents = [];
     for(let i=0; i<newitem[0].list.length; i++) {
         indents.push(
-            <div className="w-9/12 cursor-pointer grid grid-cols-12 relative max-w-7xl mx-auto my-5 px-5 py-10 backdrop-blur-sm rounded-3xl shadow-inner md:scale-75 shadow-[#ff003c] transition ease-in-out delay-200 hover:scale-90 hover:-translate-y-1 hover:duration-300 " onClick={eventdescPage}>
+            <div className="w-9/12 cursor-pointer grid grid-cols-12 relative max-w-7xl mx-auto my-2 px-5 py-10 backdrop-blur-sm rounded-3xl shadow-inner md:scale-75 shadow-[#ff003c] transition ease-in-out delay-200 hover:scale-90 hover:-translate-y-1 hover:duration-300 " onClick={eventdescPage}>
                 <div className="flex flex-auto">
-                    <h1 className='text-white md:text-4xl tracking-widest font-black text-xl'>{newitem[0].list[i].eventName.toUpperCase()}</h1>
+                    <h1 className='text-white md:text-2xl tracking-widest font-black text-lg'>{newitem[0].list[i].eventName.toUpperCase()}</h1>
                 </div>
                 <div className=" grid-cols-2 col-start-1 col-span-3 gap-2 md:col-span-0 md:gap-0 flex flex-auto">
                     {(newitem[0].list[i].paid === "yes") ? <MdOutlinePaid size={25} className="block" /> : <MdMoneyOff size={25} className="hidden" />} 
@@ -124,7 +124,7 @@ const EventList = () =>{
                     {(newitem[0].list[i].type === "single") ? <BsFillPersonFill size={25} className="block" /> : <AiOutlineTeam size={25} className="hidden" />}
                 </div>
                 <div className="float-right items-center absolute inset-y-10 md:inset-y-9 md:right-10 col-start-10 col-span-12">
-                    <h1 className='text-white md:text-4xl font-black text-center text-xl'>{newitem[0].list[i].mon.toUpperCase()}<br />{newitem[0].list[i].date}</h1>
+                    <h1 className='text-white md:text-2xl font-black text-center text-lg'>{newitem[0].list[i].mon.toUpperCase()}<br />{newitem[0].list[i].date}</h1>
                 </div>
             </div>
         )
@@ -134,7 +134,7 @@ const EventList = () =>{
         <div>
             <div className="flex flex-col text-white py-5 ">
                 <div className="flex flex-col text-center">
-                    <div className='main lg:my-10 my-5 lg:flex lg:justify-center'>
+                    <div className='main lg:my-10 my-3 lg:flex lg:justify-center'>
                         <span className="webdev md:text-5xl text-4xl font-black">{title}</span>
                     </div>
 
