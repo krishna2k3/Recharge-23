@@ -14,7 +14,7 @@ const AboutRecharge = () => {
         className="basis-1/2 order-last lg:order-first flex flex-col gap-y-5"
       >
         <div class="main text-5xl">
-          <span class="webdev text-left">About RECHARGE</span>
+          <span class="socod text-left">About RECHARGE</span>
         </div>
 
         <p className=" text-lg  shadow-inner leading-loose">
@@ -27,10 +27,10 @@ const AboutRecharge = () => {
         <button
           type="button"
           onClick={() => navigate("/about-recharge")}
-          className="px-4 py-2 text-white hover:text-white hover:bg-[#ff003c] duration-200 rounded-md font-medium hover:duration-500 px neon-btn max-w-max"
+          className="px-4 py-2 text-white hover:text-white hover:bg-[#0099ff] duration-200 rounded-md font-medium hover:duration-500 px neon-btn-socod   max-w-max"
         >
           <div class="main text-md">
-            <span class="webdev text-left">Show more</span>
+            <span class="socod text-left">Show more</span>
           </div>
         </button>
       </div>

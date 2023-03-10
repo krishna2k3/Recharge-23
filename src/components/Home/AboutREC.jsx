@@ -23,7 +23,7 @@ const AboutREC = () => {
 
       <div id="right" className="basis-1/2 flex flex-col gap-y-5">
         <div class="main text-5xl">
-          <span class="webdev text-left">About REC</span>
+          <span class="socod text-left">About REC</span>
         </div>
 
         <p className=" text-lg  shadow-inner leading-loose">
@@ -36,10 +36,10 @@ const AboutREC = () => {
         <button
           type="button"
           onClick={() => navigate("/about-rec")}
-          className="px-4 py-2 text-white hover:text-white hover:bg-[#ff003c] duration-200 rounded-md font-medium hover:duration-500 px neon-btn max-w-max"
+          className="px-4 py-2 text-white hover:text-white hover:bg-[#0099ff] duration-200 rounded-md font-medium hover:duration-500 px neon-btn-socod max-w-max"
         >
           <div class="main text-md">
-            <span class="webdev text-left">Show More</span>
+            <span class="socod text-left">Show More</span>
           </div>
         </button>
       </div>

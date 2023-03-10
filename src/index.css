@@ -180,6 +180,12 @@ code {
     0 0 20px rgba(255, 0, 60, 0.1), inset 0 0 20px #ff003c, 0 0 100px #ff003c,
     0 0 50px #000000, 0 0 300px #0f0709, 0 0 50px #030202, 0 0 100px #000000;
 }
+.neon-btn-socod {
+  border: 2px solid #fff;
+  box-shadow: 0 0 0 transparent, 0 0 10px #0099ff,
+    0 0 20px rgba(255, 0, 60, 0.1), inset 0 0 20px #0099ff, 0 0 100px #0099ff,
+    0 0 50px #000000, 0 0 300px #0f0709, 0 0 50px #030202, 0 0 100px #000000;
+}
 
 .neon-img-bg {
   background-color: #fb2576;
@@ -207,8 +213,8 @@ code {
 }
 .main .socod {
   color: #d4eaff;
-  text-shadow: 0 0 0 transparent, 0 0 10px #2695ff,
-    0 0 20px rgba(38, 149, 255, 0.5), 0 0 40px #2695ff, 0 0 100px #2695ff;
+  text-shadow: 0 0 0 transparent, 0 0 10px #0099ff,
+    0 0 20px rgba(38, 149, 255, 0.5), 0 0 40px #0099ff, 0 0 100px #0099ff;
   -webkit-animation: buzz 1s infinite alternate;
   animation: buzz 1s infinite alternate;
 }
@@ -326,10 +332,7 @@ code {
 }
 
 .video-border {
-  border: solid 2.5px #ffd9e2;
   border-radius: 1em;
   z-index: 10;
-  box-shadow: 0 0 0 transparent, 0 0 10px #ff003c,
-    0 0 20px rgba(255, 0, 60, 0.5), 0 0 40px #ff003c, inset 0 0 100px #ff003c,
-    inset 0 0 200px #000000, 0 0 1000px #000000;
+  box-shadow: 0 0 0 transparent, 0 0 400px #0099ff;
 }
