@@ -74,6 +74,7 @@ const BuyTickets = () => {
             5. Use or carrying of illegal substances is strictly prohibited. If found, strict action will be taken.<br></br>
             6. The Management is not responsible for any loss of personal belongings.<br></br>
             7. Participants must possess valid passes for events of the designated day.<br></br>
+            8. Entry in to Pro-show without wrist band is prohibited<br></br>
 
             </p>
         </div>  
