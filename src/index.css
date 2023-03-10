@@ -221,7 +221,7 @@ code {
   box-shadow: 3px -3px white inset;
   transform: rotate(315deg);
   opacity: 0;
-  position: relative;   
+  position: relative;
 }
 
 .arrow-one {
@@ -234,14 +234,12 @@ code {
 
 @keyframes arrowMovement {
   0% {
-    left: 0;
     opacity: 0;
   }
   70% {
     opacity: 1;
   }
   100% {
-    left: 20px;
     opacity: 0;
   }
 }
