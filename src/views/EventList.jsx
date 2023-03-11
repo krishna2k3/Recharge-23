@@ -41,11 +41,11 @@ const EventList = () => {
     var indents = [];
     for(let i=0; i<eventList.length; i++) {
         indents.push(
-            <div class="container">
+            <div className="container">
                 <div class="parent">
                     <div className="card">
                         <div class="content-box">
-                            <h1 class="card-title">{eventList[i].name.toUpperCase()}</h1>
+                            <h1 className="card-title">{eventList[i].name.toUpperCase()}</h1>
                                 <div className=" grid-cols-2 col-start-1 col-span-3 gap-2 md:col-span-0 md:gap-0 items-center justify-center flex flex-auto">
                                     {(eventList[i].pay > 0) ? <BiRupee size={25} className="block" /> : <MdMoneyOff size={25} className="hidden" />} 
                                     {(eventList[i].team_event === "true") ? <AiOutlineTeam size={25} className="block" /> : <BsFillPersonFill size={25} className="hidden"/>}
