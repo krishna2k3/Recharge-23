@@ -56,8 +56,8 @@ const EventList = () => {
                             <p class="card-content">
                                 {eventList[i].short_description}
                             </p>
-                            {/* <Link to='/eventdescription' className="see-more cursor-pointer" 
-                            state={{id:eventList[i].id}}>See More</Link> */}
+                            <Link to='/eventdescription' className="see-more cursor-pointer" 
+                            state={{event:eventList[i]}}>See More</Link>
                         </div>
                         <div class="date-box">
                             <span class="month">DAY</span>
