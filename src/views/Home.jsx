@@ -6,7 +6,6 @@ import ProShows from "../components/Home/Proshows/ProShows";
 import { useEffect } from "react";
 import { motion } from "framer-motion";
 import Spotlight from "../components/Home/Proshows/Spotlight"
-import Sponsors from "../components/Home/Sponsors";
 import AboutREC from "../components/Home/AboutREC";
 
 const Home = ({ isLoading, setLoading }) => {
