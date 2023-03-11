@@ -63,7 +63,7 @@ const Footer = () => {
           <p className="text-white font-semibold  justify-center text-2xl  tracking-widest">
             For Sponsorship
           </p>
-          <hr class="border-0 h-1 w-14 mb-5 bg-[#ffd54f]"></hr>
+          <hr class="border-0 h-1 w-14 mb-5 bg-[#0099FF]"></hr>
           <p className="text-white flex flex-row gap-x-2 items-center my-3">
             <svg
               className="w-5 h-5"
@@ -162,7 +162,7 @@ const Footer = () => {
           <p className="text-white font-semibold  justify-center text-2xl  tracking-widest">
             For Queries
           </p>
-          <hr class="border-0 h-1 w-16 mb-5 bg-[#ffd54f]"></hr>
+          <hr class="border-0 h-1 w-16 mb-5 bg-[#0099FF]"></hr>
           <p className="text-white flex flex-row gap-x-2 items-center my-3">
             <svg
               className="w-5 h-5"

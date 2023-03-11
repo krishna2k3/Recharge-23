@@ -335,6 +335,13 @@ code {
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
+  .neon-btn-socod {
+    border: 2px solid #fff;
+    box-shadow: 0 0 0 transparent, 0 0 10px #0099ff,
+      0 0 20px rgba(255, 0, 60, 0.1), inset 0 0 20px #0099ff, 0 0 50px #0099ff,
+      0 0 50px #000000, 0 0 300px #0f0709, 0 0 50px #030202, 0 0 100px #000000;
+  }
+  
 }
 
 .video-border {

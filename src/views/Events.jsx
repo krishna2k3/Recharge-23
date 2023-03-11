@@ -120,7 +120,7 @@ const Events = () => {
     <div id="events">
       <div id="content" className="flex flex-col items-center py-10 gap-y-4">
         <div class="main text-6xl">
-          <span class="webdev">EVENTS</span>
+          <span class="socod">EVENTS</span>
         </div>
 
         <motion.div
