@@ -44,7 +44,7 @@ const EventList = () => {
         indents.push(
             <div className="container">
                 <div class="parent ">
-                    <div className="card ">
+                    <div className="card" style={{height:"470px"}}>
                         <div class="content-box ">
                             <h1 className="card-title">{eventList[i].name.toUpperCase()}</h1>
                             <div className=" grid-cols-2 col-start-1 col-span-3 gap-2 md:col-span-0 md:gap-0 items-center justify-center flex flex-auto">
