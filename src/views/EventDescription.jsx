@@ -1,13 +1,35 @@
+
+import { useEffect, useState } from "react";
+import { useLocation } from "react-router-dom";
 const EventDescription = () => {
+  const location = useLocation()
+  const [eventList, setEventList] = useState([]);
+    const [isFetched, setFetched] = useState(false)
+
+
+  async function fetch_events() {
+    fetch(`https://rechargefest.org/api/eventinfo?id=${location.state.id}`)
+        .then((response) => response.json())
+        .then((data) => {
+            setFetched(true)
+            setEventList(data);
+        })
+        .catch((err) => {
+            console.log(err.message);
+        });
+
+}
+useEffect(()=>{
+  fetch_events()
+})
+
+console.log(eventList)
+
   return (
     <div>
       <div className="flex flex-col  text-white py-5 ">
         <div className="flex flex-col lg:flex-row mx-16 my-10 lg:gap-x-8 text-center md:text-left">
-          <img
-            className="rounded-xl"
-            src="https://i0.wp.com/digital-photography-school.com/wp-content/uploads/2013/07/ar-11.jpg?ssl=1"
-            alt="img"
-          />
+  
 
           <div id="mini-head " className="flex flex-col gap-y-5 items-center md:items-start my-6">
             <div className="main text-4xl  lg:text-5xl  lg:flex lg:justify-center">

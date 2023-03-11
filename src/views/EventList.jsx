@@ -5,7 +5,7 @@ import { BsFillPersonFill } from "react-icons/bs";
 import { useLocation } from "react-router-dom";
 import { useNavigate } from "react-router";
 import { useEffect, useState } from "react";
-
+import { Link } from "react-router-dom";
 const EventList = () => {
 
 
@@ -31,7 +31,7 @@ const EventList = () => {
 
     const navigate = useNavigate();
 
-    const eventdescPage = (id) => {
+    function eventdescPage(id){
         navigate("/eventdescription", { state: { id: id } })
     }
     useEffect(() => {
@@ -56,8 +56,8 @@ const EventList = () => {
                             <p class="card-content">
                                 {eventList[i].short_description}
                             </p>
-                            {/* <span className="see-more cursor-pointer" onClick={eventdescPage}>See More</span> */}
-                            
+                            {/* <Link to='/eventdescription' className="see-more cursor-pointer" 
+                            state={{id:eventList[i].id}}>See More</Link> */}
                         </div>
                         <div class="date-box">
                             <span class="month">DAY</span>
