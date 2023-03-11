@@ -7,7 +7,7 @@ const BuyTickets = () => {
   return (
     <div id="buytickets" className="flex flex-col py-10 items-center stretch-to-screen ">
         <div class="text-7xl main text-center">
-          <span class="webdev">Tickets</span>
+          <span class="socod">Tickets</span>
         </div>
         <div className="flex flex-wrap mx-4">
           <div className="ticketcard border-2 max-w-md max-h-md border-[#BBC2CC] p-4 lg:m-12 backdrop-blur-sm m-4 rounded-md box !bg-[#BBC2CC40] hover:!bg-[#BBC2CC60] hover:!scale-105 duration-500 flex text-white justify-center flex-col">
@@ -64,7 +64,7 @@ const BuyTickets = () => {
         </div>
       <div className="text-white"> 
              <div class="text-3xl mt-3 mb-3 main text-center">
-                <span class="webdev">NOTE</span>
+                <span class="socod">NOTE</span>
             </div>
             <p className="ml-5 lg:ml-0 mr-3 mb-5 leading-8">
             1. Institution ID cards are mandatory for all the student participants.<br></br>
@@ -81,10 +81,10 @@ const BuyTickets = () => {
       <button
         type="button"
         onClick={() => window.open("https://rechargefest.org/", "_self")}
-        className="px-4 py-2 text-white hover:text-white  duration-200 rounded-md font-medium hover:duration-500 px neon-btn max-w-max "
+        className="px-4 py-2 text-white hover:text-white  duration-200 rounded-md font-medium hover:duration-500 px neon-btn-socod max-w-max "
       >
         <div class="main text-md">
-          <span class="webdev text-left">BUY TICKETS</span>
+          <span class="socod text-left">BUY TICKETS</span>
         </div>
       </button>
     </div>
