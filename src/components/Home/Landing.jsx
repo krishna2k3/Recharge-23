@@ -2,6 +2,7 @@ import BIRDS from 'vanta/dist/vanta.waves.min'
 import * as THREE from "three";
 import { useNavigate } from 'react-router-dom';
 import { useEffect, useState, useRef } from "react";
+import NavBar from './NavBar';
 
 const Landing = () => {
 
@@ -35,6 +36,7 @@ const Landing = () => {
 
   return (
     <div id="landing" ref={vantaRef} className="h-[100svh]">
+      <NavBar />
       <div className="flex flex-col items-center justify-between stretch-to-screen py-7 text-white mx-3">
         <div className="flex flex-col justify-center">
           <img

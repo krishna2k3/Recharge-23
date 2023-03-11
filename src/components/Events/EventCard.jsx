@@ -3,7 +3,7 @@ import { useNavigate } from "react-router";
 import "./style.css";
 
 // import dance from './Home/Images/'
-const EventCard = ({ title, imgUrl }) => {
+const EventCard = ({ title, imgUrl, id }) => {
   const myStyle = {
     backgroundImage: `url('${imgUrl}')`,
     backgroundRepeat: "no-repeat",
@@ -14,7 +14,7 @@ const EventCard = ({ title, imgUrl }) => {
   const navigate = useNavigate()
 
   function togo(){
-    navigate('/events/eventslist', {state:{title:title}})
+    navigate('/events/eventslist', {state:{title:title, id:id}})
   }
 
   return (

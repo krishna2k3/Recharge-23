@@ -33,71 +33,86 @@ const Events = () => {
       title: "Dance",
       category: "dance",
       imgUrl:dance,
+      category_id: 7
     },
     {
       title: "Music",
       category: "sing",
       imgUrl:music,
+      category_id: 3
+
     },
     {
       title: "Online Games",
       category: "game",
       imgUrl:
         "https://cdn.dribbble.com/userupload/3348061/file/original-5fd000ed98af552463352a4e82773576.png?compress=1&resize=752x",
+        category_id: 1
     },
 
     {
       title: "Drama",
       category: "drama",
       imgUrl:drama,
+      category_id: 2
     },
     {
       title: "Fashion",
       category: "Fashion",
       imgUrl:fashion,
+      category_id: 4
     },
     {
       title: "Entertainment",
       category: "game",
       imgUrl:entertainment,
+      category_id: 5
+
     },
 
     {
       title: "Photography",
       category: "dance",
       imgUrl:photo,
+      category_id: 6
     },
     {
       title: "Film",
       category: "sing",
       imgUrl:film,
+      category_id: 8
     },
     {
       title: "Arts",
       category: "game",
       imgUrl:art,
+      category_id: 9
     },
 
     {
       title: "Sports",
       category: "sports",
       imgUrl:sports,
+      category_id: 10
     },
     {
       title: "Literature",
       category: "literature",
       imgUrl:literature,
+      category_id: 11
     },
     {
       title: "Quiz",
       category: "game",
       imgUrl:quiz,
+      category_id: 12
     },
 
     {
       title: "On Stage",
       category: "dance",
       imgUrl:onstage,
+      category_id: 13
     },
   ];
 
@@ -120,6 +135,7 @@ const Events = () => {
                   key={e.title}
                   title={e.title}
                   imgUrl={e.imgUrl}
+                  id ={e.category_id}
                 ></EventCard>
               );
             })}
