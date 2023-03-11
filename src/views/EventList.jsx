@@ -56,7 +56,8 @@ const EventList = () => {
                             <p class="card-content">
                                 {eventList[i].short_description}
                             </p>
-                            <span className="see-more cursor-pointer" onClick={eventdescPage}>See More</span>
+                            {/* <span className="see-more cursor-pointer" onClick={eventdescPage}>See More</span> */}
+                            
                         </div>
                         <div class="date-box">
                             <span class="month">DAY</span>
