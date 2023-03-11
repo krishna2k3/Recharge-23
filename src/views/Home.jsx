@@ -32,9 +32,8 @@ const Home = ({ isLoading, setLoading }) => {
           <Landing />
           <AboutRecharge />
           <AboutREC />
-          <Spotlight />
           <ProShows />
-
+          <Spotlight />
           <Gallery />
           {/* <Sponsors /> */}
         </motion.div>
