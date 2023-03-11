@@ -36,7 +36,7 @@ const Landing = () => {
 
   return (
     <div id="landing" ref={vantaRef} className="h-[100svh]">
-      <NavBar />
+      
       <div className="flex flex-col items-center justify-between stretch-to-screen py-7 text-white mx-3">
         <div className="flex flex-col justify-center">
           <img
@@ -45,6 +45,8 @@ const Landing = () => {
             alt=""
           />
         </div>
+        
+        <NavBar />
         <div className="flex flex-col items-center gap-y-8 px-[0.5rem] text-center">
           <img
             src={require("../../assets/logo1.png")}

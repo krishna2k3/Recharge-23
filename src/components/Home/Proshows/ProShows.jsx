@@ -74,7 +74,7 @@ const ProShows = () => {
               SIANA CATHERINE
             </h1>
             <h1 className="  text-md text-center font-bold tracking-widest content">
-              DJ
+              SUNBURN DJ
             </h1>
             <h1 className="  text-md text-center font-bold tracking-widest content">
               DAY 3
