@@ -56,7 +56,8 @@ const EventList = () => {
                             <p class="card-content">
                                 {eventList[i].short_description}
                             </p>
-                            <span className="see-more cursor-pointer" onClick={eventdescPage}>See More</span>
+                            {/* <span className="see-more cursor-pointer" onClick={eventdescPage}>See More</span> */}
+                            
                         </div>
                         <div class="date-box">
                             <span class="month">DAY</span>
@@ -69,7 +70,7 @@ const EventList = () => {
     }
 
     return (
-        <div>
+        <div className="pb-40">
             <div className="stretch-to-screen flex flex-col justify-center items-center text-white py-5 ">
                { isFetched === false ? <div className=" flex flex-row justify-center items-center"><p className="animate-pulse text-5xl">Loading...</p></div>:<div className="flex flex-col text-center">
                     <div className='main lg:my-10 my-3 lg:flex lg:justify-center'>
