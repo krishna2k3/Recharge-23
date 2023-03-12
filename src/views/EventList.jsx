@@ -3,7 +3,6 @@ import { AiOutlineTeam } from "react-icons/ai";
 import { MdMoneyOff } from "react-icons/md";
 import { BsFillPersonFill } from "react-icons/bs";
 import { useLocation } from "react-router-dom";
-import { useNavigate } from "react-router";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 const EventList = () => {
@@ -29,15 +28,11 @@ const EventList = () => {
     const { state } = useLocation();
     let { title } = state;
 
-    const navigate = useNavigate();
 
-    function eventdescPage(id){
-        navigate("/eventdescription", { state: { id: id } })
-    }
     useEffect(() => {
         window.scrollTo(0, 0);
         fetch_events()
-    },[])
+    })
 
     var indents = [];
     for (let i = 0; i < eventList.length; i++) {

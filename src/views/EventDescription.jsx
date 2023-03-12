@@ -1,5 +1,5 @@
 
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 const EventDescription = () => {
   const location = useLocation()
@@ -13,8 +13,8 @@ console.log(rulesList)
 
   return (
     <div>
-      <div className="flex flex-col  text-white py-5 ">
-        <div className="flex flex-col lg:flex-row mx-16 my-10 lg:gap-x-8 text-center md:text-left">  
+      <div className="flex flex-col  text-white py-2 ">
+        <div className="flex flex-col lg:flex-row mx-16 my-5 lg:gap-x-8 text-center md:text-left">  
           <div id="mini-head " className="flex flex-col gap-y-5 items-center md:items-start my-6">
             <div className="main text-4xl  lg:text-5xl  lg:flex lg:justify-center">
               <span className="webdev socod">{location.state.event.name}</span>
@@ -64,17 +64,17 @@ console.log(rulesList)
             <button
               type="button"
               onClick={() => window.open("/aboutpage", "_self")}
-              className="px-4 py-2 text-white hover:text-white socod neon-btn-socod hover:bg-[#0099ff8a] duration-200 rounded-md font-medium hover:duration-500 px  max-w-max"
+              className="px-4 py-2 text-white hover:text-white socod neon-btn-socod hover:bg-[#0099ff8a] duration-200 rounded-md font-medium hover:duration-500   max-w-max"
               disabled
             >
               <div class="main text-md">
-                <span class="webdev text-left tracking-wider">REGISTRATIONS OPEN SOON</span>
+                <span class="socod text-left tracking-wider">REGISTRATIONS OPEN SOON</span>
               </div>
             </button>
           </div>
         </div>
 
-        <div id="description" className="mx-16 my-8">
+        <div id="description" className="mx-16 my-3">
           <div className="main">
             <span className="socod text-3xl">Description</span>
           </div>

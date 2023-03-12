@@ -19,7 +19,7 @@ const NavBar = () => {
 
     return (
 
-        <nav class="bg-tranperant border-gray-200 rounded dark:bg-black-900 absolute right-0 top-0">
+        <nav class="bg-transparent absolute right-0 top-2 text-white">
             <div class="flex flex-wrap items-center justify-between mx-auto mt-4">
                 <a href="https://flowbite.com/" class="flex items-center">
                     {/* <img
@@ -35,26 +35,22 @@ const NavBar = () => {
                 </button>
                 
                 <div class="hidden w-full lg:block lg:w-auto" id="navbar-default">
-                    <ul class="flex flex-col p-4  border rounded-lg lg:flex-row lg:space-x-8 lg:mt-0 lg:text-sm lg:font-medium lg:border-0 lg:bg-white dark:black lg:dark:bg-black dark:border-gray-700 bg-black">
+                    <ul class="flex flex-col p-4  border rounded-lg lg:flex-row lg:space-x-8 lg:mt-0 lg:text-sm lg:font-medium lg:border-0 bg-black lg:bg-transparent">
                         <li>
-                            <button onClick={()=>homeNav()} class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent">Home</button>
+                            <button onClick={()=>homeNav()} class="block  py-2 pl-3 pr-4 text-white  hover:text-gray-400 lg:hover:bg-transparent lg:border-0  lg:p-0">Home</button>
                         </li>
                         <li>
-                            <a href='#about-recharge' class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent">About</a>
+                            <a href='#about-recharge' class="block  py-2 pl-3 pr-4 text-white  hover:text-gray-400 lg:hover:bg-transparent lg:border-0  lg:p-0 ">About</a>
                         </li>
                         <li>
-                            <button onClick={()=>eventsNavigation("/events")} class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent">Events</button>
+                            <button onClick={()=>eventsNavigation("/events")} class="block  py-2 pl-3 pr-4 text-white  hover:text-gray-400 lg:hover:bg-transparent lg:border-0  lg:p-0 ">Events</button>
                         </li>
                         <li>
-                            <a href='#proshows' class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent">ProShows</a>
+                            <a href='#proshows' class="block  py-2 pl-3 pr-4 text-white  hover:text-gray-400 lg:hover:bg-transparent lg:border-0  lg:p-0 ">ProShows</a>
                         </li>
                         <li>
-                            <a href='#spotlight' class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent">Spotlight</a>
+                            <a href='#spotlight' class="block  py-2 pl-3 pr-4 text-white  hover:text-gray-400 lg:hover:bg-transparent lg:border-0  lg:p-0 ">Spotlight</a>
                         </li>
-                        <li>
-                            <a href='#gallery' class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent">Gallery</a>
-                        </li>
-
                     </ul>
                 </div>
             </div>
