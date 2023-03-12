@@ -64,11 +64,11 @@ const ProShows = () => {
             alt="background-jonita"
             src={require("../../../assets/bg-2.webp")}
           />
-          {/* <img
-            src={""}
+          <img
+            src={require("../../../assets/siana.png")}
             alt=""
             className="z-0 rounded-xl"
-          /> */}
+          />
           <div className="z-10 flex flex-col absolute my-4">
             <h1 className="  text-3xl text-center font-bold tracking-widest content">
               ??
