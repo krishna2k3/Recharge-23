@@ -5,6 +5,7 @@ const EventDescription = () => {
   const location = useLocation()
   
 useEffect(()=>{
+  window.scrollTo(0, 0);
 })
 
 const rulesList = location.state.event.rules.split("\n");
