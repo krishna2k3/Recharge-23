@@ -6,6 +6,7 @@ import { useLocation } from "react-router-dom";
 import { useNavigate } from "react-router";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import data from '../events.json'
 const EventList = () => {
 
 
@@ -14,9 +15,10 @@ const EventList = () => {
     console.log(location.state.id);
     const [isFetched, setFetched] = useState(false)
     async function fetch_events() {
-        fetch(`https://rechargefest.org/api/eventinfo?id=${location.state.id}`)
+        fetch(`../events.json`)
             .then((response) => response.json())
             .then((data) => {
+                console.log(data)
                 setFetched(true)
                 setEventList(data);
             })
@@ -36,43 +38,46 @@ const EventList = () => {
     }
     useEffect(() => {
         window.scrollTo(0, 0);
-        fetch_events()
+        console.log(data)
+        // fetch_events()
     },[])
 
     var indents = [];
-    for (let i = 0; i < eventList.length; i++) {
+    for (let i = 0; i < data.length; i++) {
+        if(data[i].category_id === location.state.id){
         indents.push(
             <div className="container">
                 <div class="parent ">
                     <div className="card" style={{height:"470px"}}>
                         <div class="content-box ">
-                            <h1 className="card-title">{eventList[i].name.toUpperCase()}</h1>
+                            <h1 className="card-title">{data[i].name.toUpperCase()}</h1>
                             <div className=" grid-cols-2 col-start-1 col-span-3 gap-2 md:col-span-0 md:gap-0 items-center justify-center flex flex-auto">
-                                {(eventList[i].pay > 0) ? <BiRupee size={25} className="block" /> : <MdMoneyOff size={25} className="hidden" />}
-                                {(eventList[i].team_event === "true") ? <AiOutlineTeam size={25} className="block" /> : <BsFillPersonFill size={25} className="hidden" />}
-                                {(eventList[i].pay === 0) ? <MdMoneyOff size={25} className="block" /> : <BiRupee size={25} className="hidden" />}
-                                {(eventList[i].team_event === "false") ? <BsFillPersonFill size={25} className="block" /> : <AiOutlineTeam size={25} className="hidden" />}
+                                {(data[i].pay > 0) ? <BiRupee size={25} className="block" /> : <MdMoneyOff size={25} className="hidden" />}
+                                {(data[i].team_event === "true") ? <AiOutlineTeam size={25} className="block" /> : <BsFillPersonFill size={25} className="hidden" />}
+                                {(data[i].pay === 0) ? <MdMoneyOff size={25} className="block" /> : <BiRupee size={25} className="hidden" />}
+                                {(data[i].team_event === "false") ? <BsFillPersonFill size={25} className="block" /> : <AiOutlineTeam size={25} className="hidden" />}
                             </div>
                             <p class="card-content">
-                                {eventList[i].short_description}
+                                {data[i].short_description}
                             </p>
                             <Link to='/eventdescription' className="see-more cursor-pointer" 
-                            state={{event:eventList[i]}}>See More</Link>
+                            state={{event:data[i]}}>See More</Link>
                         </div>
                         <div class="date-box">
                             <span class="month">DAY</span>
-                            <span class="date">{eventList[i].day}</span>
+                            <span class="date">{data[i].day}</span>
                         </div>
                     </div>
                 </div>
             </div>
         )
+        }
     }
 
     return (
         <div className="pb-40">
             <div className="stretch-to-screen flex flex-col justify-center items-center text-white py-5 ">
-               { isFetched === false ? <div className=" flex flex-row justify-center items-center"><p className="animate-pulse text-5xl">Loading...</p></div>:<div className="flex flex-col text-center">
+              <div className="flex flex-col text-center">
                     <div className='main lg:my-10 my-3 lg:flex lg:justify-center'>
                         <span className="socod md:text-5xl text-4xl font-black">{title}</span>
                     </div>
@@ -81,7 +86,7 @@ const EventList = () => {
                         {indents}
                     </div>
 
-                </div>}
+                </div>
             </div>
         </div>
 
