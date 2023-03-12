@@ -10,7 +10,6 @@ const EventList = () => {
 
     const location = useLocation();
     const [eventList, setEventList] = useState([]);
-    console.log(location.state.id);
     const [isFetched, setFetched] = useState(false)
     async function fetch_events() {
         fetch(`https://rechargefest.org/api/eventinfo?id=${location.state.id}`)
@@ -30,7 +29,6 @@ const EventList = () => {
 
 
     useEffect(() => {
-        window.scrollTo(0, 0);
         fetch_events()
     })
 
@@ -39,8 +37,9 @@ const EventList = () => {
         indents.push(
             <div className="container">
                 <div class="parent ">
-                    <div className="card" style={{height:"470px"}}>
-                        <div class="content-box ">
+                    <div className="card " style={{height:"30em"}}>
+                        <div class="content-box flex flex-col justify-between">
+                            <div>
                             <h1 className="card-title">{eventList[i].name.toUpperCase()}</h1>
                             <div className=" grid-cols-2 col-start-1 col-span-3 gap-2 md:col-span-0 md:gap-0 items-center justify-center flex flex-auto">
                                 {(eventList[i].pay > 0) ? <BiRupee size={25} className="block" /> : <MdMoneyOff size={25} className="hidden" />}
@@ -49,8 +48,9 @@ const EventList = () => {
                                 {(eventList[i].team_event === "false") ? <BsFillPersonFill size={25} className="block" /> : <AiOutlineTeam size={25} className="hidden" />}
                             </div>
                             <p class="card-content">
-                                {eventList[i].short_description}
+                                {eventList[i].short_description.length > 250 ? eventList[i].short_description.slice(0,250)+"...":eventList[i].short_description }
                             </p>
+                            </div>
                             <Link to='/eventdescription' className="see-more cursor-pointer" 
                             state={{event:eventList[i]}}>See More</Link>
                         </div>
