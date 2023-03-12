@@ -30,25 +30,23 @@ const EventList = () => {
 
   return (
     <div className="">
-      <div className="stretch-to-screen flex flex-col justify-center items-center text-white py-5 ">
+      <div className="stretch-to-screen flex flex-col justify-center items-center text-white  ">
         {isFetched === false ? (
           <div className=" flex flex-row justify-center items-center">
             <p className="animate-pulse text-5xl">Loading...</p>
           </div>
         ) : (
-          <div className="flex flex-col text-center">
-            <div className="main lg:my-10 my-3 lg:flex lg:justify-center">
+          <div className="flex flex-col text-center py-6 gap-y-10">
+            <div className="main  lg:flex lg:justify-center">
               <span className="socod md:text-5xl text-4xl font-black">
                 {title}
               </span>
             </div>
 
-            <div className="flex flex-row flex-wrap justify-center items-center gap-x-8 gap-y-10 ">
+            <div className="flex flex-row flex-wrap justify-center items-center gap-y-10">
               {eventList.map((eventList) => {
                 return (
-                  <div className="container max-w-fit">
-                    <div class="parent ">
-                      <div className="card " style={{ height: "30em"  }}>
+                      <div className="card mx-6 max-w-sm"  style={{ height: "32em"}}>
                         <div class="content-box flex flex-col justify-between">
                           <div>
                             <h1 className="card-title">{eventList.name}</h1>
@@ -97,9 +95,7 @@ const EventList = () => {
                           <span class="date">{eventList.day}</span>
                         </div>
                       </div>
-                    </div>
-                  </div>
-                );
+                  );
               })}
             </div>
           </div>
