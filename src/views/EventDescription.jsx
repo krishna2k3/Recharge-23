@@ -8,16 +8,16 @@ useEffect(()=>{
   console.log(location.state.event);
 })
 
+const rulesList = location.state.event.rules.split("\n");
+console.log(rulesList)
 
   return (
     <div>
       <div className="flex flex-col  text-white py-5 ">
-        <div className="flex flex-col lg:flex-row mx-16 my-10 lg:gap-x-8 text-center md:text-left">
-  
-
+        <div className="flex flex-col lg:flex-row mx-16 my-10 lg:gap-x-8 text-center md:text-left">  
           <div id="mini-head " className="flex flex-col gap-y-5 items-center md:items-start my-6">
             <div className="main text-4xl  lg:text-5xl  lg:flex lg:justify-center">
-              <span class="webdev">{location.state.event.name}</span>
+              <span className="webdev socod">{location.state.event.name}</span>
             </div>
             <div className="flex flex-row ">
               <div className="main mt-1">
@@ -57,14 +57,14 @@ useEffect(()=>{
                 <span className="socod text-xl ">Cost:</span>
               </div>
               <div className="ml-2">
-                <p className=" text-xl leading-9">{location.state.event.pay} </p>
+                <p className="text-xl leading-9">{location.state.event.pay} </p>
               </div>
             </div>
             
             <button
               type="button"
               onClick={() => window.open("/aboutpage", "_self")}
-              className="px-4 py-2 text-white hover:text-white hover:bg-[#ff003c] duration-200 rounded-md font-medium hover:duration-500 px neon-btn max-w-max"
+              className="px-4 py-2 text-white hover:text-white socod neon-btn-socod hover:bg-[#0099ff8a] duration-200 rounded-md font-medium hover:duration-500 px  max-w-max"
               disabled
             >
               <div class="main text-md">
@@ -90,7 +90,11 @@ useEffect(()=>{
           </div>
           <div className="">
             <p className=" text-xl leading-9">
-            {location.state.event.rules}
+            {rulesList.map((ele, idx) => {
+              return(
+                <p key = {idx}>{idx+1}. {ele}</p>
+              )
+            })}
             </p>
           </div>
         </div>
