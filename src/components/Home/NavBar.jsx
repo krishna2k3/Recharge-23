@@ -7,10 +7,6 @@ const NavBar = () => {
     function eventsNavigation() {
         navigate('/events')
     }
-
-    function homeNav(){
-        navigate("/")
-    }
     
     function myFunction() {
         var x = document.getElementById("navbar-default");
@@ -36,9 +32,7 @@ const NavBar = () => {
                 
                 <div class="hidden w-full lg:block lg:w-auto" id="navbar-default">
                     <ul class="flex flex-col p-4  border rounded-lg lg:flex-row lg:space-x-8 lg:mt-0 lg:text-sm lg:font-medium lg:border-0 bg-black lg:bg-transparent">
-                        <li>
-                            <button onClick={()=>homeNav()} class="block  py-2 pl-3 pr-4 text-white  hover:text-gray-400 lg:hover:bg-transparent lg:border-0  lg:p-0">Home</button>
-                        </li>
+                        
                         <li>
                             <a href='#about-recharge' class="block  py-2 pl-3 pr-4 text-white  hover:text-gray-400 lg:hover:bg-transparent lg:border-0  lg:p-0 ">About</a>
                         </li>
@@ -50,6 +44,9 @@ const NavBar = () => {
                         </li>
                         <li>
                             <a href='#spotlight' class="block  py-2 pl-3 pr-4 text-white  hover:text-gray-400 lg:hover:bg-transparent lg:border-0  lg:p-0 ">Spotlight</a>
+                        </li>
+                        <li>
+                            <a href='#gallery' class="block  py-2 pl-3 pr-4 text-white  hover:text-gray-400 lg:hover:bg-transparent lg:border-0  lg:p-0 ">Gallery</a>
                         </li>
                     </ul>
                 </div>
