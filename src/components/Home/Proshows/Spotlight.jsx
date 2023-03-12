@@ -14,7 +14,7 @@ const Spotlight = () => {
             src={require("../../../assets/bg-2.webp")}
           />
           <img
-            src={require("../../../assets/raina-transformed.png")}
+            src={require("../../../assets/raina-transformed.webp")}
             alt="Raina"
             className="z-0 rounded-xl"
           />
@@ -34,7 +34,7 @@ const Spotlight = () => {
             src={require("../../../assets/bg-2.webp")}
           />
           <img
-            src={require("../../../assets/GVM.png")}
+            src={require("../../../assets/GVM.webp")}
             alt="GVM"
             className="z-0 rounded-xl"
           />
@@ -54,7 +54,7 @@ const Spotlight = () => {
             src={require("../../../assets/bg-2.webp")}
           />
           <img
-            src={require("../../../assets/jagan-1.png")}
+            src={require("../../../assets/jagan-1.webp")}
             alt="Jonita"
             className="z-0 rounded-xl"
           />

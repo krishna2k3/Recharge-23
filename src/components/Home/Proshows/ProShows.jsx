@@ -17,7 +17,7 @@ const ProShows = () => {
             src={require("../../../assets/bg-2.webp")}
           />
           <img
-            src={require("../../../assets/jonita.png")}
+            src={require("../../../assets/jonita.webp")}
             alt="Jonita"
             className="z-0 rounded-xl"
           />
@@ -41,7 +41,7 @@ const ProShows = () => {
             src={require("../../../assets/bg-2.webp")}
           />
           <img
-            src={require("../../../assets/Masala Coffee.png")}
+            src={require("../../../assets/Masala-Coffee.webp")}
             alt="Masala Cafe"
             className="z-0 rounded-xl"
           />
@@ -65,7 +65,7 @@ const ProShows = () => {
             src={require("../../../assets/bg-2.webp")}
           />
           <img
-            src={require("../../../assets/siana.png")}
+            src={require("../../../assets/siana.webp")}
             alt=""
             className="z-0 rounded-xl"
           />

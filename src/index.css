@@ -398,7 +398,7 @@ code {
 }
 
 #about {
-  background-image: url("assets/gallery-imgs/w3.png");
+  background-image: url("assets/gallery-imgs/w3.webp");
   background-blend-mode: hard-light;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -431,7 +431,7 @@ code {
     box-shadow: 0 0 0 transparent, 0 0 100px #0099ff;
   }
   #about {
-    background-image: url("assets/gallery-imgs/w1.jpg");
+    background-image: url("assets/gallery-imgs/w1.webp");
     background-repeat: no-repeat;
     background-attachment: fixed;
   }

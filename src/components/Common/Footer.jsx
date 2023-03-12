@@ -10,7 +10,7 @@ const Footer = ({ path }) => {
     >
       <div className="flex flex-col lg:ml-16 mb-6 gap-3 text-white items-center text-center lg:items-start lg:text-left">
         <img
-          src={require("../../assets/logo1.png")}
+          src={require("../../assets/logo1.webp")}
           className="flex justify-center h-24 w-auto"
           alt=""
         />

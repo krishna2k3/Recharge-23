@@ -16,7 +16,7 @@ const AboutREC = () => {
         <img
           className="shadow-2xl  rounded-xl  z-10 neon-border "
           id="about-img"
-          src={require("../../assets/gallery-imgs/rec7.jpg")}
+          src={require("../../assets/gallery-imgs/rec7.webp")}
           alt=""
         />
       </div>
