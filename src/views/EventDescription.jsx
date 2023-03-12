@@ -68,7 +68,7 @@ useEffect(()=>{
               disabled
             >
               <div class="main text-md">
-                <span class="webdev text-left tracking-wider">REGISTERATIONS OPEN SOON</span>
+                <span class="webdev text-left tracking-wider">REGISTRATIONS OPEN SOON</span>
               </div>
             </button>
           </div>
