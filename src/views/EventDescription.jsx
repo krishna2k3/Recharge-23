@@ -16,7 +16,7 @@ const rulesList = location.state.event.rules.split("\n");
         <div className="flex flex-col lg:flex-row mx-16 my-5 lg:gap-x-8 text-center md:text-left">  
           <div id="mini-head " className="flex flex-col gap-y-5 items-center md:items-start my-6">
             <div className="main text-4xl  lg:text-5xl  lg:flex lg:justify-center">
-              <span className="webdev socod">{location.state.event.name}</span>
+              <span className=" socod">{location.state.event.name}</span>
             </div>
             <div className="flex flex-row ">
               <div className="main mt-1">
