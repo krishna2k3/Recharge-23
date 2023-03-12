@@ -14,7 +14,6 @@ const App = () => {
   const [path, setPath] = useState("/");
   const location = useLocation();
   useEffect(() => {
-    console.log(location.pathname);
     setPath(location.pathname);
   }, [path, isLoading, location.pathname]);
   return (

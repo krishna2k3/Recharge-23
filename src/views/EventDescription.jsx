@@ -5,11 +5,9 @@ const EventDescription = () => {
   const location = useLocation()
   
 useEffect(()=>{
-  console.log(location.state.event);
 })
 
 const rulesList = location.state.event.rules.split("\n");
-console.log(rulesList)
 
   return (
     <div>
