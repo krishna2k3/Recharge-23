@@ -33,7 +33,7 @@ useEffect(()=>{
                 <span className="socod text-xl ">Event Type:</span>
               </div>
               <div className="ml-2">
-                <p className=" text-xl leading-9">{location.state.event.team_event ? "Team" : "False"}</p>
+                <p className=" text-xl leading-9">{location.state.event.team_event ? "Team" : "Individual"}</p>
               </div>
             </div>
             <div className="flex flex-row ">
