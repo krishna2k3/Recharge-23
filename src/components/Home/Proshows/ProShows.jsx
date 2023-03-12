@@ -71,16 +71,16 @@ const ProShows = () => {
           />
           <div className="z-10 flex flex-col absolute my-4">
             <h1 className="  text-3xl text-center font-bold tracking-widest content">
-              ??
+              SIANA CATHERINE
             </h1>
             <h1 className="  text-md text-center font-bold tracking-widest content">
-              
+              SUNBURN DJ
             </h1>
             <h1 className="  text-md text-center font-bold tracking-widest content">
               DAY 3
             </h1>
           </div>
-        </div>        
+        </div>
       </div>
     </div>
   );
