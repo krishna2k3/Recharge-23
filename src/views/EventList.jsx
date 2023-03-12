@@ -29,9 +29,9 @@ const EventList = () => {
   });
 
   return (
-    <div className="pb-40">
+    <div className="">
       <div className="stretch-to-screen flex flex-col justify-center items-center text-white py-5 ">
-        {isFetched === false ? (
+        {isFetched === true ? (
           <div className=" flex flex-row justify-center items-center">
             <p className="animate-pulse text-5xl">Loading...</p>
           </div>
