@@ -39,11 +39,62 @@ const EventList = () => {
     console.log(data);
     // fetch_events()
   }, []);
-
+  let cards = [];
+  for (let i = 0; i < data.length; i++) {
+    if (data[i].category_id === location.state.id) {
+      cards.push(
+        <div className="card mx-6 max-w-sm" style={{ height: "32em" }}>
+          <div class="content-box flex flex-col justify-between">
+            <div>
+              <h1 className="card-title">{data[i].name}</h1>
+              <div className=" grid-cols-2 col-start-1 col-span-3 gap-2 md:col-span-0 md:gap-0 items-center justify-center flex flex-auto">
+                {data[i].pay > 0 ? (
+                  <BiRupee size={25} className="block" />
+                ) : (
+                  <MdMoneyOff size={25} className="hidden" />
+                )}
+                {data[i].team_event === "true" ? (
+                  <AiOutlineTeam size={25} className="block" />
+                ) : (
+                  <BsFillPersonFill size={25} className="hidden" />
+                )}
+                {data[i].pay === 0 ? (
+                  <MdMoneyOff size={25} className="block" />
+                ) : (
+                  <BiRupee size={25} className="hidden" />
+                )}
+                {data[i].team_event === "false" ? (
+                  <BsFillPersonFill size={25} className="block" />
+                ) : (
+                  <AiOutlineTeam size={25} className="hidden" />
+                )}
+              </div>
+              <p class="card-content">
+                {data[i].short_description.length > 250
+                  ? data[i].short_description.slice(0, 250) + "..."
+                  : data[i].short_description}
+              </p>
+            </div>
+            <Link
+              to="/eventdescription"
+              className="see-more cursor-pointer"
+              state={{ event: data[i] }}
+            >
+              See More
+            </Link>
+          </div>
+          <div class="date-box">
+            <span class="month">DAY</span>
+            <span class="date">{data[i].day}</span>
+          </div>
+        </div>
+      );
+    }
+  }
   return (
     <div className="">
       <div className="stretch-to-screen flex flex-col justify-center items-center text-white  ">
-        {data === false ? (
+        {isFetched === true ? (
           <div className=" flex flex-row justify-center items-center">
             <p className="animate-pulse text-5xl">Loading...</p>
           </div>
@@ -56,58 +107,7 @@ const EventList = () => {
             </div>
 
             <div className="flex flex-row flex-wrap justify-center items-center gap-y-10">
-              {data.map((eventList) => {
-                return (
-                  <div
-                    className="card mx-6 max-w-sm"
-                    style={{ height: "32em" }}
-                  >
-                    <div class="content-box flex flex-col justify-between">
-                      <div>
-                        <h1 className="card-title">{eventList.name}</h1>
-                        <div className=" grid-cols-2 col-start-1 col-span-3 gap-2 md:col-span-0 md:gap-0 items-center justify-center flex flex-auto">
-                          {eventList.pay > 0 ? (
-                            <BiRupee size={25} className="block" />
-                          ) : (
-                            <MdMoneyOff size={25} className="hidden" />
-                          )}
-                          {eventList.team_event === "true" ? (
-                            <AiOutlineTeam size={25} className="block" />
-                          ) : (
-                            <BsFillPersonFill size={25} className="hidden" />
-                          )}
-                          {eventList.pay === 0 ? (
-                            <MdMoneyOff size={25} className="block" />
-                          ) : (
-                            <BiRupee size={25} className="hidden" />
-                          )}
-                          {eventList.team_event === "false" ? (
-                            <BsFillPersonFill size={25} className="block" />
-                          ) : (
-                            <AiOutlineTeam size={25} className="hidden" />
-                          )}
-                        </div>
-                        <p class="card-content">
-                          {eventList.short_description.length > 250
-                            ? eventList.short_description.slice(0, 250) + "..."
-                            : eventList.short_description}
-                        </p>
-                      </div>
-                      <Link
-                        to="/eventdescription"
-                        className="see-more cursor-pointer"
-                        state={{ event: eventList }}
-                      >
-                        See More
-                      </Link>
-                    </div>
-                    <div class="date-box">
-                      <span class="month">DAY</span>
-                      <span class="date">{eventList.day}</span>
-                    </div>
-                  </div>
-                );
-              })}
+              {cards}
             </div>
           </div>
         )}
