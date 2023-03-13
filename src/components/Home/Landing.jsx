@@ -40,7 +40,7 @@ const Landing = () => {
       <div className="flex flex-col items-center justify-between stretch-to-screen py-7 text-white mx-3">
         <div className="flex flex-col justify-center">
           <img
-            src={require("../../assets/rec-logo.png")}
+            src={require("../../assets/rec-logo.webp")}
             className="h-15 w-40"
             alt=""
           />
@@ -49,7 +49,7 @@ const Landing = () => {
         <NavBar />
         <div className="flex flex-col items-center gap-y-8 px-[0.5rem] text-center">
           <img
-            src={require("../../assets/logo1.png")}
+            src={require("../../assets/logo1.webp")}
             className="h-40 lg:scale-125 md:h-64 w-auto"
             alt=""
           />

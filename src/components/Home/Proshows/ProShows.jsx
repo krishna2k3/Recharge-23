@@ -17,7 +17,7 @@ const ProShows = () => {
             src={require("../../../assets/bg-2.webp")}
           />
           <img
-            src={require("../../../assets/jonita.png")}
+            src={require("../../../assets/jonita.webp")}
             alt="Jonita"
             className="z-0 rounded-xl"
           />
@@ -41,7 +41,7 @@ const ProShows = () => {
             src={require("../../../assets/bg-2.webp")}
           />
           <img
-            src={require("../../../assets/Masala Coffee.png")}
+            src={require("../../../assets/Masala-Coffee.webp")}
             alt="Masala Cafe"
             className="z-0 rounded-xl"
           />
@@ -64,23 +64,23 @@ const ProShows = () => {
             alt="background-jonita"
             src={require("../../../assets/bg-2.webp")}
           />
-          {/* <img
-            src={""}
+          <img
+            src={require("../../../assets/siana.webp")}
             alt=""
             className="z-0 rounded-xl"
-          /> */}
+          />
           <div className="z-10 flex flex-col absolute my-4">
             <h1 className="  text-3xl text-center font-bold tracking-widest content">
-              ??
+              SIANA CATHERINE
             </h1>
             <h1 className="  text-md text-center font-bold tracking-widest content">
-              
+              SUNBURN DJ
             </h1>
             <h1 className="  text-md text-center font-bold tracking-widest content">
               DAY 3
             </h1>
           </div>
-        </div>        
+        </div>
       </div>
     </div>
   );

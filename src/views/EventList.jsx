@@ -7,10 +7,10 @@ import { useNavigate } from "react-router";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import data from '../events.json'
+
 const EventList = () => {
 
-
-    const location = useLocation();
+     const location = useLocation();
     const [eventList, setEventList] = useState([]);
     console.log(location.state.id);
     const [isFetched, setFetched] = useState(false)
