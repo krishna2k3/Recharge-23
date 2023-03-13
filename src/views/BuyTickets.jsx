@@ -61,7 +61,7 @@ const BuyTickets = () => {
       </div>
       <button
         type="button"
-        onClick={() => window.open("https://rechargefest.org/", "_self")}
+        onClick={() => window.open("http://rec.rechargefest.org/login", "_self")}
         className="px-4 py-2 text-white hover:text-white  duration-200 rounded-md font-medium hover:duration-500 px neon-btn-socod max-w-max "
       >
         <div class="main text-md">
