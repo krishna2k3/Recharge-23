@@ -13,8 +13,8 @@ const rulesList = location.state.event.rules.split("\n");
   return (
     <div>
       <div className="flex flex-col  text-white py-2 ">
-        <div className="flex flex-col lg:flex-row mx-16 my-5 lg:gap-x-8 text-center md:text-left">  
-          <div id="mini-head " className="flex flex-col gap-y-5 items-center md:items-start my-6">
+        <div className="flex flex-col lg:flex-row mx-10 my-5 lg:gap-x-8 md:text-left">  
+          <div id="mini-head " className="flex flex-col gap-y-5 md:items-start my-6">
             <div className="main text-4xl  lg:text-5xl  lg:flex lg:justify-center">
               <span className=" socod">{location.state.event.name}</span>
             </div>
@@ -71,46 +71,46 @@ const rulesList = location.state.event.rules.split("\n");
               </div>
             </button>
           </div>
-          <div className="lg:mt-20 lg:ml-12">
+          <div className="lg:mt-20 lg:ml-9">
               <div className="main mt-1">
                 <span className="socod text-3xl ">Contact</span>
               </div>
               <div className="flex flex-row ">
                 <div className="main mt-4">
-                  <span className="socod text-xl ">Email ID:</span>
+                  <span className="socod text-l ">Email:</span>
                 </div>
                 <div className="ml-2 mt-4">
-                  <p className="text-xl ">{location.state.event.contact_mail}</p>
+                  <p className="text-l ">{location.state.event.contact_mail}</p>
                 </div>
               </div>
             <div className="flex flex-row ">
               <div className="main mt-4">
-                <span className="socod text-xl ">{location.state.event.name_of_incharge1}:</span>
+                <span className="socod text-l ">{location.state.event.name_of_incharge1}:</span>
               </div>
               <div className="ml-2 mt-4">
-                <p className="text-xl ">{location.state.event.phone_of_incharge1}</p>
+                <p className="text-l ">{location.state.event.phone_of_incharge1}</p>
               </div>
             </div>
             <div className="flex flex-row ">
               <div className="main mt-4">
-                <span className="socod text-xl ">{location.state.event.name_of_incharge2}:</span>
+                <span className="socod text-l ">{location.state.event.name_of_incharge2}:</span>
               </div>
               <div className="ml-2 mt-4">
-                <p className="text-xl">{location.state.event.phone_of_incharge2}</p>
+                <p className="text-l">{location.state.event.phone_of_incharge2}</p>
               </div>
             </div>
             <div className="flex flex-row ">
               <div className="main mt-4">
-                <span className="socod text-xl ">{location.state.event.name_of_incharge3}:</span>
+                <span className="socod text-l ">{location.state.event.name_of_incharge3}:</span>
               </div>
               <div className="ml-2 mt-4">
-                <p className="text-xl">{location.state.event.phone_of_incharge3}</p>
+                <p className="text-l">{location.state.event.phone_of_incharge3}</p>
               </div>
             </div>
           </div>
         </div>
 
-        <div id="description" className="mx-16 my-3">
+        <div id="description" className="mx-10 my-3">
           <div className="main">
             <span className="socod text-3xl">Description</span>
           </div>
@@ -120,7 +120,7 @@ const rulesList = location.state.event.rules.split("\n");
             </p>
           </div>
         </div>
-        <div id="rules" className="mx-16 my-8">
+        <div id="rules" className="mx-10 my-8">
           <div className="main">
             <span className="socod text-3xl">Rules</span>
           </div>
