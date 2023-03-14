@@ -57,16 +57,28 @@ const Landing = () => {
             Recharge Your Spirit and Reignite Your Passion!
           </h2>
           <h2 className="font-semibold text-2xl capitalize">23 | 24 | 25 March</h2>
+          <div className="flex flex-col justify-center items-center">
           <button
 
             type="button"
-            onClick={() => navigate("/buytickets")}
+            onClick={() => navigate("/events")}
             className="px-4 py-2 text-white hover:text-white hover:bg-[#0099ff8a] duration-200 rounded-md font-medium hover:duration-500 px neon-btn-socod max-w-max"
+            >
+            <div class="main text-md">
+              <span class="socod text-left">EXPLORE EVENTS</span>
+            </div>
+            </button>
+            <button
+            type="button"
+            onClick={() => navigate("/buytickets")}
+            className="mt-5 px-4 py-2 text-white hover:text-white hover:bg-[#0099ff8a] duration-200 rounded-md font-medium hover:duration-500 px neon-btn-socod max-w-max"
           >
             <div class="main text-md">
               <span class="socod text-left">BUY TICKETS</span>
             </div>
           </button>
+
+          </div>
 
         </div>
         <div className="flex flex-row justify-center items-center">
