@@ -208,8 +208,8 @@ const Footer = ({ path }) => {
                 </g>
               </g>
             </svg>
-            <a href="mailto:support.recharge@rajalakshmi.edu.in">
-              support.recharge@rajalakshmi.edu.in
+            <a href="mailto:tickets.recharge@rajalakshmi.edu.in">
+              tickets.recharge@rajalakshmi.edu.in
             </a>
           </p>
           <p className="text-white flex flex-row gap-x-2 items-center my-3">

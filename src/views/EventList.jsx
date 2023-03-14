@@ -49,7 +49,7 @@ const EventList = () => {
               <h1 className="card-title">{data[i].name}</h1>
               <div className=" grid-cols-2 col-start-1 col-span-3 gap-2 md:col-span-0 md:gap-0 items-center justify-center flex flex-auto">
                 {data[i].pay > 0 ? (
-                  <BiRupee size={25} className="block" />
+                  <><BiRupee size={25} className="block" /><p className="text-lg">{ data[i].pay }</p></>
                 ) : (
                   <MdMoneyOff size={25} className="hidden" />
                 )}

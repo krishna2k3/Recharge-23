@@ -51,7 +51,6 @@ const BuyTickets = () => {
           1. Institution ID cards are mandatory for all the student participants.<br></br>
           2. Government ID proofs is mandatory for all the participants including the alumni.<br></br>
           3. It is mandatory to carry the registration QR code.<br></br>
-          4. Wristband must be worn throughout the event.<br></br>
           5. Use or carrying of illegal substances is strictly prohibited. If found, strict action will be taken.<br></br>
           6. The Management is not responsible for any loss of personal belongings.<br></br>
           7. Participants must possess valid passes for events of the designated day.<br></br>
