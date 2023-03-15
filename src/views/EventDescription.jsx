@@ -35,7 +35,7 @@ const rulesList = location.state.event.rules.split("\n");
                   <span className="socod text-xl ">Event Type:</span>
                 </div>
                 <div className="ml-2 mt-4">
-                  <p className=" text-xl ">{location.state.event.team_event ? 
+                  <p className=" text-xl ">{location.state.event.id===63?"Any":location.state.event.team_event ? location.state.event.team_max===location.state.event.team_min?"Team("+location.state.event.team_max+")":
                     "Team(" + location.state.event.team_min + "-" + location.state.event.team_max + ")" : "Individual"}</p>
                 </div>
               </div>
@@ -99,7 +99,16 @@ const rulesList = location.state.event.rules.split("\n");
               </div>
             </div>
             
-            <button
+            {location.state.event.id===63?<button
+              type="button"
+              onClick={() => window.open("/aboutpage", "_self")}
+              className="px-4 py-2 text-white hover:text-white socod neon-btn-socod hover:bg-[#0099ff8a] duration-200 rounded-md font-medium hover:duration-500   max-w-max"
+              disabled
+            >
+              <div class="main text-md">
+                <span class="socod text-left tracking-wider">ONSPOT REGISTRATION</span>
+              </div>
+            </button>:<button
               type="button"
               onClick={() => window.open("/aboutpage", "_self")}
               className="px-4 py-2 text-white hover:text-white socod neon-btn-socod hover:bg-[#0099ff8a] duration-200 rounded-md font-medium hover:duration-500   max-w-max"
@@ -108,7 +117,7 @@ const rulesList = location.state.event.rules.split("\n");
               <div class="main text-md">
                 <span class="socod text-left tracking-wider">REGISTRATIONS OPEN SOON</span>
               </div>
-            </button>
+            </button>}
           </div>
         </div>
 
