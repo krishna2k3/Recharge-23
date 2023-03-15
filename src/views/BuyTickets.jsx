@@ -5,7 +5,7 @@ const BuyTickets = () => {
   }, []);
 
   return (
-    <div id="buytickets" className="flex flex-col py-10 items-center stretch-to-screen ">
+    <div id="buytickets" className="flex flex-col py-10 items-center stretch-to-screen justify-center">
       <div class="text-7xl main text-center">
         <span class="socod">Tickets</span>
       </div>
@@ -66,21 +66,17 @@ const BuyTickets = () => {
           <span class="socod text-left">BUY TICKETS</span>
         </div>
       </button>
-      <div>
-
-      </div>
-      <p className="ml-5 lg:ml-0 mr-3 mb-5 text-white">For Alumni registration : </p>
-      <button
-        type="button"
-        onClick={() => window.open("http://rec.rechargefest.org/login", "_self")}
-        className="px-4 py-2 text-white hover:text-white  duration-200 rounded-md font-medium hover:duration-500 px neon-btn-socod max-w-max "
-      >
-        <div class="main text-md">
-          <span class="socod text-left">BUY TICKETS</span>
-        </div>
-      </button>
-      <div>
-        
+      <div className="flex flex-col justify-center items-center">
+        <p className="ml-5 lg:ml-0 mr-3 mb-5 text-white mt-4">For Alumni registration : </p>
+        <button
+          type="button"
+          onClick={() => window.open("https://rajalakshmi.org/rechargealumni", "_self")}
+          className="px-4 py-2 text-white hover:text-white  duration-200 rounded-md font-medium hover:duration-500 px neon-btn-socod max-w-max "
+        >
+          <div class="main text-md">
+            <span class="socod text-left">ALUMNI TICKETS</span>
+          </div>
+        </button>
       </div>
     </div>
   );
