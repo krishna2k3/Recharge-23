@@ -18,50 +18,85 @@ const rulesList = location.state.event.rules.split("\n");
             <div className="main text-4xl  lg:text-5xl  lg:flex lg:justify-center">
               <span className=" socod">{location.state.event.name}</span>
             </div>
-            <div className="flex flex-row ">
-              <div className="main mt-1">
-                <span className="socod text-xl ">Event Day:</span>
+            <div className="flex lg:flex-row flex-col justify-center">
+              <div>
+                <div className="flex flex-row ">
+                <div className="main mt-1">
+                  <span className="socod text-xl ">Event Day:</span>
+                </div>
+                <div className="ml-2">
+                  <p className=" text-xl leading-9">{location.state.event.day === 4 ? 
+                  "2 & 3" : location.state.event.day}</p>
+                </div>
               </div>
-              <div className="ml-2">
-                <p className=" text-xl leading-9">{location.state.event.day === 4 ? 
-                "2 & 3" : location.state.event.day}</p>
-              </div>
-            </div>
 
-            <div className="flex flex-row ">
-              <div className="main mt-1">
-                <span className="socod text-xl ">Event Type:</span>
-              </div>
-              <div className="ml-2">
-                <p className=" text-xl leading-9">{location.state.event.team_event ? "Team" : "Individual"}</p>
-              </div>
-            </div>
-            <div className="flex flex-row ">
-              <div className="main mt-1">
-                <span className="socod text-xl ">Time:</span>
-              </div>
-              <div className="ml-2 mt-1">
-                <p className=" text-xl ">{location.state.event.time_of_event}</p>
-              </div>
-            </div>
-            <div className="flex flex-row ">
-              <div className="main mt-1">
-                <span className="socod text-xl ">Venue:</span>
-              </div>
-              <div className="ml-2">
-                <p className=" text-xl leading-9">{location.state.event.venue}</p>
-              </div>
-            </div>
-            {location.state.event.pay !== -100 ? 
               <div className="flex flex-row ">
-              <div className="main mt-1">
-                <span className="socod text-xl ">Cost:</span>
+                <div className="main mt-4">
+                  <span className="socod text-xl ">Event Type:</span>
+                </div>
+                <div className="ml-2 mt-4">
+                  <p className=" text-xl ">{location.state.event.team_event ? "Team" : "Individual"}</p>
+                </div>
               </div>
-              <div className="ml-2">
-                <p className="text-xl leading-9">{location.state.event.pay > 0 ? "Rs. " + location.state.event.pay : "Free"}</p>
+              <div className="flex flex-row ">
+                <div className="main mt-4">
+                  <span className="socod text-xl ">Time:</span>
+                </div>
+                <div className="ml-2 mt-4">
+                  <p className=" text-xl ">{location.state.event.time_of_event}</p>
+                </div>
+              </div>
+              <div className="flex flex-row ">
+                <div className="main mt-4">
+                  <span className="socod text-xl ">Venue:</span>
+                </div>
+                <div className="ml-2 mt-4">
+                  <p className=" text-xl">{location.state.event.venue}</p>
+                </div>
+              </div>
+              {location.state.event.pay !== -100 ? 
+                <div className="flex flex-row ">
+                <div className="main mt-4">
+                  <span className="socod text-xl ">Cost:</span>
+                </div>
+                <div className="ml-2 mt-4">
+                  <p className="text-xl">{location.state.event.pay > 0 ? "Rs. " + location.state.event.pay : "Free"}</p>
+                </div>
+              </div>
+                : <></>}
+              </div>
+              <div>
+                <div className=" lg:ml-28 lg:mt-0 mt-4">
+                <div className="main mt-1">
+                  <span className="socod text-3xl ">Contact</span>
+                </div>
+                <div className="flex flex-row ">
+                  <div className="main mt-4">
+                    <span className="socod text-l ">{location.state.event.name_of_incharge1}:</span>
+                  </div>
+                  <div className="ml-2 mt-4">
+                    <p className="text-l ">{location.state.event.phone_of_incharge1}</p>
+                  </div>
+                </div>
+                <div className="flex flex-row ">
+                  <div className="main mt-4">
+                    <span className="socod text-l ">{location.state.event.name_of_incharge2}:</span>
+                  </div>
+                  <div className="ml-2 mt-4">
+                    <p className="text-l">{location.state.event.phone_of_incharge2}</p>
+                  </div>
+                </div>
+                <div className="flex flex-row ">
+                  <div className="main mt-4">
+                    <span className="socod text-l ">{location.state.event.name_of_incharge3}:</span>
+                  </div>
+                  <div className="ml-2 mt-4">
+                    <p className="text-l">{location.state.event.phone_of_incharge3}</p>
+                  </div>
+                </div>
+                </div>
               </div>
             </div>
-              : <></>}
             
             <button
               type="button"
@@ -73,35 +108,6 @@ const rulesList = location.state.event.rules.split("\n");
                 <span class="socod text-left tracking-wider">REGISTRATIONS OPEN SOON</span>
               </div>
             </button>
-          </div>
-          <div className="lg:mt-20 lg:ml-9">
-              <div className="main mt-1">
-                <span className="socod text-3xl ">Contact</span>
-              </div>
-            <div className="flex flex-row ">
-              <div className="main mt-4">
-                <span className="socod text-l ">{location.state.event.name_of_incharge1}:</span>
-              </div>
-              <div className="ml-2 mt-4">
-                <p className="text-l ">{location.state.event.phone_of_incharge1}</p>
-              </div>
-            </div>
-            <div className="flex flex-row ">
-              <div className="main mt-4">
-                <span className="socod text-l ">{location.state.event.name_of_incharge2}:</span>
-              </div>
-              <div className="ml-2 mt-4">
-                <p className="text-l">{location.state.event.phone_of_incharge2}</p>
-              </div>
-            </div>
-            <div className="flex flex-row ">
-              <div className="main mt-4">
-                <span className="socod text-l ">{location.state.event.name_of_incharge3}:</span>
-              </div>
-              <div className="ml-2 mt-4">
-                <p className="text-l">{location.state.event.phone_of_incharge3}</p>
-              </div>
-            </div>
           </div>
         </div>
 
