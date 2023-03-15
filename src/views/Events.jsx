@@ -24,9 +24,10 @@ import sports from '../components/Events/eventimgs/sports.jpeg'
 // literature
 import literature from '../components/Events/eventimgs/literature.avif'
 // quiz
-import quiz from '../components/Events/eventimgs/quiz.webp'
+import quiz from '../components/Events/eventimgs/carnival.webp'
 // onstage
 import onstage from '../components/Events/eventimgs/onstage.jpg'
+
 const Events = () => {
   const events = [
     {

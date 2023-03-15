@@ -35,7 +35,8 @@ const rulesList = location.state.event.rules.split("\n");
                   <span className="socod text-xl ">Event Type:</span>
                 </div>
                 <div className="ml-2 mt-4">
-                  <p className=" text-xl ">{location.state.event.team_event ? "Team" : "Individual"}</p>
+                  <p className=" text-xl ">{location.state.event.team_event ? 
+                    "Team(" + location.state.event.team_min + "-" + location.state.event.team_max + ")" : "Individual"}</p>
                 </div>
               </div>
               <div className="flex flex-row ">

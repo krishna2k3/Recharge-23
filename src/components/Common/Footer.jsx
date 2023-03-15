@@ -114,8 +114,8 @@ const Footer = ({ path }) => {
             </a>
           </p>
           <p className="text-white flex flex-row gap-x-2 items-center my-3">
-          <div className="flex flex-col">
-          <p className="text-white font-semibold  justify-center text-2xl  tracking-widest">
+          <div className="flex flex-col w-full">
+          <p className="text-white font-semibold justify-center text-2xl  tracking-widest">
             For Offline Registration
           </p>
           <hr class="border-0 h-1 w-24 mb-5 bg-[#0099FF]"></hr>
@@ -218,12 +218,59 @@ const Footer = ({ path }) => {
                 </g>
               </g>
             </svg>
+            <a href="mailto:support.recharge@rajalakshmi.edu.in">
+              support.recharge@rajalakshmi.edu.in
+            </a>
+          </p>
+          <p className="text-white flex flex-row gap-x-2 items-center mt-3">
+            <svg
+              className="w-5 h-5"
+              viewBox="0 0 20 16"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlnsXlink="http://www.w3.org/1999/xlink"
+            >
+              <g
+                id="Icons"
+                stroke="none"
+                strokeWidth="1"
+                fill="none"
+                fillRule="evenodd"
+              >
+                <g
+                  id="Rounded"
+                  transform="translate(-884.000000, -1486.000000)"
+                >
+                  <g
+                    id="Content"
+                    transform="translate(100.000000, 1428.000000)"
+                  >
+                    <g
+                      id="-Round-/-Content-/-mail"
+                      transform="translate(782.000000, 54.000000)"
+                    >
+                      <g transform="translate(0.000000, 0.000000)">
+                        <polygon
+                          id="Path"
+                          points="0 0 24 0 24 24 0 24"
+                        ></polygon>
+                        <path
+                          d="M20,4 L4,4 C2.9,4 2,4.9 2,6 L2,18 C2,19.1 2.9,20 4,20 L20,20 C21.1,20 22,19.1 22,18 L22,6 C22,4.9 21.1,4 20,4 Z M19.6,8.25 L13.06,12.34 C12.41,12.75 11.59,12.75 10.94,12.34 L4.4,8.25 C4.15,8.09 4,7.82 4,7.53 C4,6.86 4.73,6.46 5.3,6.81 L12,11 L18.7,6.81 C19.27,6.46 20,6.86 20,7.53 C20,7.82 19.85,8.09 19.6,8.25 Z"
+                          id="🔹Icon-Color"
+                          fill="#eb4c4c"
+                        ></path>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </svg>
             <a href="mailto:tickets.recharge@rajalakshmi.edu.in">
               tickets.recharge@rajalakshmi.edu.in
             </a>
           </p>
-          <p className="text-white flex flex-row gap-x-2 items-center my-3">
-            {/* <svg
+          {/* <p className="text-white flex flex-row gap-x-2 items-center my-3">
+           <svg
             className="w-5 h-5 text-white"
             viewBox="0 0 18 18"
             version="1.1"
@@ -264,10 +311,10 @@ const Footer = ({ path }) => {
                 </g>
               </g>
             </g>
-          </svg> */}
-            {/* <a href="tel:9381004087">+91 93810 04087</a>
-          <p> - Suriya Prakash</p> */}
-          </p>
+          </svg> 
+            <a href="tel:9381004087">+91 93810 04087</a>
+          <p> - Suriya Prakash</p>
+          </p> */}
           <p className="flex flex-row gap-x-2 items-center my-3">
             <svg
               className="w-5 h-5 text-pink-500"
