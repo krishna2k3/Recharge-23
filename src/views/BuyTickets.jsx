@@ -51,10 +51,9 @@ const BuyTickets = () => {
           1. Institution ID cards are mandatory for all the student participants.<br></br>
           2. Government ID proofs is mandatory for all the participants including the alumni.<br></br>
           3. It is mandatory to carry the registration QR code.<br></br>
-          5. Use or carrying of illegal substances is strictly prohibited. If found, strict action will be taken.<br></br>
-          6. The Management is not responsible for any loss of personal belongings.<br></br>
-          7. Participants must possess valid passes for events of the designated day.<br></br>
-          8. Entry into the Pro-shows without wrist band is prohibited<br></br>
+          4. Use or carrying of illegal substances is strictly prohibited. If found, strict action will be taken.<br></br>
+          5. The Management is not responsible for any loss of personal belongings.<br></br>
+          6. Participants must possess valid passes for events of the designated day.<br></br>
 
         </p>
       </div>
@@ -67,6 +66,22 @@ const BuyTickets = () => {
           <span class="socod text-left">BUY TICKETS</span>
         </div>
       </button>
+      <div>
+
+      </div>
+      <p className="ml-5 lg:ml-0 mr-3 mb-5 text-white">For Alumni registration : </p>
+      <button
+        type="button"
+        onClick={() => window.open("http://rec.rechargefest.org/login", "_self")}
+        className="px-4 py-2 text-white hover:text-white  duration-200 rounded-md font-medium hover:duration-500 px neon-btn-socod max-w-max "
+      >
+        <div class="main text-md">
+          <span class="socod text-left">BUY TICKETS</span>
+        </div>
+      </button>
+      <div>
+        
+      </div>
     </div>
   );
 };

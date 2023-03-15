@@ -23,7 +23,8 @@ const rulesList = location.state.event.rules.split("\n");
                 <span className="socod text-xl ">Event Day:</span>
               </div>
               <div className="ml-2">
-                <p className=" text-xl leading-9">{location.state.event.day}</p>
+                <p className=" text-xl leading-9">{location.state.event.day === 4 ? 
+                "2 & 3" : location.state.event.day}</p>
               </div>
             </div>
 
@@ -51,7 +52,8 @@ const rulesList = location.state.event.rules.split("\n");
                 <p className=" text-xl leading-9">{location.state.event.venue}</p>
               </div>
             </div>
-            <div className="flex flex-row ">
+            {location.state.event.pay !== -100 ? 
+              <div className="flex flex-row ">
               <div className="main mt-1">
                 <span className="socod text-xl ">Cost:</span>
               </div>
@@ -59,6 +61,7 @@ const rulesList = location.state.event.rules.split("\n");
                 <p className="text-xl leading-9">{location.state.event.pay > 0 ? "Rs. " + location.state.event.pay : "Free"}</p>
               </div>
             </div>
+              : <></>}
             
             <button
               type="button"
@@ -74,14 +77,6 @@ const rulesList = location.state.event.rules.split("\n");
           <div className="lg:mt-20 lg:ml-9">
               <div className="main mt-1">
                 <span className="socod text-3xl ">Contact</span>
-              </div>
-              <div className="flex flex-row ">
-                <div className="main mt-4">
-                  <span className="socod text-l ">Email:</span>
-                </div>
-                <div className="ml-2 mt-4">
-                  <p className="text-l ">{location.state.event.contact_mail}</p>
-                </div>
               </div>
             <div className="flex flex-row ">
               <div className="main mt-4">

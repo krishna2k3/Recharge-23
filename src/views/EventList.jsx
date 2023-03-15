@@ -85,7 +85,7 @@ const EventList = () => {
           </div>
           <div class="date-box">
             <span class="month">DAY</span>
-            <span class="date">{data[i].day}</span>
+            <span class="date">{data[i].day === 4 ? "2&3" : data[i].day}</span>
           </div>
         </div>
       );

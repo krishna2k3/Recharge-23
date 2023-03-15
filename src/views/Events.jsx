@@ -102,8 +102,8 @@ const Events = () => {
       category_id: 11
     },
     {
-      title: "Quiz",
-      category: "game",
+      title: "Fun Street",
+      category: "fun",
       imgUrl:quiz,
       category_id: 12
     },
