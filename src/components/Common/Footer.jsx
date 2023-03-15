@@ -114,51 +114,61 @@ const Footer = ({ path }) => {
             </a>
           </p>
           <p className="text-white flex flex-row gap-x-2 items-center my-3">
-            {/* <svg
-            className="w-5 h-5 text-white"
-            viewBox="0 0 18 18"
-            version="1.1"
-            xmlns="http://www.w3.org/2000/svg"
-            xmlnsXlink="http://www.w3.org/1999/xlink"
-          >
-            <g
-              id="Icons"
-              stroke="none"
-              strokeWidth="1"
-              fill="none"
-              fillRule="evenodd"
+          <div className="flex flex-col">
+          <p className="text-white font-semibold  justify-center text-2xl  tracking-widest">
+            For Offline Registration
+          </p>
+          <hr class="border-0 h-1 w-24 mb-5 bg-[#0099FF]"></hr>
+          <div className="flex flex-row">
+            <svg
+              className="w-5 h-5 text-white"
+              viewBox="0 0 18 18"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlnsXlink="http://www.w3.org/1999/xlink"
             >
               <g
-                id="Rounded"
-                transform="translate(-749.000000, -1263.000000)"
+                id="Icons"
+                stroke="none"
+                strokeWidth="1"
+                fill="none"
+                fillRule="evenodd"
               >
                 <g
-                  id="Communication"
-                  transform="translate(100.000000, 1162.000000)"
+                  id="Rounded"
+                  transform="translate(-749.000000, -1263.000000)"
                 >
                   <g
-                    id="-Round-/-Communication-/-phone"
-                    transform="translate(646.000000, 98.000000)"
+                    id="Communication"
+                    transform="translate(100.000000, 1162.000000)"
                   >
-                    <g>
-                      <polygon
-                        id="Path"
-                        points="0 0 24 0 24 24 0 24"
-                      ></polygon>
-                      <path
-                        d="M19.23,15.26 L16.69,14.97 C16.08,14.9 15.48,15.11 15.05,15.54 L13.21,17.38 C10.38,15.94 8.06,13.63 6.62,10.79 L8.47,8.94 C8.9,8.51 9.11,7.91 9.04,7.3 L8.75,4.78 C8.63,3.77 7.78,3.01 6.76,3.01 L5.03,3.01 C3.9,3.01 2.96,3.95 3.03,5.08 C3.56,13.62 10.39,20.44 18.92,20.97 C20.05,21.04 20.99,20.1 20.99,18.97 L20.99,17.24 C21,16.23 20.24,15.38 19.23,15.26 Z"
-                        id="🔹Icon-Color"
-                        fill="#009dff"
-                      ></path>
+                    <g
+                      id="-Round-/-Communication-/-phone"
+                      transform="translate(646.000000, 98.000000)"
+                    >
+                      <g>
+                        <polygon
+                          id="Path"
+                          points="0 0 24 0 24 24 0 24"
+                        ></polygon>
+                        <path
+                          d="M19.23,15.26 L16.69,14.97 C16.08,14.9 15.48,15.11 15.05,15.54 L13.21,17.38 C10.38,15.94 8.06,13.63 6.62,10.79 L8.47,8.94 C8.9,8.51 9.11,7.91 9.04,7.3 L8.75,4.78 C8.63,3.77 7.78,3.01 6.76,3.01 L5.03,3.01 C3.9,3.01 2.96,3.95 3.03,5.08 C3.56,13.62 10.39,20.44 18.92,20.97 C20.05,21.04 20.99,20.1 20.99,18.97 L20.99,17.24 C21,16.23 20.24,15.38 19.23,15.26 Z"
+                          id="🔹Icon-Color"
+                          fill="#009dff"
+                        ></path>
+                      </g>
                     </g>
                   </g>
                 </g>
               </g>
-            </g>
-          </svg> */}
-            {/* <a href="tel:9381004087">+91 93810 04087</a>
-          <p> - Suriya Prakash</p> */}
+            </svg> 
+              <a href="tel:9381004087">&nbsp;&nbsp;+91 93810 04087</a>
+            <p>&nbsp;- Dharanisri</p>
+            </div>
+          </div>
           </p>
+          </div>
+            
         </div>
         <div className="footer-item-contacts mt-3 justify-end">
           <p className="text-white font-semibold  justify-center text-2xl  tracking-widest">
@@ -288,7 +298,7 @@ const Footer = ({ path }) => {
                   </div> */}
         </div>
       </div>
-    </div>
+
   );
 };
 
