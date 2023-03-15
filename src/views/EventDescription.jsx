@@ -9,12 +9,12 @@ useEffect(()=>{
 })
 
 const rulesList = location.state.event.rules.split("\n");
-
+const prizeList = location.state.event.price_updated.split("\n");
   return (
     <div>
       <div className="flex flex-col  text-white py-2 ">
         <div className="flex flex-col lg:flex-row mx-10 my-5 lg:gap-x-8 md:text-left">  
-          <div id="mini-head " className="flex flex-col gap-y-5 md:items-start my-6">
+          <div id="mini-head " className="flex flex-col gap-y-5 md:items-start my-5">
             <div className="main text-4xl  lg:text-5xl  lg:flex lg:justify-center">
               <span className=" socod">{location.state.event.name}</span>
             </div>
@@ -69,34 +69,52 @@ const rulesList = location.state.event.rules.split("\n");
               <div>
                 <div className=" lg:ml-28 lg:mt-0 mt-4">
                 <div className="main mt-1">
+                  <span className="socod text-4xl ">PRIZES</span>
+                </div>
+                <div className="flex flex-row ">
+                  <div className=" mt-3">
+                    <p className="text-xl leading-9 "> {prizeList.map((ele, idx) => {
+                  return(
+                <p key = {idx}>{ele}</p>
+                )
+                })}</p>
+                  </div>
+
+                </div>
+                </div>
+              </div>
+              <div>
+                <div className=" lg:ml-28 lg:mt-0 mt-4">
+                <div className="main mt-1">
                   <span className="socod text-3xl ">Contact</span>
                 </div>
                 <div className="flex flex-row ">
                   <div className="main mt-4">
-                    <span className="socod text-l ">{location.state.event.name_of_incharge1}:</span>
+                    <span className="socod text-xl ">{location.state.event.name_of_incharge1}:</span>
                   </div>
                   <div className="ml-2 mt-4">
-                    <p className="text-l ">{location.state.event.phone_of_incharge1}</p>
+                    <p className="text-xl ">{location.state.event.phone_of_incharge1}</p>
                   </div>
                 </div>
                 <div className="flex flex-row ">
                   <div className="main mt-4">
-                    <span className="socod text-l ">{location.state.event.name_of_incharge2}:</span>
+                    <span className="socod text-xl ">{location.state.event.name_of_incharge2}:</span>
                   </div>
                   <div className="ml-2 mt-4">
-                    <p className="text-l">{location.state.event.phone_of_incharge2}</p>
+                    <p className="text-xl">{location.state.event.phone_of_incharge2}</p>
                   </div>
                 </div>
                 <div className="flex flex-row ">
                   <div className="main mt-4">
-                    <span className="socod text-l ">{location.state.event.name_of_incharge3}:</span>
+                    <span className="socod text-xl ">{location.state.event.name_of_incharge3}:</span>
                   </div>
                   <div className="ml-2 mt-4">
-                    <p className="text-l">{location.state.event.phone_of_incharge3}</p>
+                    <p className="text-xl">{location.state.event.phone_of_incharge3}</p>
                   </div>
                 </div>
                 </div>
               </div>
+              
             </div>
             
             {location.state.event.id===63?<button

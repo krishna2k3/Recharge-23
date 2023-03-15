@@ -25,7 +25,7 @@
      "time_of_event": "9:00 AM - 4:00 PM (EXHIBITION)",
      "duration_in_hours": 7,
      "venue": "Tiffac Block Corridor ",
-     "price_updated": "1st prize : Rs 3,000\n&lt;br&gt;2nd prize: Rs 2,000\n&lt;br&gt;3rd prize : Rs 1,000"
+     "price_updated": "1st prize : Rs 3,000\n2nd prize: Rs 2,000\n3rd prize : Rs 1,000"
     },
     {
      "id": 2,
@@ -53,7 +53,7 @@
      "time_of_event": "11:00 AM - 1:30 PM",
      "duration_in_hours": 2.5,
      "venue": "TIFAC HALL",
-     "price_updated": "1st prize : Rs 5,000\n&lt;br&gt;2nd prize: Rs 3,000\n&lt;br&gt;3rd prize : Rs 1,000"
+     "price_updated": "1st prize : Rs 5,000\n2nd prize: Rs 3,000\n3rd prize : Rs 1,000"
     },
     {
      "id": 3,
@@ -81,7 +81,7 @@
      "time_of_event": "9:00 AM - 4:00 PM (EXHIBITION)",
      "duration_in_hours": 7,
      "venue": "Tiffac Block corridor ",
-     "price_updated": "1st prize : Rs 3,000\n&lt;br&gt;2nd prize: Rs 2,000\n&lt;br&gt;3rd prize : Rs 1,000"
+     "price_updated": "1st prize : Rs 3,000\n2nd prize: Rs 2,000\n3rd prize : Rs 1,000"
     },
     {
      "id": 4,
@@ -109,7 +109,7 @@
      "time_of_event": "9:00 AM - 11:00 AM ",
      "duration_in_hours": 2,
      "venue": "Behind Techlounge ",
-     "price_updated": "1st prize : Rs 5,000\n&lt;br&gt;2nd prize: Rs 3,000\n&lt;br&gt;3rd prize : Rs 1,000"
+     "price_updated": "1st prize : Rs 5,000\n2nd prize: Rs 3,000\n3rd prize : Rs 1,000"
     },
     {
      "id": 5,
@@ -137,7 +137,7 @@
      "time_of_event": "1:30 PM -3:30 PM",
      "duration_in_hours": 2,
      "venue": "Tifac Hall",
-     "price_updated": "1st prize : Rs 5,000\n&lt;br&gt;2nd prize: Rs 3,000\n&lt;br&gt;3rd prize : Rs 1,000"
+     "price_updated": "1st prize : Rs 5,000\n2nd prize: Rs 3,000\n3rd prize : Rs 1,000"
     },
     {
      "id": 6,
@@ -165,7 +165,7 @@
      "time_of_event": "9:00 AM - 11:00 AM",
      "duration_in_hours": 2,
      "venue": "CLASSROOM - TIFAC BLOCK",
-     "price_updated": "1st prize : Rs 5,000\n&lt;br&gt;2nd prize: Rs 3,000\n&lt;br&gt;3rd prize : Rs 1,000"
+     "price_updated": "1st prize : Rs 5,000\n2nd prize: Rs 3,000\n3rd prize : Rs 1,000"
     },
     {
      "id": 7,
@@ -193,7 +193,7 @@
      "time_of_event": "9:00 AM - 11:30 AM ",
      "duration_in_hours": 2.5,
      "venue": "WALLS OF TIFAC BLOCK",
-     "price_updated": "1st prize : Rs 5,000\n&lt;br&gt;2nd prize: Rs 3,000"
+     "price_updated": "1st prize : Rs 5,000\n2nd prize: Rs 3,000"
     },
  
     {
@@ -222,7 +222,7 @@
      "time_of_event": "12:00 PM - 2:30 PM",
      "duration_in_hours": 2.5,
      "venue": "INDOOR AUDITORIUM",
-     "price_updated": "1st prize : Rs 5,000\n&lt;br&gt;2nd prize: Rs 3,000\n&lt;br&gt;3rd prize : Rs 1,000"
+     "price_updated": "1st prize : Rs 5,000\n2nd prize: Rs 3,000\n3rd prize : Rs 1,000"
     },
     {
      "id": 10,
@@ -250,7 +250,7 @@
      "time_of_event": "9:00 AM - 11:00 AM",
      "duration_in_hours": 2,
      "venue": "MINI SEMINAR HALL",
-     "price_updated": "1st prize : Rs 5,000\n&lt;br&gt;2nd prize: Rs 3,000\n&lt;br&gt;3rd prize : Rs 1,000"
+     "price_updated": "1st prize : Rs 5,000\n2nd prize: Rs 3,000\n3rd prize : Rs 1,000"
     },
     {
      "id": 11,
@@ -278,7 +278,7 @@
      "time_of_event": "9:00 AM -11:30 AM",
      "duration_in_hours": 3,
      "venue": "BASKETBALL COURT",
-     "price_updated": "1st prize : Rs 5,000\n&lt;br&gt;2nd prize: Rs 3,000\n&lt;br&gt;3rd prize : Rs 1,000"
+     "price_updated": "1st prize : Rs 5,000\n2nd prize: Rs 3,000\n3rd prize : Rs 1,000"
     },
     {
      "id": 12,
@@ -306,7 +306,7 @@
      "time_of_event": "11:00 AM-1:00 PM",
      "duration_in_hours": 2,
      "venue": "MINI SEMINAR HALL",
-     "price_updated": "1st prize : Rs 5,000\n&lt;br&gt;2nd prize: Rs 3,000\n&lt;br&gt;3rd prize : Rs 1,000"
+     "price_updated": "1st prize : Rs 5,000\n2nd prize: Rs 3,000\n3rd prize : Rs 1,000"
     },
     {
      "id": 13,
@@ -334,7 +334,7 @@
      "time_of_event": "9:00 AM - 12:00 PM",
      "duration_in_hours": 3,
      "venue": "INDOOR AUDITORIUM",
-     "price_updated": "1st prize : Rs 10,000\n&lt;br&gt;2nd prize: Rs 5,000\n&lt;br&gt;3rd prize : Rs 3,000"
+     "price_updated": "1st prize : Rs 10,000\n2nd prize: Rs 5,000\n3rd prize : Rs 3,000"
     },
     {
      "id": 14,
@@ -362,7 +362,7 @@
      "time_of_event": " 9:00 AM - 11:30 AM",
      "duration_in_hours": 2,
      "venue": "MAIN SEMINAR  HALL",
-     "price_updated": "1st prize : Rs 5,000\n&lt;br&gt;2nd prize: Rs 3,000\n&lt;br&gt;3rd prize : Rs 1,000"
+     "price_updated": "1st prize : Rs 5,000\n2nd prize: Rs 3,000\n3rd prize : Rs 1,000"
     },
     {
      "id": 15,
@@ -390,7 +390,7 @@
      "time_of_event": "9:00 AM - 12:00 PM",
      "duration_in_hours": 3,
      "venue": "PURPLE HALL",
-     "price_updated": "1st prize : Rs 10,000\n&lt;br&gt;2nd prize: Rs 5,000\n&lt;br&gt;3rd prize : Rs 3,000"
+     "price_updated": "1st prize : Rs 10,000\n2nd prize: Rs 5,000\n3rd prize : Rs 3,000"
     },
     {
      "id": 16,
@@ -418,7 +418,7 @@
      "time_of_event": "11:30 AM - 2:00 PM",
      "duration_in_hours": 2.5,
      "venue": "ON-THE-STREETS of REC CAFE",
-     "price_updated": "1st prize : Rs 5,000\n&lt;br&gt;2nd prize: Rs 3,000\n&lt;br&gt;3rd prize : Rs 1,000"
+     "price_updated": "1st prize : Rs 5,000\n2nd prize: Rs 3,000\n3rd prize : Rs 1,000"
     },
     {
      "id": 17,
@@ -446,7 +446,7 @@
      "time_of_event": "3:00 PM - 5:00 PM ",
      "duration_in_hours": 2,
      "venue": "PURPLE HALL",
-     "price_updated": "1st prize : Rs 5,000\n&lt;br&gt;2nd prize: Rs 3,000\n&lt;br&gt;3rd prize : Rs 1,000"
+     "price_updated": "1st prize : Rs 5,000\n2nd prize: Rs 3,000\n3rd prize : Rs 1,000"
     },
     {
      "id": 18,
@@ -474,7 +474,7 @@
      "time_of_event": "12:00 PM - 2 :00 PM",
      "duration_in_hours": 2,
      "venue": "MINI SEMINAR HALL",
-     "price_updated": "1st prize : Rs 3,000\n&lt;br&gt;2nd prize: Rs 2,000\n&lt;br&gt;3rd prize : Rs 1,000"
+     "price_updated": "1st prize : Rs 3,000\n2nd prize: Rs 2,000\n3rd prize : Rs 1,000"
     },
     {
      "id": 19,
@@ -502,7 +502,7 @@
      "time_of_event": "9:00 AM - 12:00 PM",
      "duration_in_hours": 3,
      "venue": "MINI SEMINAR HALL",
-     "price_updated": "1st prize : Rs 3,000\n&lt;br&gt;2nd prize: Rs 2,000\n&lt;br&gt;3rd prize : Rs 1,000"
+     "price_updated": "1st prize : Rs 3,000\n2nd prize: Rs 2,000\n3rd prize : Rs 1,000"
     },
     {
      "id": 20,
@@ -530,7 +530,7 @@
      "time_of_event": "9:00 AM - 1:30 PM",
      "duration_in_hours": 4.5,
      "venue": "MAIN SEMINAR HALL",
-     "price_updated": "1st prize : Rs 10,000\n&lt;br&gt;2nd prize: Rs 5,000\n&lt;br&gt;3rd prize : Rs 3,000"
+     "price_updated": "1st prize : Rs 10,000\n2nd prize: Rs 5,000\n3rd prize : Rs 3,000"
     },
     {
      "id": 21,
@@ -558,7 +558,7 @@
      "time_of_event": "9:00 AM - 11:30 AM",
      "duration_in_hours": 2.5,
      "venue": "CLASSROOM - ARCHITECTURE BLOCK",
-     "price_updated": "1st prize : Rs 5,000\n&lt;br&gt;2nd prize: Rs 3,000\n&lt;br&gt;3rd prize : Rs 1,000"
+     "price_updated": "1st prize : Rs 5,000\n2nd prize: Rs 3,000\n3rd prize : Rs 1,000"
     },
     {
      "id": 22,
@@ -586,7 +586,7 @@
      "time_of_event": "9:00 AM -11:30 AM",
      "duration_in_hours": 2.5,
      "venue": "CLASSROOM - ARCHITECTURE BLOCK",
-     "price_updated": "1st prize : Rs 1,500\n&lt;br&gt;2nd prize : Rs 500"
+     "price_updated": "1st prize : Rs 1,500\n2nd prize : Rs 500"
     },
     {
      "id": 23,
@@ -614,7 +614,7 @@
      "time_of_event": "9:00 AM - 2:00 PM",
      "duration_in_hours": 5,
      "venue": "MAIN SEMINAR HALL",
-     "price_updated": "1st prize : Rs 10,000\n&lt;br&gt;2nd prize: Rs 5,000\n&lt;br&gt;3rd prize : Rs 3,000"
+     "price_updated": "1st prize : Rs 10,000\n2nd prize: Rs 5,000\n3rd prize : Rs 3,000"
     },
     {
      "id": 24,
@@ -642,7 +642,7 @@
      "time_of_event": "11:30 AM - 4:00 PM",
      "duration_in_hours": 4.5,
      "venue": "MAIN SEMINAR HALL",
-     "price_updated": "1st prize : Rs 5,000\n&lt;br&gt;"
+     "price_updated": "1st prize : Rs 5,000\n"
     },
     {
      "id": 25,
@@ -670,7 +670,7 @@
      "time_of_event": "11:30 AM - 4:00 PM",
      "duration_in_hours": 4.5,
      "venue": "MAIN SEMINAR HALL",
-     "price_updated": "1st prize: Rs 5,000\n&lt;br&gt;"
+     "price_updated": "1st prize: Rs 5,000\n"
     },
     {
      "id": 26,
@@ -698,7 +698,7 @@
      "time_of_event": "9:00 AM-12:00 PM",
      "duration_in_hours": 3,
      "venue": "PURPLE HALL",
-     "price_updated": "1st prize : Rs 5,000\n&lt;br&gt;2nd prize: Rs 3,000\n&lt;br&gt;3rd prize : Rs 2,000"
+     "price_updated": "1st prize : Rs 5,000\n2nd prize: Rs 3,000\n3rd prize : Rs 2,000"
     },
     {
      "id": 27,
@@ -726,7 +726,7 @@
      "time_of_event": "9:00 AM - 11:00 AM",
      "duration_in_hours": 2,
      "venue": "CONFERENCE HALL",
-     "price_updated": "1st prize : Rs 3,000\n&lt;br&gt;2nd prize: Rs 2,000\n&lt;br&gt;3rd prize : Rs 1,000"
+     "price_updated": "1st prize : Rs 3,000\n2nd prize: Rs 2,000\n3rd prize : Rs 1,000"
     },
     {
      "id": 28,
@@ -754,7 +754,7 @@
      "time_of_event": "9:00 AM - 12:00 PM (Prelims) :1:00 PM - 3:30 PM",
      "duration_in_hours": 2.5,
      "venue": "CLASSROOM - ADMIN BLOCK (Prelims) : CONFERENCE HALL(finals)",
-     "price_updated": "1st prize : Rs 10,000\n&lt;br&gt;2nd prize: Rs 5,000\n&lt;br&gt;3rd prize : Rs 3,000"
+     "price_updated": "1st prize : Rs 10,000\n2nd prize: Rs 5,000\n3rd prize : Rs 3,000"
     },
     {
      "id": 29,
@@ -782,7 +782,7 @@
      "time_of_event": "9:00 AM - 1:30 PM",
      "duration_in_hours": 4.5,
      "venue": "A105 - ACADEMIC BLOCK",
-     "price_updated": "1st prize : Rs 2,000\n&lt;br&gt;2nd prize: Rs 1,000"
+     "price_updated": "1st prize : Rs 2,000\n2nd prize: Rs 1,000"
     },
     {
      "id": 30,
@@ -810,7 +810,7 @@
      "time_of_event": "3:00 PM - 5:00 PM",
      "duration_in_hours": 2,
      "venue": "A105 - ACADEMIC BLOCK",
-     "price_updated": "1st prize : Rs 2,000\n&lt;br&gt;2nd prize: Rs 1,000"
+     "price_updated": "1st prize : Rs 2,000\n2nd prize: Rs 1,000"
     },
     {
      "id": 31,
@@ -838,7 +838,7 @@
      "time_of_event": "11:00 AM - 1:30 PM",
      "duration_in_hours": 2,
      "venue": "CONFERENCE HALL",
-     "price_updated": "1st prize : Rs 5,000\n&lt;br&gt;2nd prize: Rs 3,000\n&lt;br&gt;3rd prize : Rs 2,000"
+     "price_updated": "1st prize : Rs 5,000\n2nd prize: Rs 3,000\n3rd prize : Rs 2,000"
     },
     {
      "id": 32,
@@ -894,7 +894,7 @@
      "time_of_event": "10 :00 AM - 12:00 PM",
      "duration_in_hours": 2,
      "venue": "CLASSROOM - WORKSHOP BLOCK",
-     "price_updated": "1st prize :  Rs 3,000\n&lt;br&gt;2nd prize : Rs 2,000"
+     "price_updated": "1st prize :  Rs 3,000\n2nd prize : Rs 2,000"
     },
     {
      "id": 34,
@@ -922,7 +922,7 @@
      "time_of_event": "9:00 AM - 5:00 PM",
      "duration_in_hours": 8,
      "venue": "HEKKA (ROUND 1) CLASSROOM - ACADEMIC BLOCKX",
-     "price_updated": "1st prize : Rs 3,000\n&lt;br&gt;2nd prize: Rs 2,000\n&lt;br&gt;3rd prize : Rs 1,000"
+     "price_updated": "1st prize : Rs 3,000\n2nd prize: Rs 2,000\n3rd prize : Rs 1,000"
     },
     {
      "id": 35,
@@ -950,7 +950,7 @@
      "time_of_event": "9:00 AM - 12:00 PM",
      "duration_in_hours": 3,
      "venue": "HUT CAFE",
-     "price_updated": "1st prize : Rs 3,000\n&lt;br&gt;2nd prize: Rs 2,000\n&lt;br&gt;3rd prize : Rs 1,000"
+     "price_updated": "1st prize : Rs 3,000\n2nd prize: Rs 2,000\n3rd prize : Rs 1,000"
     },
     {
      "id": 36,
@@ -1034,7 +1034,7 @@
      "time_of_event": "1:30 PM - 4:00 PM",
      "duration_in_hours": 2,
      "venue": "CLASSROOM - WORKSHOP BLOCK",
-     "price_updated": "1st prize : Rs 3,000\n&lt;br&gt;2nd prize: Rs 2,000\n&lt;br&gt;3rd prize : Rs 1,000"
+     "price_updated": "1st prize : Rs 3,000\n2nd prize: Rs 2,000\n3rd prize : Rs 1,000"
     },
     {
      "id": 39,
@@ -1062,7 +1062,7 @@
      "time_of_event": "9:00 AM -12:00 PM",
      "duration_in_hours": 3,
      "venue": "CONFERENCE HALL",
-     "price_updated": "1st prize : Rs 3,000\n&lt;br&gt;2nd prize: Rs 2,000\n&lt;br&gt;3rd prize : Rs 1,000"
+     "price_updated": "1st prize : Rs 3,000\n2nd prize: Rs 2,000\n3rd prize : Rs 1,000"
     },
     {
      "id": 40,
@@ -1090,7 +1090,7 @@
      "time_of_event": "9:00 AM – 4:30 PM",
      "duration_in_hours": 3,
      "venue": "CLASSROOM -ADMIN BLOCK",
-     "price_updated": "1st prize : Rs 2,000\n&lt;br&gt;2nd prize: Rs 1,000"
+     "price_updated": "1st prize : Rs 2,000\n2nd prize: Rs 1,000"
     },
     {
      "id": 41,
@@ -1118,7 +1118,7 @@
      "time_of_event": "9.30 AM – 4:30 PM",
      "duration_in_hours": 7,
      "venue": "CLASSROOM - ADMIN BLOCK ",
-     "price_updated": "1st prize : Rs 5,000\n&lt;br&gt;2nd prize: Rs 3,000\n&lt;br&gt;3rd prize : Rs 2,000"
+     "price_updated": "1st prize : Rs 5,000\n2nd prize: Rs 3,000\n3rd prize : Rs 2,000"
     },
     {
      "id": 42,
@@ -1146,7 +1146,7 @@
      "time_of_event": "1:30 PM - 4:00 PM",
      "duration_in_hours": 2,
      "venue": "CLASSROOM  - WORKSHOP BLOCK",
-     "price_updated": "1st prize : Rs 2,000\n&lt;br&gt;2nd prize: Rs 1,000"
+     "price_updated": "1st prize : Rs 2,000\n2nd prize: Rs 1,000"
     },
     {
      "id": 43,
@@ -1174,7 +1174,7 @@
      "time_of_event": "12:00 PM - 3:00 PM",
      "duration_in_hours": 2,
      "venue": "CLASSROOM - WORKSHOP BLOCK",
-     "price_updated": "1st prize : Rs 2,000\n&lt;br&gt;2nd prize: Rs 1,000"
+     "price_updated": "1st prize : Rs 2,000\n2nd prize: Rs 1,000"
     },
     {
      "id": 44,
@@ -1202,7 +1202,7 @@
      "time_of_event": "9.00 AM – 11.00 AM",
      "duration_in_hours": 2,
      "venue": "A104 - ACADEMIC BLOCK",
-     "price_updated": "1st prize : Rs 2,000\n&lt;br&gt;2nd prize: Rs 1,000"
+     "price_updated": "1st prize : Rs 2,000\n2nd prize: Rs 1,000"
     },
     {
      "id": 45,
@@ -1230,7 +1230,7 @@
      "time_of_event": "9:00 AM –  3:00 PM ",
      "duration_in_hours": 5,
      "venue": "CLASSROOM - ADMIN BLOCK ",
-     "price_updated": "1st prize : Rs 10,000\n&lt;br&gt;2nd prize: Rs 5,000\n&lt;br&gt;3rd prize : Rs 3,000"
+     "price_updated": "1st prize : Rs 10,000\n2nd prize: Rs 5,000\n3rd prize : Rs 3,000"
     },
     {
      "id": 46,
@@ -1258,7 +1258,7 @@
      "time_of_event": "9:00 AM to 12:00 PM",
      "duration_in_hours": 3,
      "venue": "INDOOR AUDITORIUM",
-     "price_updated": "1st prize : Rs 10,000\n&lt;br&gt;2nd prize: Rs 5,000\n&lt;br&gt;3rd prize : Rs 3,000"
+     "price_updated": "1st prize : Rs 10,000\n2nd prize: Rs 5,000\n3rd prize : Rs 3,000"
     },
     {
      "id": 47,
@@ -1286,7 +1286,7 @@
      "time_of_event": "9:00 AM - 11:30 AM",
      "duration_in_hours": 2.5,
      "venue": "MAIN SEMINAR HALL",
-     "price_updated": "1st prize : Rs 5,000\n&lt;br&gt;2nd prize: Rs 3,000\n&lt;br&gt;3rd prize : Rs 1,000"
+     "price_updated": "1st prize : Rs 5,000\n2nd prize: Rs 3,000\n3rd prize : Rs 1,000"
     },
     {
      "id": 48,
@@ -1314,7 +1314,7 @@
      "time_of_event": "12:00 PM - 3:00 PM",
      "duration_in_hours": 3,
      "venue": "HERITAGE HALL",
-     "price_updated": "1st prize : Rs 2,000\n&lt;br&gt;2nd prize: Rs 1,000"
+     "price_updated": "1st prize : Rs 2,000\n2nd prize: Rs 1,000"
     },
     {
      "id": 49,
@@ -1342,7 +1342,7 @@
      "time_of_event": "9:00 AM to 12:00 PM",
      "duration_in_hours": 3,
      "venue": "BASKETBALL COURT",
-     "price_updated": "1st prize : Rs 5,000\n&lt;br&gt;2nd prize: Rs 3,000\n&lt;br&gt;3rd prize : Rs 1,000"
+     "price_updated": "1st prize : Rs 5,000\n2nd prize: Rs 3,000\n3rd prize : Rs 1,000"
     },
     {
      "id": 50,
@@ -1370,7 +1370,7 @@
      "time_of_event": "12:00 PM - 3:00 PM",
      "duration_in_hours": 3,
      "venue": "BASKETBALL COURT",
-     "price_updated": "1st prize : Rs 5,000\n&lt;br&gt;2nd prize: Rs 3,000\n&lt;br&gt;3rd prize : Rs 1,000"
+     "price_updated": "1st prize : Rs 5,000\n2nd prize: Rs 3,000\n3rd prize : Rs 1,000"
     },
     {
      "id": 51,
@@ -1398,7 +1398,7 @@
      "time_of_event": "12:00 PM - 3:00 PM",
      "duration_in_hours": 3,
      "venue": "Indoor auditorium",
-     "price_updated": "1st prize : Rs 10,000\n&lt;br&gt;2nd prize: Rs 5,000\n&lt;br&gt;3rd prize : Rs 3,000"
+     "price_updated": "1st prize : Rs 10,000\n2nd prize: Rs 5,000\n3rd prize : Rs 3,000"
     },
     {
      "id": 52,
@@ -1426,7 +1426,7 @@
      "time_of_event": "9:00 AM - 12:00 PM",
      "duration_in_hours": 3,
      "venue": "HERITAGE HALL",
-     "price_updated": "1st prize : Rs 2,000\n&lt;br&gt;2nd prize: Rs 1,000"
+     "price_updated": "1st prize : Rs 2,000\n2nd prize: Rs 1,000"
     },
     {
      "id": 53,
@@ -1454,7 +1454,7 @@
      "time_of_event": "9:00 AM - 12:00 PM (Prelims) : 2:00 PM - 4:30 PM",
      "duration_in_hours": 2.5,
      "venue": "CLASSROOM - ADMIN BLOCK : MINI SEMINAR HALL",
-     "price_updated": "1st prize : Rs 5,000\n&lt;br&gt;2nd prize: Rs 3,000\n&lt;br&gt;3rd prize : Rs 1,000"
+     "price_updated": "1st prize : Rs 5,000\n2nd prize: Rs 3,000\n3rd prize : Rs 1,000"
     },
     {
      "id": 54,
@@ -1482,7 +1482,7 @@
      "time_of_event": "9:00 AM - 12:00 PM (Prelims) 4:00 PM - 5:30 PM",
      "duration_in_hours": 2,
      "venue": "CLASSROOM - ADMIN BLOCK (Prelims) BASKETBALL COURT",
-     "price_updated": "1st prize : Rs 10,000\n&lt;br&gt;2nd prize: Rs 5,000\n&lt;br&gt;3rd prize : Rs 3,000"
+     "price_updated": "1st prize : Rs 10,000\n2nd prize: Rs 5,000\n3rd prize : Rs 3,000"
     },
     {
      "id": 55,
@@ -1510,7 +1510,7 @@
      "time_of_event": "9:00 AM - 12:00 PM (Prelims) 1:30 PM - 4:30 PM",
      "duration_in_hours": 3,
      "venue": "CLASSROOM - ADMIN BLOCK (Prelims) BASKETBALL COURT",
-     "price_updated": "1st prize : Rs 10,000\n&lt;br&gt;2nd prize: Rs 5,000\n&lt;br&gt;3rd prize : Rs 3,000"
+     "price_updated": "1st prize : Rs 10,000\n2nd prize: Rs 5,000\n3rd prize : Rs 3,000"
     },
     {
      "id": 56,
@@ -1566,7 +1566,7 @@
      "time_of_event": "9:00 AM - 12:00 PM",
      "duration_in_hours": 3,
      "venue": "Tech Lounge",
-     "price_updated": "1st Prize: Rs.4000\n&lt;br&gt;2nd Prize: Rs.1000"
+     "price_updated": "1st Prize: Rs.4000\n2nd Prize: Rs.1000"
     },
     {
      "id": 58,
@@ -1594,7 +1594,7 @@
      "time_of_event": "12:00 AM - 4:00 PM",
      "duration_in_hours": 4,
      "venue": "Tech Lounge",
-     "price_updated": "1st Prize : Rs.3000\n&lt;br&gt;2nd Prize : Rs.1000"
+     "price_updated": "1st Prize : Rs.3000\n2nd Prize : Rs.1000"
     },
     {
      "id": 59,
@@ -1650,7 +1650,7 @@
      "time_of_event": "9:00 AM - 12:30 PM",
      "duration_in_hours": 3.5,
      "venue": "TIFAC hall",
-     "price_updated": "1st Prize:  Rs.2000\n&lt;br&gt; 2nd Prize : Rs.1000\n&lt;br&gt;3rd Prize: Rs.500\n&lt;br&gt;"
+     "price_updated": "1st Prize:  Rs.2000\n 2nd Prize : Rs.1000\n3rd Prize: Rs.500\n"
     },
     {
      "id": 61,
@@ -1678,7 +1678,7 @@
      "time_of_event": "9:00 AM - 9:30 AM : 1:30 PM - 4:30 PM ",
      "duration_in_hours": 2.5,
      "venue": "A 105 - ADMIN BLOCK",
-     "price_updated": "1st prize : Rs 3,000\n&lt;br&gt;2nd prize: Rs 2,000\n&lt;br&gt;2nd prize: Rs 1,000"
+     "price_updated": "1st prize : Rs 3,000\n2nd prize: Rs 2,000\n2nd prize: Rs 1,000"
     },
     {
      "id": 62,
@@ -1762,7 +1762,7 @@
      "time_of_event": "10:00 AM - 4:00 PM",
      "duration_in_hours": 6,
      "venue": "TURF",
-     "price_updated": "1st prize : Rs 10,000\n&lt;br&gt;2nd prize: Rs 5,000"
+     "price_updated": "1st prize : Rs 10,000\n2nd prize: Rs 5,000"
     },
     {
      "id": 65,
@@ -1818,7 +1818,7 @@
      "time_of_event": "1:00 PM - 5:00 PM",
      "duration_in_hours": 4.5,
      "venue": "Mini seminar hall",
-     "price_updated": "1st prize : Rs 10,000\n&lt;br&gt;2nd prize: Rs 5,000"
+     "price_updated": "1st prize : Rs 10,000\n2nd prize: Rs 5,000"
     },
     {
      "id": 67,
@@ -1846,7 +1846,7 @@
      "time_of_event": "12:30 PM - 5:00 PM",
      "duration_in_hours": 1.5,
      "venue": "TIFAC HALL",
-     "price_updated": "1st prize : Rs 3,000\n&lt;br&gt;2nd prize: Rs 2,000\n&lt;br&gt;3rd prize : Rs 1,000"
+     "price_updated": "1st prize : Rs 3,000\n2nd prize: Rs 2,000\n3rd prize : Rs 1,000"
     },
     {
      "id": 68,
@@ -1874,6 +1874,6 @@
      "time_of_event": "9:00 AM -12:30 PM",
      "duration_in_hours": 3.5,
      "venue": "conference hall",
-     "price_updated": "1st prize : Rs 3,000\n&lt;br&gt;2nd prize: Rs 2,000\n&lt;br&gt;3rd prize : Rs 1,000"
+     "price_updated": "1st prize : Rs 3,000\n2nd prize: Rs 2,000\n3rd prize : Rs 1,000"
     }
    ]
