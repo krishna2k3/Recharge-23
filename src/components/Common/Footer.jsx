@@ -162,8 +162,8 @@ const Footer = ({ path }) => {
                 </g>
               </g>
             </svg> 
-              <a href="tel:9381004087">&nbsp;&nbsp;+91 93810 04087</a>
-            <p>&nbsp;- Dharanisri</p>
+              <a href="tel:9942150394">&nbsp;&nbsp;+91 99421 50394</a>
+            <p>&nbsp;- Dharanishri</p>
             </div>
           </div>
           </p>
