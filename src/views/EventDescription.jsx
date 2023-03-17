@@ -156,7 +156,9 @@ const EventDescription = () => {
             <p className=" text-xl leading-9">
               {rulesList.map((ele, idx) => {
                 return (
-                  <p key={idx}>{idx + 1}. {ele}</p>
+                  location.state.event.id===45|location.state.event.id===19?
+                  <p key={idx}> {ele}</p>
+                  :<p key={idx}>{idx + 1}. {ele}</p>
                 )
               })}
             </p>

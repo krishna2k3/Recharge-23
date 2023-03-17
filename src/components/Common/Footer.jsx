@@ -19,7 +19,7 @@ const Footer = ({ path }) => {
           Rajalakshmi Engineering College, Rajalakshmi Nagar Thandalam, Chennai
           - 602105.
         </p>
-        <div className="flex flex-row gap-x-1 items-center">
+        <div className="flex flex-row gap-x-0 items-center">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="w-6 h-6"
@@ -59,9 +59,9 @@ const Footer = ({ path }) => {
 
       <div
         id="footer-items"
-        className="flex flex-col gap-y-6 md:flex-row md:justify-evenly md:w-full md:m-0 md:gap-10"
+        className="flex flex-col gap-y-4 md:flex-row md:justify-evenly md:w-full md:m-0 md:gap-10"
       >
-        <div className="mt-3 footer-item-events lg:ml-64 ">
+        <div className="mt-3 footer-item-events lg:ml-30 ">
           <p className="text-white font-semibold  justify-center text-2xl  tracking-widest">
             For Sponsorship
           </p>
@@ -170,7 +170,7 @@ const Footer = ({ path }) => {
           </div>
             
         </div>
-        <div className="footer-item-contacts mt-3 justify-end">
+        <div className="footer-item-contacts mt-3 items-center">
           <p className="text-white font-semibold  justify-center text-2xl  tracking-widest">
             For Queries
           </p>
