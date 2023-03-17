@@ -1,0 +1,25 @@
+.active {
+  width: 8rem;
+  border: 2px solid rgb(255, 234, 1);
+}
+
+.inactive {
+  width: 8rem;
+  border: none;
+}
+
+.main-img {
+  width: 75%;
+}
+
+@media only screen and (max-width: 768px) {
+  .active {
+    width: 4rem;
+  }
+  .inactive {
+    width: 4rem;
+  }
+  .main-img {
+    width: 90%;
+  }
+}
