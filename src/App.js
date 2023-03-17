@@ -8,6 +8,9 @@ import EventDescription from "./views/EventDescription";
 import EventList from "./views/EventList";
 import Footer from "./components/Common/Footer";
 import BuyTickets from "./views/BuyTickets";
+import Companion from "./views/Companion";
+import Ongoing from "./views/Ongoing";
+import Upcoming from "./views/Upcoming";
 
 const App = () => {
   const [isLoading, setLoading] = useState(true);
@@ -29,8 +32,11 @@ const App = () => {
         <Route path="/about-rec" element={<About />} />
         <Route path="/about-recharge" element={<Aboutrechargepage />} />
         <Route path="/buytickets" element={<BuyTickets />} />
+        <Route path="/companion" element={<Companion />} />
+        <Route path="/companion/ongoing" element={<Ongoing />} />
+        <Route path="/companion/upcoming" element={<Upcoming />} />
       </Routes>
-      {isLoading === true ? <div></div> :<Footer path={path} />}
+      {isLoading === true ? <div></div> : <Footer path={path} />}
     </div>
   );
 };
