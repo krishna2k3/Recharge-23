@@ -14,12 +14,13 @@
 .Collapsible__trigger {
     font-size: 24px;
     cursor: pointer;
-    color: #0099ff;
+    color: white;
 }
 
 .Collapsible__contentInner {
     font-size: 20px;
     background-color: black;
+    color: whitesmoke;
 }
 
 .Collapsible__trigger::after {
@@ -39,6 +40,6 @@
         font-weight: normal;
         font-style: normal;
         text-decoration:none;
-        right: auto;
+        
     }
 }
