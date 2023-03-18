@@ -4,126 +4,140 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Ruda:wght@400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 @font-face {
   font-family: "neontubes";
   src: url("https://bitbucket.org/kennethjensen/webfonts/raw/fc13c1cb430a0e9462da56fe3f421ff7af72db71/neontubes/neontubes-webfont.eot");
-  src: url("https://bitbucket.org/kennethjensen/webfonts/raw/fc13c1cb430a0e9462da56fe3f421ff7af72db71/neontubes/neontubes-webfont.eot?#iefix")
-      format("embedded-opentype"),
-    url("https://bitbucket.org/kennethjensen/webfonts/raw/fc13c1cb430a0e9462da56fe3f421ff7af72db71/neontubes/neontubes-webfont.woff2")
-      format("woff2"),
-    url("https://bitbucket.org/kennethjensen/webfonts/raw/fc13c1cb430a0e9462da56fe3f421ff7af72db71/neontubes/neontubes-webfont.woff")
-      format("woff"),
-    url("https://bitbucket.org/kennethjensen/webfonts/raw/fc13c1cb430a0e9462da56fe3f421ff7af72db71/neontubes/neontubes-webfont.ttf")
-      format("truetype");
+  src: url("https://bitbucket.org/kennethjensen/webfonts/raw/fc13c1cb430a0e9462da56fe3f421ff7af72db71/neontubes/neontubes-webfont.eot?#iefix") format("embedded-opentype"),
+    url("https://bitbucket.org/kennethjensen/webfonts/raw/fc13c1cb430a0e9462da56fe3f421ff7af72db71/neontubes/neontubes-webfont.woff2") format("woff2"),
+    url("https://bitbucket.org/kennethjensen/webfonts/raw/fc13c1cb430a0e9462da56fe3f421ff7af72db71/neontubes/neontubes-webfont.woff") format("woff"),
+    url("https://bitbucket.org/kennethjensen/webfonts/raw/fc13c1cb430a0e9462da56fe3f421ff7af72db71/neontubes/neontubes-webfont.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;500;700;800;900;1000&display=swap');
- .container {
-	 padding: 50px 0px;
-	 display: flex;
-	 gap: 50px;
-	 justify-content: center;
-	 align-items: center;
-	 flex-wrap: wrap;
-   font-family: 'Nunito', sans-serif;
+
+.container {
+  padding: 50px 0px;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  font-family: 'Nunito', sans-serif;
 }
- .parent {
-	 height: 400px;
-	 width: 300px;
-	 padding: 20px;
-	 perspective: 1000px;
+
+.parent {
+  height: 400px;
+  width: 300px;
+  padding: 20px;
+  perspective: 1000px;
 }
- .card {
-	 padding-top: 100px;
-	 transform-style: preserve-3d;
-	 background-image: url("https://images.pexels.com/photos/1629236/pexels-photo-1629236.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
-	 background-position: center center;
-	 width: 100%;
-	 transition: all 0.5s ease-in-out;
-	 border-radius: 10px;
+
+.card {
+  padding-top: 100px;
+  transform-style: preserve-3d;
+  background-image: url("https://images.pexels.com/photos/1629236/pexels-photo-1629236.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-position: center center;
+  width: 100%;
+  transition: all 0.5s ease-in-out;
+  border-radius: 10px;
 }
- .card:hover {
-	 background-position: 80% 20%;
-	 transform: rotate3d(0.5, 1, 0, 10deg);
+
+.card:hover {
+  background-position: 80% 20%;
+  transform: rotate3d(0.5, 1, 0, 10deg);
 }
- .content-box {
-	 height: 100%;
-	 width: 100%;
-	 background-color: rgba(0, 0, 0, 0.811);
-	 border-radius: 0px 0px 10px 10px;
-	 box-shadow: rgba(0, 115, 255, 0.925) 0px 20px 50px -25px;
-	 transition: all 0.5s ease-in-out;
-	 padding: 50px 25px 25px 25px;
-	 transform-style: preserve-3d;
+
+.content-box {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.811);
+  border-radius: 0px 0px 10px 10px;
+  box-shadow: rgba(0, 115, 255, 0.925) 0px 20px 50px -25px;
+  transition: all 0.5s ease-in-out;
+  padding: 50px 25px 25px 25px;
+  transform-style: preserve-3d;
 }
- .content-box .card-title {
-	 color: white;
-	 font-size: 25px;
-	 font-weight: 900;
-	 transition: all 0.5s ease-in-out;
-	 transform: translate3d(0px, 0px, 20px);
+
+.content-box .card-title {
+  color: white;
+  font-size: 25px;
+  font-weight: 900;
+  transition: all 0.5s ease-in-out;
+  transform: translate3d(0px, 0px, 20px);
 }
- .content-box .card-title:hover {
-	 transform: translate3d(0px, 0px, 50px);
+
+.content-box .card-title:hover {
+  transform: translate3d(0px, 0px, 50px);
 }
- .content-box .card-content {
-	 padding-top: 15px;
-	 font-size: 12px;
-	 color: #b9b9b9;
-	 transition: all 0.5s ease-in-out;
-	 transform: translate3d(0px, 0px, 20px);
+
+.content-box .card-content {
+  padding-top: 15px;
+  font-size: 12px;
+  color: #b9b9b9;
+  transition: all 0.5s ease-in-out;
+  transform: translate3d(0px, 0px, 20px);
 }
- .content-box .card-content:hover {
-	 transform: translate3d(0px, 0px, 50px);
+
+.content-box .card-content:hover {
+  transform: translate3d(0px, 0px, 50px);
 }
- .content-box .see-more {
-	 display: block;
-	 font-weight: 900;
-	 font-size: 11px;
-	 text-transform: uppercase;
-	 color: #08f;
-	 padding-top: 15px;
-	 transition: all 0.5s ease-in-out;
-	 transform: translate3d(0px, 0px, 20px);
+
+.content-box .see-more {
+  display: block;
+  font-weight: 900;
+  font-size: 11px;
+  text-transform: uppercase;
+  color: #08f;
+  padding-top: 15px;
+  transition: all 0.5s ease-in-out;
+  transform: translate3d(0px, 0px, 20px);
 }
- .content-box .see-more:hover {
-	 transform: translate3d(0px, 0px, 50px);
+
+.content-box .see-more:hover {
+  transform: translate3d(0px, 0px, 50px);
 }
- .date-box {
-	 position: absolute;
-	 top: 75px;
-	 left: 25px;
-	 height: 60px;
-	 width: 60px;
-	 background-color: #000;
-	 border-radius: 10px;
-	 padding: 10px;
-	 box-shadow: #06f 0px 20px 60px 0px, #00c8ff 0px 18px 36px -18px;
-	 transform: translate3d(0px, 0px, 50px);
+
+.date-box {
+  position: absolute;
+  top: 75px;
+  left: 25px;
+  height: 60px;
+  width: 60px;
+  background-color: #000;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: #06f 0px 20px 60px 0px, #00c8ff 0px 18px 36px -18px;
+  transform: translate3d(0px, 0px, 50px);
 }
- .date-box span {
-	 display: block;
-	 text-align: center;
+
+.date-box span {
+  display: block;
+  text-align: center;
 }
- .date-box .month {
-	 color: white;
-	 font-size: 11px;
-	 font-weight: 700;
+
+.date-box .month {
+  color: white;
+  font-size: 11px;
+  font-weight: 700;
 }
- .date-box .date {
-	 font-size: 20px;
-	 font-weight: 900;
-	 color: #08f;
+
+.date-box .date {
+  font-size: 20px;
+  font-weight: 900;
+  color: #08f;
 }
 
 html::-webkit-scrollbar {
   display: none;
 }
+
 html {
   scroll-behavior: smooth;
-  -ms-overflow-style: none; /* IE and Edge */
+  -ms-overflow-style: none;
+  /* IE and Edge */
   overflow-x: hidden;
   background-color: #000000;
 }
@@ -202,10 +216,12 @@ code {
 .charging-container:hover::after {
   animation-play-state: paused;
 }
+
 @-webkit-keyframes charging {
   from {
     width: 5%;
   }
+
   to {
     width: 92%;
   }
@@ -215,14 +231,17 @@ code {
   from {
     width: 5%;
   }
+
   to {
     width: 92%;
   }
 }
+
 @keyframes charging {
   from {
     width: 5%;
   }
+
   to {
     width: 92%;
   }
@@ -239,36 +258,46 @@ code {
     opacity: 0.8;
   }
 }
+
 @-webkit-keyframes blink {
   40% {
     opacity: 1;
   }
+
   42% {
     opacity: 0.8;
   }
+
   43% {
     opacity: 1;
   }
+
   45% {
     opacity: 0.2;
   }
+
   46% {
     opacity: 1;
   }
 }
+
 @keyframes blink {
   40% {
     opacity: 1;
   }
+
   42% {
     opacity: 0.8;
   }
+
   43% {
     opacity: 1;
   }
+
   45% {
     opacity: 0.2;
   }
+
   46% {
     opacity: 1;
   }
@@ -280,6 +309,7 @@ code {
     0 0 20px rgba(255, 0, 60, 0.1), inset 0 0 20px #ff003c, 0 0 100px #ff003c,
     0 0 50px #000000, 0 0 300px #0f0709, 0 0 50px #030202, 0 0 100px #000000;
 }
+
 .neon-btn-socod {
   border: 2px solid #fff;
   box-shadow: 0 0 0 transparent, 0 0 10px #0099ff,
@@ -298,11 +328,13 @@ code {
 .main {
   font-family: "neontubes";
 }
+
 .main span {
   -webkit-transform: translateZ(0) translate3D(0, 0, 0);
   transform: translateZ(0) translate3D(0, 0, 0);
   will-change: opacity;
 }
+
 .main .webdev {
   color: #ffd9e2;
   text-shadow: 0 0 0 transparent, 0 0 10px #ff003c,
@@ -311,6 +343,7 @@ code {
   -webkit-animation: blink 4s infinite alternate;
   animation: blink 4s infinite alternate;
 }
+
 .main .socod {
   color: #d4eaff;
   text-shadow: 0 0 0 transparent, 0 0 10px #0099ff,
@@ -322,6 +355,7 @@ code {
 .material-symbols-outlined {
   font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
 }
+
 .arrow {
   padding: 0.2rem;
   box-shadow: 3px -3px white inset;
@@ -343,9 +377,11 @@ code {
   0% {
     opacity: 0;
   }
+
   70% {
     opacity: 1;
   }
+
   100% {
     opacity: 0;
   }
@@ -362,36 +398,46 @@ code {
     opacity: 0.8;
   }
 }
+
 @-webkit-keyframes blink {
   40% {
     opacity: 1;
   }
+
   42% {
     opacity: 0.8;
   }
+
   43% {
     opacity: 1;
   }
+
   45% {
     opacity: 0.2;
   }
+
   46% {
     opacity: 1;
   }
 }
+
 @keyframes blink {
   40% {
     opacity: 1;
   }
+
   42% {
     opacity: 0.8;
   }
+
   43% {
     opacity: 1;
   }
+
   45% {
     opacity: 0.2;
   }
+
   46% {
     opacity: 1;
   }
@@ -410,11 +456,13 @@ code {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
 .ticketcard {
   backdrop-filter: blur(10px);
 }
 
 @media only screen and (max-width: 768px) {
+
   /* For mobile phones: */
   .main .webdev {
     color: #ffd9e2;
@@ -425,23 +473,26 @@ code {
 
     animation: blink 4s infinite alternate;
   }
+
   .video-border {
     border-radius: 1em;
     z-index: 10;
     box-shadow: 0 0 0 transparent, 0 0 100px #0099ff;
   }
+
   #about {
     background-image: url("assets/gallery-imgs/w1.webp");
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
+
   .neon-btn-socod {
     border: 2px solid #fff;
     box-shadow: 0 0 0 transparent, 0 0 10px #0099ff,
       0 0 20px rgba(255, 0, 60, 0.1), inset 0 0 20px #0099ff, 0 0 50px #0099ff,
       0 0 50px #000000, 0 0 300px #0f0709, 0 0 50px #030202, 0 0 100px #000000;
   }
-  
+
 }
 
 .video-border {
@@ -450,25 +501,31 @@ code {
 }
 
 @keyframes scroll {
-	0% { transform: translateX(0); }
-	100% { transform: translateX(calc(-250px * 7))}
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(calc(-250px * 7))
+  }
 }
 
 .slider {
-	height: 150px;
-	margin: auto;
-	overflow:hidden;
-	position: relative;
-	width: auto;
+  height: 150px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: auto;
 }
-	.slide-track {
-		animation: scroll 40s linear infinite;
-		display: flex;
-		width: calc(250px * 14);
-	}
-	.slide {
-    justify-content: center;
-		height: 150px;
-		width: 250px;
-	}
 
+.slide-track {
+  animation: scroll 40s linear infinite;
+  display: flex;
+  width: calc(250px * 14);
+}
+
+.slide {
+  justify-content: center;
+  height: 150px;
+  width: 250px;
+}
