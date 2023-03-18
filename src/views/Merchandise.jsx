@@ -1,4 +1,4 @@
-import { useRef, useState } from "react";
+import { useState } from "react";
 import "./css/Merchandise.css";
 
 const Merchandise = () => {
@@ -14,15 +14,15 @@ const Merchandise = () => {
 
   const changeCurrent = (idx) => {
     setCurrent(idx)
-    if ( idx == 0 ) {
+    if ( idx === 0 ) {
       setStyle1('active')
       setStyle2('inactive')
       setStyle3('inactive')
-    } else if ( idx == 1 ) {
+    } else if ( idx === 1 ) {
       setStyle2('active')
       setStyle1('inactive')
       setStyle3('inactive')
-    } else if ( idx == 2 ) {
+    } else if ( idx === 2 ) {
       setStyle3('active')
       setStyle2('inactive')
       setStyle1('inactive')
