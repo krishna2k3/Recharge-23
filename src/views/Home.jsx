@@ -7,6 +7,7 @@ import { useEffect } from "react";
 import { motion } from "framer-motion";
 import Spotlight from "../components/Home/Proshows/Spotlight"
 import AboutREC from "../components/Home/AboutREC";
+import FAQ from "../components/Home/FAQ/FAQ";
 
 const Home = ({ isLoading, setLoading }) => {
 
@@ -35,6 +36,7 @@ const Home = ({ isLoading, setLoading }) => {
           <ProShows />
           <Spotlight />
           <Gallery />
+          <FAQ/>
           {/* <Sponsors /> */}
         </motion.div>
       )}
