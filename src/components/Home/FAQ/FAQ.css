@@ -4,11 +4,14 @@
     border-radius: 15px;
     background-color: rgb(19, 19, 19);
     margin: 14px;
+    padding: 20px;
 }
 
 .Collapsible__contentOuter {
     display: flex;
     flex-flow: row;
+    background-color: rgb(19, 19, 19);
+
 }
 
 .Collapsible__trigger {
@@ -19,7 +22,7 @@
 
 .Collapsible__contentInner {
     font-size: 20px;
-    background-color: black;
+     background-color: rgb(19, 19, 19);
     color: whitesmoke;
 }
 

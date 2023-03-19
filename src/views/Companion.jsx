@@ -1,6 +1,6 @@
 const Companion = () => {
     return (
-        <div className="text-white">
+        <div className="container h-6 bg-red">
             Companion View
         </div>
     )

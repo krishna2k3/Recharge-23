@@ -34,7 +34,7 @@ const FAQ = () => {
             <div class="main text-6xl justify-center">
                 <span class="socod">FAQ</span>
             </div>
-            <div >
+            <div className=''>
             {faqs.map((data) => {
                 return (<Collapsible trigger={data.title} transitionTime={400}
                  easing={'cubic-bezier(0.175, 0.885, 0.32, 2.275)'}>
