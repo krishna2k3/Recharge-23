@@ -4,7 +4,7 @@
     border-radius: 15px;
     background-color: rgb(19, 19, 19);
     margin: 14px;
-    padding: 20px;
+    padding: 15px;
 }
 
 .Collapsible__contentOuter {
@@ -15,7 +15,7 @@
 }
 
 .Collapsible__trigger {
-    font-size: 24px;
+    font-size: 20px;
     cursor: pointer;
     color: white;
 }
@@ -46,3 +46,5 @@
         
     }
 }
+
+
