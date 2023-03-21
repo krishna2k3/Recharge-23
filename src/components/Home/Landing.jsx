@@ -81,14 +81,7 @@ const Landing = () => {
           </div>
 
         </div>
-        <div className="flex flex-row justify-center items-center">
-          <p className="text-gray-400 font-semibold text-lg wide-text">
-            SCROLL TO EXPLORE
-          </p>
-          <div className="arrows-container ml-5 items-end mb-3">
-            <div className="arrow arrow-one w-4 h-4 "></div>
-          </div>
-        </div>
+        
         {/* <div className="flex flex-row justify-center items-center gap-x-2">
           <p>Get Updates On</p>
           <div

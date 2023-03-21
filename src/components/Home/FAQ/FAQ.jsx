@@ -3,7 +3,7 @@ import "./FAQ.css";
 
 const faqs = [
     {
-        title: "1. Not able to login into the website.    ",
+        title: "1. Not able to login into the website.",
         content: `Ans: Should create account first`,
     }, {
         title: "2. Not able verify/booked tickets and transaction successful and mail not received.",
