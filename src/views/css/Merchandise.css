@@ -18,7 +18,7 @@
 
 .main-img {
   width: 50%;
-  transition: 2s opacity ease-in-out;
+  transition: 1.5s opacity ease-in-out;
 }
 
 @media only screen and (max-width: 768px) {
