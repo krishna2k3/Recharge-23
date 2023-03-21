@@ -48,6 +48,9 @@ const NavBar = () => {
                         <li>
                             <a href='#gallery' class="block  py-2 pl-3 pr-4 text-white  hover:text-gray-400 lg:hover:bg-transparent lg:border-0  lg:p-0 ">Gallery</a>
                         </li>
+                        <li>
+                            <a href='/merchandise' class="block  py-2 pl-3 pr-4 text-white  hover:text-gray-400 lg:hover:bg-transparent lg:border-0  lg:p-0 ">Merchandise</a>
+                        </li>
                     </ul>
                 </div>
             </div>
