@@ -8,8 +8,17 @@
   border: none;
 }
 
+.hide {
+  opacity: 0;
+}
+
+.show {
+  opacity: 1;
+}
+
 .main-img {
-  width: 75%;
+  width: 50%;
+  transition: 2s opacity ease-in-out;
 }
 
 @media only screen and (max-width: 768px) {
