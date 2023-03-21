@@ -1,11 +1,8 @@
-
-
 const Ongoing = () => {
     const upcomings = [
         {
             //     name: "mithiii",
             //     class: "2nd"
-
             title: "DEFECTIVE DETECTIVE",
 
             category: "FUN AND ENTERTAINMENT ",
@@ -88,9 +85,6 @@ const Ongoing = () => {
 
 
         </div >
-
-
     )
 }
-
 export default Ongoing

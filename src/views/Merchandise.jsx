@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useRef, useState } from "react";
 import "./css/Merchandise.css";
 
 
@@ -12,8 +12,6 @@ const Merchandise = () => {
   const [style1, setStyle1] = useState('active')
   const [style2, setStyle2] = useState('inactive')
   const [style3, setStyle3] = useState('inactive')
-
-  let i = 0;
 
   const mainImg = useRef(null);
 
@@ -37,8 +35,7 @@ const Merchandise = () => {
       }
       mainImg.current.classList.remove('hide');
       mainImg.current.classList.add('show');
-    }, 1500);
-    
+    }, 1500);  
   }
 
 
